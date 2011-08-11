@@ -1,0 +1,24 @@
+#
+# Name: job_template.txt
+#
+# Description:
+# An example of job description file (job.txt).
+# For more details, reference Filebench QA system wiki pages;
+# https://avatar.fsl.cs.sunysb.edu/groups/filebench/wiki/3b6b6/Filebench_QA_system.html
+#
+# Authors: Gyumin Sim, Vasily Tarasov
+#
+
+fbfile=filebench-1.4.9.tar.gz
+
+#fbworkload=singlestreamread singlestreamreaddirect fivestreamread fivestreamreaddirect singlestreamwrite singlestreamwritedirect fivestreamwrite fivestreamwritedirect randomread randomwrite randomrw createfiles copyfiles
+fbworkload=fileserver webserver varmail webproxy
+#fbworkload=videoserver (this workload is huge by default: 2TB space is required)
+
+runtime=60
+
+epoch=1
+
+#vms=Centos-5.5-x86 Ubuntu-DE-10.04-x86 OpenSolaris-2009.06-x86 FreeBSD-8.0-x86 Centos-5.5-x86_64 FreeBSD-8.0-x86_64 OpenSolaris-2009.06-x86_64 Ubuntu-DE-10.04-x86_64
+vms=Centos-5.5-x86 Ubuntu-DE-10.04-x86 FreeBSD-8.0-x86 OpenSolaris-2009.06-x86
+#vms=Centos-5.5-x86_64 FreeBSD-8.0-x86_64 OpenSolaris-2009.06-x86_64 Ubuntu-DE-10.04-x86_64

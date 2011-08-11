@@ -1,0 +1,20 @@
+#
+# Name: os-to-host-table.txt
+#
+# Description:
+# This file contains VM to Host mapping information.
+# For more details, reference Filebench QA system wiki pages;
+# https://avatar.fsl.cs.sunysb.edu/groups/filebench/wiki/3b6b6/Filebench_QA_system.html
+#
+# Authors: Gyumin Sim, Vasily Tarasov
+#
+
+MAC			Host			VM
+00:50:56:00:00:01	a-centos-5-5		Centos-5.5-x86
+00:50:56:00:00:02	b-centos-5-5		Centos-5.5-x86_64
+00:50:56:00:00:03	a-freebsd-8-0		FreeBSD-8.0-x86
+00:50:56:00:00:04	b-freebsd-8-0		FreeBSD-8.0-x86_64
+00:50:56:00:00:05	a-opensolaris-2009-06	OpenSolaris-2009.06-x86
+00:50:56:00:00:06	b-opensolaris-2009-06	OpenSolaris-2009.06-x86_64
+00:50:56:00:00:07	a-ubuntu-de-10-04	Ubuntu-DE-10.04-x86
+00:50:56:00:00:08	b-ubuntu-de-10-04	Ubuntu-DE-10.04-x86_64

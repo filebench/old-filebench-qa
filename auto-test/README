@@ -1,0 +1,69 @@
+##### FILES #####
+root
+1.job_template.txt
+	describes what to do on ESX and VMs.
+	* see HOW TO USE section.
+	fbfile - name of filebench archive.
+	fbworkload - list of workloads to test.
+	vms - list of virtual machines to test on.
+2. runesxdaemon.sh
+	executes ESXi server side daemon script. The daemon will
+	keep running on the ESXi server.
+3. stopesxdaemon.sh
+	stop ESXi server side daemon script started by runesxdaemon.sh.
+
+esx_scripts - runs on ESXi server
+1. rundaemon.sh
+	find job.txt description file every 5 seconds
+	and if it if found, execute dojob.sh
+	this script should always run on ESXi server.
+2. dojob.sh
+	read job.txt and execute each virtual machines.
+	This script can be updated without restarting ESXi
+	server side.
+
+vm_scripts - runs on each virtual machine
+1. $HOSTNAME$.sh
+	main script for each virtual machine. 
+2. linux.sh
+	Common main scripts for Linux-based OSes(Centos, Ubuntu).
+	Although each virtual machine executes its own script,
+	Linux-based OSes use same commands. $HOSTNAME$.sh for
+	Linux-based OSes are symbolic links to this script.
+3. freebsd.sh
+	Common main scripts for FreeBSD-based OSes.
+4. opensolaris.sh
+	Common main scripts for OpenSolaris-based OSes.
+5. fbmonitor.sh
+	This script runs with filebench at the same time and detect
+	any failure or hanging.
+6. fbauto.sh
+	This script should be copied on each virtual machine and
+	executed on boot(rc.local). ESXi does not support 'ssh'
+	command, each OS uses boot-up script to perform the test.
+
+results-$DATE$ - stdout and summary files
+1. esx.out
+	stdout of ESX server.
+2. $HOSTNAME$.out
+	stdout and stderr of each VM.
+3. $HOSTNAME$.summary
+	summary of each VM's work.
+	This file will be emailed to the tester (Not yet implemented).
+
+
+##### HOW TO USE #####
+* root directory of auto-test is /home/gyumin/esx_job
+
+1. Copy filebench-xxx.tar.gz to root directory
+
+2. Modify job_template.txt
+
+3. cp or mv job_template to job.txt
+	Once job.txt exists in root directory, ESX start to run
+	auto-test with the job.txt file. During the test, ESX changes
+	job.txt to job_processing.txt and when the test is done, ESX
+	changes job_processing.txt to job_done.txt
+
+4. When job_done.txt is found, look at the root/results directory.
+
