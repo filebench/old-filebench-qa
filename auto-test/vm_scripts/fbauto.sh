@@ -25,7 +25,7 @@ mkdir -p $nfsmnt || exit $?
 umount $nfsmnt 1>/dev/null 2>&1
 mount -t nfs $nfsserv $nfsmnt 1>/dev/null 2>&1
 if [ $? -ne 0 ]; then
-	# OpenSolaris uses -F option
+	# OpenSolaris/OpenIndiana use -F option
 	mount -F nfs $nfsserv $nfsmnt || exit $?
 fi
 

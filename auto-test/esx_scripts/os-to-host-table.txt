@@ -18,3 +18,5 @@ MAC			Host			VM
 00:50:56:00:00:06	b-opensolaris-2009-06	OpenSolaris-2009.06-x86_64
 00:50:56:00:00:07	a-ubuntu-de-10-04	Ubuntu-DE-10.04-x86
 00:50:56:00:00:08	b-ubuntu-de-10-04	Ubuntu-DE-10.04-x86_64
+00:50:56:00:00:09	a-openindiana-b148	OpenIndiana-b148-x86
+00:50:56:00:00:10	b-openindiana-b148	OpenIndiana-b148-x86_64

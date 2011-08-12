@@ -19,6 +19,6 @@ runtime=60
 
 epoch=1
 
-#vms=Centos-5.5-x86 Ubuntu-DE-10.04-x86 OpenSolaris-2009.06-x86 FreeBSD-8.0-x86 Centos-5.5-x86_64 FreeBSD-8.0-x86_64 OpenSolaris-2009.06-x86_64 Ubuntu-DE-10.04-x86_64
-vms=Centos-5.5-x86 Ubuntu-DE-10.04-x86 FreeBSD-8.0-x86 OpenSolaris-2009.06-x86
+#vms=Centos-5.5-x86 Ubuntu-DE-10.04-x86 OpenSolaris-2009.06-x86 FreeBSD-8.0-x86 Centos-5.5-x86_64 FreeBSD-8.0-x86_64 OpenSolaris-2009.06-x86_64 Ubuntu-DE-10.04-x86_64 OpenIndiana-b148-x86 OpenIndiana-b148-x86_64
+vms=Centos-5.5-x86 Ubuntu-DE-10.04-x86 FreeBSD-8.0-x86 OpenSolaris-2009.06-x86 OpenIndiana-b148-x86
 #vms=Centos-5.5-x86_64 FreeBSD-8.0-x86_64 OpenSolaris-2009.06-x86_64 Ubuntu-DE-10.04-x86_64
