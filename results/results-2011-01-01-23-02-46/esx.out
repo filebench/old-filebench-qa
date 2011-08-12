@@ -1,0 +1,67 @@
+job found: go_filebench-1.4.8.fsl.0.8.tar.gz on Centos-5.5-x86 Ubuntu-DE-10.04-x86 OpenSolaris-2009.06-x86 FreeBSD-8.0-x86 Centos-5.5-x86_64 FreeBSD-8.0-x86_64 OpenSolaris-2009.06-x86_64 Ubuntu-DE-10.04-x86_64
+Starting Centos-5.5-x86 (a-centos-5-5)
+Powering on VM:
+waiting for Centos-5.5-x86 booting
+waiting for Centos-5.5-x86 work
+waiting for Centos-5.5-x86 halting
+forced shutdown Centos-5.5-x86
+Powering off VM:
+Shutdowned Centos-5.5-x86
+
+Starting Ubuntu-DE-10.04-x86 (a-ubuntu-de-10-04)
+Powering on VM:
+waiting for Ubuntu-DE-10.04-x86 booting
+waiting for Ubuntu-DE-10.04-x86 work
+waiting for Ubuntu-DE-10.04-x86 halting
+Shutdowned Ubuntu-DE-10.04-x86
+
+Starting OpenSolaris-2009.06-x86 (a-opensolaris-2009-06)
+Powering on VM:
+waiting for OpenSolaris-2009.06-x86 booting
+waiting for OpenSolaris-2009.06-x86 work
+waiting for OpenSolaris-2009.06-x86 halting
+forced shutdown OpenSolaris-2009.06-x86
+Powering off VM:
+Shutdowned OpenSolaris-2009.06-x86
+
+Starting FreeBSD-8.0-x86 (a-freebsd-8-0)
+Powering on VM:
+waiting for FreeBSD-8.0-x86 booting
+waiting for FreeBSD-8.0-x86 work
+waiting for FreeBSD-8.0-x86 halting
+forced shutdown FreeBSD-8.0-x86
+Powering off VM:
+Shutdowned FreeBSD-8.0-x86
+
+Starting Centos-5.5-x86_64 (b-centos-5-5)
+Powering on VM:
+waiting for Centos-5.5-x86_64 booting
+waiting for Centos-5.5-x86_64 work
+waiting for Centos-5.5-x86_64 halting
+Shutdowned Centos-5.5-x86_64
+
+Starting FreeBSD-8.0-x86_64 (b-freebsd-8-0)
+Powering on VM:
+waiting for FreeBSD-8.0-x86_64 booting
+waiting for FreeBSD-8.0-x86_64 work
+waiting for FreeBSD-8.0-x86_64 halting
+forced shutdown FreeBSD-8.0-x86_64
+Powering off VM:
+Shutdowned FreeBSD-8.0-x86_64
+
+Starting OpenSolaris-2009.06-x86_64 (b-opensolaris-2009-06)
+Powering on VM:
+waiting for OpenSolaris-2009.06-x86_64 booting
+waiting for OpenSolaris-2009.06-x86_64 work
+waiting for OpenSolaris-2009.06-x86_64 halting
+forced shutdown OpenSolaris-2009.06-x86_64
+Powering off VM:
+Shutdowned OpenSolaris-2009.06-x86_64
+
+Starting Ubuntu-DE-10.04-x86_64 (b-ubuntu-de-10-04)
+Powering on VM:
+waiting for Ubuntu-DE-10.04-x86_64 booting
+waiting for Ubuntu-DE-10.04-x86_64 work
+waiting for Ubuntu-DE-10.04-x86_64 halting
+Shutdowned Ubuntu-DE-10.04-x86_64
+

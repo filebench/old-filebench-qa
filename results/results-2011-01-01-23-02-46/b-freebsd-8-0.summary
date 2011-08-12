@@ -1,0 +1,247 @@
+### Installing Filebench ###
+configure ... OK
+make ... OK
+make install ... OK
+
+### Benchmarking fileserver (1) ###
+mount ... OK
+go_filebench ... OK
+FileBench Output - Keyword [cannot ] detected
+ 4686: 0.000: cannot set mutex attr PROCESS_SHARED on this platform on line 1
+ 4686: 0.000: cannot set mutex attr PROCESS_SHARED on this platform on line 1
+ 4686: 0.000: cannot set mutex attr PROCESS_SHARED on this platform on line 1
+ 4686: 0.000: cannot set mutex attr PROCESS_SHARED on this platform on line 1
+ 4686: 0.000: cannot set cond attr PROCESS_SHARED on line 1
+ 4686: 0.000: cannot set rwlock attr PROCESS_SHARED on line 1
+FileBench Output - Keyword [no ] detected
+ 4686: 0.000: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 1
+ 4686: 43.497: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 71
+ 4686: 53.698: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 73
+ 4686: 63.907: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 75
+ 4686: 74.105: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 77
+ 4686: 84.303: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 79
+ 4686: 94.501: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 81
+ 4686: 104.699: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 83
+umount ... OK
+
+### Benchmarking fileserver (2) ###
+mount ... OK
+go_filebench ... OK
+FileBench Output - Keyword [cannot ] detected
+ 6084: 0.000: cannot set mutex attr PROCESS_SHARED on this platform on line 1
+ 6084: 0.000: cannot set mutex attr PROCESS_SHARED on this platform on line 1
+ 6084: 0.000: cannot set mutex attr PROCESS_SHARED on this platform on line 1
+ 6084: 0.000: cannot set mutex attr PROCESS_SHARED on this platform on line 1
+ 6084: 0.000: cannot set cond attr PROCESS_SHARED on line 1
+ 6084: 0.000: cannot set rwlock attr PROCESS_SHARED on line 1
+FileBench Output - Keyword [no ] detected
+ 6084: 0.001: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 1
+ 6084: 69.258: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 71
+Fatal error 'mutex is on list' at line 422 in file /usr/src/lib/libthr/thread/thr_mutex.c (errno = 0)
+ 6084: 79.459: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 73
+ 6084: 84.555: NO VALID RESULTS! FileBench run terminated prematurely on line 75
+ 6084: 84.555: NO VALID RESULTS! FileBench run terminated prematurely on line 77
+ 6084: 84.555: NO VALID RESULTS! FileBench run terminated prematurely on line 79
+ 6084: 84.555: NO VALID RESULTS! FileBench run terminated prematurely on line 81
+ 6084: 84.555: NO VALID RESULTS! FileBench run terminated prematurely on line 83
+umount ... OK
+
+### Benchmarking fileserver (3) ###
+mount ... OK
+go_filebench ... OK
+FileBench Output - Keyword [cannot ] detected
+ 6735: 0.000: cannot set mutex attr PROCESS_SHARED on this platform on line 1
+ 6735: 0.000: cannot set mutex attr PROCESS_SHARED on this platform on line 1
+ 6735: 0.000: cannot set mutex attr PROCESS_SHARED on this platform on line 1
+ 6735: 0.000: cannot set mutex attr PROCESS_SHARED on this platform on line 1
+ 6735: 0.000: cannot set cond attr PROCESS_SHARED on line 1
+ 6735: 0.000: cannot set rwlock attr PROCESS_SHARED on line 1
+FileBench Output - Keyword [no ] detected
+ 6735: 0.000: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 1
+ 6735: 44.310: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 71
+Fatal error 'mutex is on list' at line 422 in file /usr/src/lib/libthr/thread/thr_mutex.c (errno = 0)
+ 6735: 54.508: NO VALID RESULTS! FileBench run terminated prematurely on line 73
+ 6735: 54.508: NO VALID RESULTS! FileBench run terminated prematurely on line 75
+ 6735: 54.508: NO VALID RESULTS! FileBench run terminated prematurely on line 77
+ 6735: 54.508: NO VALID RESULTS! FileBench run terminated prematurely on line 79
+ 6735: 54.508: NO VALID RESULTS! FileBench run terminated prematurely on line 81
+ 6735: 54.508: NO VALID RESULTS! FileBench run terminated prematurely on line 83
+FileBench Malfunctions - No IO summary
+umount ... OK
+
+### Benchmarking webserver (1) ###
+mount ... OK
+go_filebench ... OK
+FileBench Output - Keyword [cannot ] detected
+ 7083: 0.000: cannot set mutex attr PROCESS_SHARED on this platform on line 1
+ 7083: 0.000: cannot set mutex attr PROCESS_SHARED on this platform on line 1
+ 7083: 0.000: cannot set mutex attr PROCESS_SHARED on this platform on line 1
+ 7083: 0.000: cannot set mutex attr PROCESS_SHARED on this platform on line 1
+ 7083: 0.000: cannot set cond attr PROCESS_SHARED on line 1
+ 7083: 0.000: cannot set rwlock attr PROCESS_SHARED on line 1
+FileBench Output - Keyword [no ] detected
+ 7083: 0.000: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 1
+ 7083: 10.031: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 89
+ 7083: 20.593: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 91
+ 7083: 31.000: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 93
+ 7083: 41.368: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 95
+ 7083: 51.737: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 97
+ 7083: 62.115: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 99
+ 7083: 72.493: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 101
+umount ... OK
+
+### Benchmarking webserver (2) ###
+mount ... OK
+go_filebench ... OK
+FileBench Output - Keyword [cannot ] detected
+ 9691: 0.000: cannot set mutex attr PROCESS_SHARED on this platform on line 1
+ 9691: 0.000: cannot set mutex attr PROCESS_SHARED on this platform on line 1
+ 9691: 0.000: cannot set mutex attr PROCESS_SHARED on this platform on line 1
+ 9691: 0.000: cannot set mutex attr PROCESS_SHARED on this platform on line 1
+ 9691: 0.000: cannot set cond attr PROCESS_SHARED on line 1
+ 9691: 0.000: cannot set rwlock attr PROCESS_SHARED on line 1
+FileBench Output - Keyword [no ] detected
+ 9691: 0.001: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 1
+ 9691: 10.903: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 89
+ 9691: 21.362: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 91
+ 9691: 31.753: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 93
+ 9691: 42.122: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 95
+ 9691: 52.500: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 97
+ 9691: 62.878: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 99
+ 9691: 73.246: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 101
+umount ... OK
+
+### Benchmarking webserver (3) ###
+mount ... OK
+go_filebench ... OK
+FileBench Output - Keyword [cannot ] detected
+12259: 0.000: cannot set mutex attr PROCESS_SHARED on this platform on line 1
+12259: 0.000: cannot set mutex attr PROCESS_SHARED on this platform on line 1
+12259: 0.000: cannot set mutex attr PROCESS_SHARED on this platform on line 1
+12259: 0.000: cannot set mutex attr PROCESS_SHARED on this platform on line 1
+12259: 0.001: cannot set cond attr PROCESS_SHARED on line 1
+12259: 0.001: cannot set rwlock attr PROCESS_SHARED on line 1
+FileBench Output - Keyword [no ] detected
+12259: 0.002: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 1
+12259: 11.559: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 89
+12259: 21.994: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 91
+12259: 32.383: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 93
+12259: 42.750: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 95
+12259: 53.119: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 97
+12259: 63.487: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 99
+12259: 73.855: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 101
+umount ... OK
+
+### Benchmarking varmail (1) ###
+mount ... OK
+go_filebench ... OK
+FileBench Output - Keyword [cannot ] detected
+14639: 0.000: cannot set mutex attr PROCESS_SHARED on this platform on line 1
+14639: 0.000: cannot set mutex attr PROCESS_SHARED on this platform on line 1
+14639: 0.000: cannot set mutex attr PROCESS_SHARED on this platform on line 1
+14639: 0.000: cannot set mutex attr PROCESS_SHARED on this platform on line 1
+14639: 0.000: cannot set cond attr PROCESS_SHARED on line 1
+14639: 0.000: cannot set rwlock attr PROCESS_SHARED on line 1
+FileBench Output - Keyword [no ] detected
+14639: 0.001: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 1
+14639: 3.409: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 77
+14639: 13.607: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 79
+14639: 23.805: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 81
+14639: 34.004: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 83
+14639: 44.202: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 85
+14639: 54.400: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 87
+14639: 64.598: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 89
+umount ... OK
+
+### Benchmarking varmail (2) ###
+mount ... OK
+go_filebench ... OK
+FileBench Output - Keyword [cannot ] detected
+15985: 0.000: cannot set mutex attr PROCESS_SHARED on this platform on line 1
+15985: 0.000: cannot set mutex attr PROCESS_SHARED on this platform on line 1
+15985: 0.000: cannot set mutex attr PROCESS_SHARED on this platform on line 1
+15985: 0.000: cannot set mutex attr PROCESS_SHARED on this platform on line 1
+15985: 0.000: cannot set cond attr PROCESS_SHARED on line 1
+15985: 0.000: cannot set rwlock attr PROCESS_SHARED on line 1
+FileBench Output - Keyword [no ] detected
+15985: 0.001: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 1
+15985: 2.765: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 77
+15985: 12.964: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 79
+15985: 23.162: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 81
+15985: 33.360: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 83
+15985: 43.558: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 85
+15985: 53.756: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 87
+15985: 63.955: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 89
+umount ... OK
+
+### Benchmarking varmail (3) ###
+mount ... OK
+go_filebench ... OK
+FileBench Output - Keyword [cannot ] detected
+17326: 0.000: cannot set mutex attr PROCESS_SHARED on this platform on line 1
+17326: 0.000: cannot set mutex attr PROCESS_SHARED on this platform on line 1
+17326: 0.000: cannot set mutex attr PROCESS_SHARED on this platform on line 1
+17326: 0.000: cannot set mutex attr PROCESS_SHARED on this platform on line 1
+17326: 0.000: cannot set cond attr PROCESS_SHARED on line 1
+17326: 0.000: cannot set rwlock attr PROCESS_SHARED on line 1
+FileBench Output - Keyword [no ] detected
+17326: 0.001: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 1
+17326: 3.136: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 77
+17326: 13.335: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 79
+17326: 23.533: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 81
+17326: 33.731: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 83
+17326: 43.929: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 85
+17326: 54.128: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 87
+17326: 64.326: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 89
+umount ... OK
+
+### Benchmarking copyfiles (1) ###
+mount ... OK
+go_filebench ... OK
+FileBench Output - Keyword [cannot ] detected
+18654: 0.000: cannot set mutex attr PROCESS_SHARED on this platform on line 1
+18654: 0.000: cannot set mutex attr PROCESS_SHARED on this platform on line 1
+18654: 0.000: cannot set mutex attr PROCESS_SHARED on this platform on line 1
+18654: 0.000: cannot set mutex attr PROCESS_SHARED on this platform on line 1
+18654: 0.000: cannot set cond attr PROCESS_SHARED on line 1
+18654: 0.000: cannot set rwlock attr PROCESS_SHARED on line 1
+FileBench Output - Keyword [no ] detected
+18654: 0.000: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 1
+18654: 2.041: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 62
+18654: 4.080: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 62
+umount ... OK
+
+### Benchmarking copyfiles (2) ###
+mount ... OK
+go_filebench ... OK
+FileBench Output - Keyword [cannot ] detected
+18822: 0.000: cannot set mutex attr PROCESS_SHARED on this platform on line 1
+18822: 0.000: cannot set mutex attr PROCESS_SHARED on this platform on line 1
+18822: 0.000: cannot set mutex attr PROCESS_SHARED on this platform on line 1
+18822: 0.000: cannot set mutex attr PROCESS_SHARED on this platform on line 1
+18822: 0.000: cannot set cond attr PROCESS_SHARED on line 1
+18822: 0.000: cannot set rwlock attr PROCESS_SHARED on line 1
+FileBench Output - Keyword [no ] detected
+18822: 0.001: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 1
+18822: 2.040: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 62
+18822: 6.119: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 62
+umount ... OK
+
+### Benchmarking copyfiles (3) ###
+mount ... OK
+go_filebench ... OK
+FileBench Output - Keyword [cannot ] detected
+19005: 0.000: cannot set mutex attr PROCESS_SHARED on this platform on line 1
+19005: 0.000: cannot set mutex attr PROCESS_SHARED on this platform on line 1
+19005: 0.000: cannot set mutex attr PROCESS_SHARED on this platform on line 1
+19005: 0.000: cannot set mutex attr PROCESS_SHARED on this platform on line 1
+19005: 0.000: cannot set cond attr PROCESS_SHARED on line 1
+19005: 0.000: cannot set rwlock attr PROCESS_SHARED on line 1
+FileBench Output - Keyword [no ] detected
+19005: 0.001: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 1
+19005: 2.027: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 62
+19005: 4.066: No /proc/stat or libkstat,so no correct source of per-system CPU usage! on line 62
+umount ... OK
+
+### Uninstalling Filebench ###
+make uninstall ... OK

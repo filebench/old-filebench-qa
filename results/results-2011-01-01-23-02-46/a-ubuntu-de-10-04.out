@@ -1,0 +1,2388 @@
+Sat Jan  1 18:19:59 EST 2011
+Linux a-ubuntu-de-10-04 2.6.32-21-generic #32-Ubuntu SMP Fri Apr 16 08:10:02 UTC 2010 i686 GNU/Linux
+
+######################################################################
+### configure
+######################################################################
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking for bison... no
+checking for byacc... no
+checking for flex... no
+checking for lex... no
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for stdint.h... (cached) yes
+checking arpa/inet.h usability... yes
+checking arpa/inet.h presence... yes
+checking for arpa/inet.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking libintl.h usability... yes
+checking libintl.h presence... yes
+checking for libintl.h... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking malloc.h usability... yes
+checking malloc.h presence... yes
+checking for malloc.h... yes
+checking netdb.h usability... yes
+checking netdb.h presence... yes
+checking for netdb.h... yes
+checking netinet/in.h usability... yes
+checking netinet/in.h presence... yes
+checking for netinet/in.h... yes
+checking stddef.h usability... yes
+checking stddef.h presence... yes
+checking for stddef.h... yes
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking sys/statvfs.h usability... yes
+checking sys/statvfs.h presence... yes
+checking for sys/statvfs.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking procfs.h usability... no
+checking procfs.h presence... no
+checking for procfs.h... no
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking whether time.h and sys/time.h may both be included... yes
+checking for ftruncate... yes
+checking for ftruncate64... yes
+checking for getcwd... yes
+checking for gethostname... yes
+checking for gethrtime... no
+checking for gettimeofday... yes
+checking for memset... yes
+checking for mkdir... yes
+checking for munmap... yes
+checking for pow... no
+checking for rmdir... yes
+checking for socket... yes
+checking for sqrt... no
+checking for strchr... yes
+checking for strdup... yes
+checking for strerror... yes
+checking for strncasecmp... yes
+checking for strstr... yes
+checking for strlcat... no
+checking for strlcpy... no
+checking for fork1... no
+checking for getrlimit... yes
+checking for setrlimit... yes
+checking for sigsend... no
+checking for directio... no
+checking for ftok... yes
+checking for semget... yes
+checking for semop... yes
+checking for semtimedop... yes
+checking for cftime... no
+checking for _lwp_self... no
+checking for sigignore... yes
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for getpagesize... yes
+checking for working mmap... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking whether closedir returns void... no
+checking for pid_t... yes
+checking vfork.h usability... no
+checking vfork.h presence... no
+checking for vfork.h... no
+checking for fork... yes
+checking for vfork... yes
+checking for working fork... yes
+checking for working vfork... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible malloc... yes
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for getpagesize... (cached) yes
+checking for working mmap... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible realloc... yes
+checking whether lstat dereferences a symlink specified with a trailing slash... yes
+checking whether stat accepts an empty string... no
+checking for strftime... yes
+checking for working strtod... yes
+checking for vprintf... yes
+checking for _doprnt... no
+checking whether to enable the use of rdtsc... no
+checking whether to use system()... no
+checking for kstat_open in -lkstat... no
+checking for cpl_add_completion in -ltecla... no
+checking for aio_write in -lrt... yes
+checking for aio_write in -lrt... (cached) yes
+checking for aio_waitn in -lrt... no
+checking for pow in -lm... yes
+checking for pthread_mutex_lock in -lpthread... yes
+checking for pthread_mutexattr_setrobust_np in -lpthread... yes
+checking for pthread_mutexattr_setpshared in -lpthread... yes
+checking for pthread_mutexattr_setprotocol in -lpthread... yes
+checking for /proc/stat... yes
+checking for /proc/1/stat... yes
+checking for /proc/sys/kernel/shmmax... yes
+checking for off_t... yes
+checking for pid_t... (cached) yes
+checking return type of signal handlers... void
+checking for size_t... yes
+checking whether struct tm is in sys/time.h or time.h... time.h
+checking for off64_t... yes
+checking for boolean_t... no
+checking for u_longlong_t... no
+checking for uint_t... no
+checking for stat64... yes
+checking for posix_fadvise... yes
+checking for waitid... yes
+checking for aio_error64... yes
+checking for aio_write64... yes
+checking for aio_return64... yes
+checking for open64... yes
+checking for mmap64... yes
+checking for fstat64... yes
+checking for lseek64... yes
+checking for pwrite64... yes
+checking for pread64... yes
+checking for IPC_RMID control for semctl()... yes
+checking for SHM_SHARE_MMU... no
+checking for struct stat.st_rdev... yes
+checking for an ANSI C-conforming const... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating workloads/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+
+######################################################################
+### make
+######################################################################
+make  all-recursive
+make[1]: Entering directory `/fbinst/go_filebench-1.4.8.fsl.0.8'
+Making all in workloads
+make[2]: Entering directory `/fbinst/go_filebench-1.4.8.fsl.0.8/workloads'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/fbinst/go_filebench-1.4.8.fsl.0.8/workloads'
+make[2]: Entering directory `/fbinst/go_filebench-1.4.8.fsl.0.8'
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFILEBENCHDIR=\"/usr/local/share/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -Wall -Wno-unknown-pragmas -g -O2 -MT eventgen.o -MD -MP -MF .deps/eventgen.Tpo -c -o eventgen.o eventgen.c
+mv -f .deps/eventgen.Tpo .deps/eventgen.Po
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFILEBENCHDIR=\"/usr/local/share/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -Wall -Wno-unknown-pragmas -g -O2 -MT fb_avl.o -MD -MP -MF .deps/fb_avl.Tpo -c -o fb_avl.o fb_avl.c
+mv -f .deps/fb_avl.Tpo .deps/fb_avl.Po
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFILEBENCHDIR=\"/usr/local/share/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -Wall -Wno-unknown-pragmas -g -O2 -MT fb_localfs.o -MD -MP -MF .deps/fb_localfs.Tpo -c -o fb_localfs.o fb_localfs.c
+mv -f .deps/fb_localfs.Tpo .deps/fb_localfs.Po
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFILEBENCHDIR=\"/usr/local/share/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -Wall -Wno-unknown-pragmas -g -O2 -MT fb_random.o -MD -MP -MF .deps/fb_random.Tpo -c -o fb_random.o fb_random.c
+mv -f .deps/fb_random.Tpo .deps/fb_random.Po
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFILEBENCHDIR=\"/usr/local/share/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -Wall -Wno-unknown-pragmas -g -O2 -MT fileset.o -MD -MP -MF .deps/fileset.Tpo -c -o fileset.o fileset.c
+mv -f .deps/fileset.Tpo .deps/fileset.Po
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFILEBENCHDIR=\"/usr/local/share/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -Wall -Wno-unknown-pragmas -g -O2 -MT flowop.o -MD -MP -MF .deps/flowop.Tpo -c -o flowop.o flowop.c
+mv -f .deps/flowop.Tpo .deps/flowop.Po
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFILEBENCHDIR=\"/usr/local/share/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -Wall -Wno-unknown-pragmas -g -O2 -MT flowop_library.o -MD -MP -MF .deps/flowop_library.Tpo -c -o flowop_library.o flowop_library.c
+mv -f .deps/flowop_library.Tpo .deps/flowop_library.Po
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFILEBENCHDIR=\"/usr/local/share/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -Wall -Wno-unknown-pragmas -g -O2 -MT gamma_dist.o -MD -MP -MF .deps/gamma_dist.Tpo -c -o gamma_dist.o gamma_dist.c
+mv -f .deps/gamma_dist.Tpo .deps/gamma_dist.Po
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFILEBENCHDIR=\"/usr/local/share/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -Wall -Wno-unknown-pragmas -g -O2 -MT ipc.o -MD -MP -MF .deps/ipc.Tpo -c -o ipc.o ipc.c
+mv -f .deps/ipc.Tpo .deps/ipc.Po
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFILEBENCHDIR=\"/usr/local/share/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -Wall -Wno-unknown-pragmas -g -O2 -MT misc.o -MD -MP -MF .deps/misc.Tpo -c -o misc.o misc.c
+mv -f .deps/misc.Tpo .deps/misc.Po
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFILEBENCHDIR=\"/usr/local/share/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -Wall -Wno-unknown-pragmas -g -O2 -MT multi_client_sync.o -MD -MP -MF .deps/multi_client_sync.Tpo -c -o multi_client_sync.o multi_client_sync.c
+mv -f .deps/multi_client_sync.Tpo .deps/multi_client_sync.Po
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFILEBENCHDIR=\"/usr/local/share/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -Wall -Wno-unknown-pragmas -g -O2 -MT parser_gram.o -MD -MP -MF .deps/parser_gram.Tpo -c -o parser_gram.o parser_gram.c
+mv -f .deps/parser_gram.Tpo .deps/parser_gram.Po
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFILEBENCHDIR=\"/usr/local/share/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -Wall -Wno-unknown-pragmas -g -O2 -MT parser_lex.o -MD -MP -MF .deps/parser_lex.Tpo -c -o parser_lex.o parser_lex.c
+mv -f .deps/parser_lex.Tpo .deps/parser_lex.Po
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFILEBENCHDIR=\"/usr/local/share/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -Wall -Wno-unknown-pragmas -g -O2 -MT procflow.o -MD -MP -MF .deps/procflow.Tpo -c -o procflow.o procflow.c
+mv -f .deps/procflow.Tpo .deps/procflow.Po
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFILEBENCHDIR=\"/usr/local/share/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -Wall -Wno-unknown-pragmas -g -O2 -MT stats.o -MD -MP -MF .deps/stats.Tpo -c -o stats.o stats.c
+mv -f .deps/stats.Tpo .deps/stats.Po
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFILEBENCHDIR=\"/usr/local/share/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -Wall -Wno-unknown-pragmas -g -O2 -MT threadflow.o -MD -MP -MF .deps/threadflow.Tpo -c -o threadflow.o threadflow.c
+mv -f .deps/threadflow.Tpo .deps/threadflow.Po
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFILEBENCHDIR=\"/usr/local/share/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -Wall -Wno-unknown-pragmas -g -O2 -MT utils.o -MD -MP -MF .deps/utils.Tpo -c -o utils.o utils.c
+mv -f .deps/utils.Tpo .deps/utils.Po
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFILEBENCHDIR=\"/usr/local/share/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -Wall -Wno-unknown-pragmas -g -O2 -MT vars.o -MD -MP -MF .deps/vars.Tpo -c -o vars.o vars.c
+mv -f .deps/vars.Tpo .deps/vars.Po
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFILEBENCHDIR=\"/usr/local/share/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -Wall -Wno-unknown-pragmas -g -O2 -MT posset.o -MD -MP -MF .deps/posset.Tpo -c -o posset.o posset.c
+mv -f .deps/posset.Tpo .deps/posset.Po
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFILEBENCHDIR=\"/usr/local/share/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -Wall -Wno-unknown-pragmas -g -O2 -MT ioprio.o -MD -MP -MF .deps/ioprio.Tpo -c -o ioprio.o ioprio.c
+mv -f .deps/ioprio.Tpo .deps/ioprio.Po
+gcc -Wall -Wno-unknown-pragmas -g -O2   -o go_filebench eventgen.o fb_avl.o fb_localfs.o fb_random.o fileset.o flowop.o flowop_library.o gamma_dist.o ipc.o misc.o multi_client_sync.o parser_gram.o parser_lex.o procflow.o stats.o threadflow.o utils.o vars.o posset.o ioprio.o   -lpthread -lm -lrt 
+make[2]: Leaving directory `/fbinst/go_filebench-1.4.8.fsl.0.8'
+make[1]: Leaving directory `/fbinst/go_filebench-1.4.8.fsl.0.8'
+
+######################################################################
+### make install
+######################################################################
+make  install-recursive
+make[1]: Entering directory `/fbinst/go_filebench-1.4.8.fsl.0.8'
+Making install in workloads
+make[2]: Entering directory `/fbinst/go_filebench-1.4.8.fsl.0.8/workloads'
+make[3]: Entering directory `/fbinst/go_filebench-1.4.8.fsl.0.8/workloads'
+make[3]: Nothing to be done for `install-exec-am'.
+test -z "/usr/local/share/filebench/workloads" || /bin/mkdir -p "/usr/local/share/filebench/workloads"
+ /usr/bin/install -c -m 644 compflow_demo.f copyfiles.f createfiles.f filemicro_create.f filemicro_createfiles.f filemicro_createrand.f filemicro_delete.f filemicro_rread.f filemicro_rwritedsync.f filemicro_rwrite.f filemicro_rwritefsync.f filemicro_seqread.f filemicro_seqwrite.f filemicro_seqwriterand.f filemicro_seqwriterandvargam.f filemicro_seqwriterandvartab.f filemicro_statfile.f filemicro_writefsync.f fileserver.f listdirs.f makedirs.f mongo.f multistreamreaddirect.f multistreamread.f multistreamwritedirect.f multistreamwrite.f netsfs.f networkfs.f oltp.f openfiles.f randomfileaccess.f randomread.f randomrw.f randomwrite.f ratelimcopyfiles.f removedirs.f singlestreamreaddirect.f singlestreamread.f singlestreamwritedirect.f singlestreamwrite.f '/usr/local/share/filebench/workloads'
+ /usr/bin/install -c -m 644 tpcso.f varmail.f videoserver.f webproxy.f webserver.f '/usr/local/share/filebench/workloads'
+make[3]: Leaving directory `/fbinst/go_filebench-1.4.8.fsl.0.8/workloads'
+make[2]: Leaving directory `/fbinst/go_filebench-1.4.8.fsl.0.8/workloads'
+make[2]: Entering directory `/fbinst/go_filebench-1.4.8.fsl.0.8'
+make[3]: Entering directory `/fbinst/go_filebench-1.4.8.fsl.0.8'
+test -z "/usr/local/bin" || /bin/mkdir -p "/usr/local/bin"
+  /usr/bin/install -c go_filebench '/usr/local/bin'
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/fbinst/go_filebench-1.4.8.fsl.0.8'
+make[2]: Leaving directory `/fbinst/go_filebench-1.4.8.fsl.0.8'
+make[1]: Leaving directory `/fbinst/go_filebench-1.4.8.fsl.0.8'
+
+######################################################################
+### format and mount /dev/sdb1
+######################################################################
+mke2fs 1.41.11 (14-Mar-2010)
+Filesystem label=
+OS type: Linux
+Block size=4096 (log=2)
+Fragment size=4096 (log=2)
+Stride=0 blocks, Stripe width=0 blocks
+524288 inodes, 2096474 blocks
+104823 blocks (5.00%) reserved for the super user
+First data block=0
+Maximum filesystem blocks=2147483648
+64 block groups
+32768 blocks per group, 32768 fragments per group
+8192 inodes per group
+Superblock backups stored on blocks: 
+	32768, 98304, 163840, 229376, 294912, 819200, 884736, 1605632
+
+Writing inode tables:  0/64 1/64 2/64 3/64 4/64 5/64 6/64 7/64 8/64 9/6410/6411/6412/6413/6414/6415/6416/6417/6418/6419/6420/6421/6422/6423/6424/6425/6426/6427/6428/6429/6430/6431/6432/6433/6434/6435/6436/6437/6438/6439/6440/6441/6442/6443/6444/6445/6446/6447/6448/6449/6450/6451/6452/6453/6454/6455/6456/6457/6458/6459/6460/6461/6462/6463/64done                            
+Creating journal (32768 blocks): done
+Writing superblocks and filesystem accounting information: done
+
+This filesystem will be automatically checked every 22 mounts or
+180 days, whichever comes first.  Use tune2fs -c or -i to override.
+
+######################################################################
+### filebench workload file
+######################################################################
+load fileserver
+set $dir=/fbtest
+create fileset
+system "sync"
+system "if [ -f /proc/sys/vm/drop_caches ]; then echo 3 > /proc/sys/vm/drop_caches; fi"
+create process
+stats clear
+sleep 10
+stats snap
+sleep 10
+stats snap
+sleep 10
+stats snap
+sleep 10
+stats snap
+sleep 10
+stats snap
+sleep 10
+stats snap
+shutdown process
+quit
+
+######################################################################
+### starting go_filebench fileserver (1)
+######################################################################
+FileBench Version 1.4.8.fsl.0.8
+ 3555: 0.000: Allocated 126MB of shared memory
+ 3555: 0.001: FileServer Version 2.2 personality successfully loaded
+ 3555: 0.001: Creating/pre-allocating files and filesets
+ 3555: 0.040: Fileset bigfileset: 10000 files, 0 leafdirs, avg dir width = 20, avg dir depth = 3.1, 1240.757MB
+ 3555: 0.041: Removed any existing fileset bigfileset in 1 seconds
+ 3555: 0.041: making tree for filset /fbtest/bigfileset
+ 3555: 0.098: Creating fileset bigfileset...
+ 3555: 39.813: Preallocated 7979 of 10000 of fileset bigfileset in 40 seconds
+ 3555: 39.813: waiting for fileset pre-allocation to finish
+ 3555: 39.813: Running 'sync'
+ 3555: 52.113: Running 'if [ -f /proc/sys/vm/drop_caches ]; then echo 3 > /proc/sys/vm/drop_caches; fi'
+ 3826: 52.209: Starting 1 filereader instances
+ 3827: 52.329: Starting 50 filereaderthread threads
+ 3555: 53.421: Running...
+ 3555: 63.422: Run took 10 seconds...
+ 3555: 63.426: Per-Operation Breakdown
+statfile1            559ops       56ops/s   0.0mb/s     10.8ms/op     2326us/op-cpu [0ms - 355ms]
+deletefile1          558ops       56ops/s   0.0mb/s    134.9ms/op     7007us/op-cpu [0ms - 1986ms]
+closefile3           569ops       57ops/s   0.0mb/s      0.0ms/op       18us/op-cpu [0ms - 0ms]
+readfile1            569ops       57ops/s   7.2mb/s    282.5ms/op    11406us/op-cpu [0ms - 2474ms]
+openfile2            588ops       59ops/s   0.0mb/s      7.9ms/op     2007us/op-cpu [0ms - 181ms]
+closefile2           588ops       59ops/s   0.0mb/s      0.0ms/op       17us/op-cpu [0ms - 0ms]
+appendfilerand1      588ops       59ops/s   0.4mb/s    244.7ms/op    10986us/op-cpu [0ms - 2024ms]
+openfile1            609ops       61ops/s   0.0mb/s      7.9ms/op     2102us/op-cpu [0ms - 146ms]
+closefile1           609ops       61ops/s   0.0mb/s      0.0ms/op       16us/op-cpu [0ms - 0ms]
+wrtfile1             609ops       61ops/s   7.2mb/s     20.2ms/op      624us/op-cpu [0ms - 1630ms]
+createfile1          609ops       61ops/s   0.0mb/s     74.3ms/op     3612us/op-cpu [0ms - 1836ms]
+ 3555: 63.426: IO Summary:  6455 ops, 645.433 ops/s, (57/120 r/w),  14.9mb/s,    311us cpu/op, 256.5ms latency
+ 3555: 63.426: Running...
+ 3555: 73.427: Run took 10 seconds...
+ 3555: 73.432: Per-Operation Breakdown
+statfile1            896ops       45ops/s   0.0mb/s      6.8ms/op     1462us/op-cpu [0ms - 355ms]
+deletefile1          895ops       45ops/s   0.0mb/s    167.3ms/op     6905us/op-cpu [0ms - 2364ms]
+closefile3           904ops       45ops/s   0.0mb/s      0.0ms/op       11us/op-cpu [0ms - 0ms]
+readfile1            904ops       45ops/s   5.7mb/s    437.7ms/op    14712us/op-cpu [0ms - 4556ms]
+openfile2            919ops       46ops/s   0.0mb/s      5.1ms/op     1284us/op-cpu [0ms - 181ms]
+closefile2           919ops       46ops/s   0.0mb/s      0.0ms/op       22us/op-cpu [0ms - 0ms]
+appendfilerand1      919ops       46ops/s   0.3mb/s    369.5ms/op    12982us/op-cpu [0ms - 3648ms]
+openfile1            939ops       47ops/s   0.0mb/s      5.2ms/op     1374us/op-cpu [0ms - 146ms]
+closefile1           939ops       47ops/s   0.0mb/s      0.0ms/op       11us/op-cpu [0ms - 0ms]
+wrtfile1             939ops       47ops/s   5.6mb/s     13.2ms/op      479us/op-cpu [0ms - 1630ms]
+createfile1          939ops       47ops/s   0.0mb/s     59.1ms/op     2705us/op-cpu [0ms - 1836ms]
+ 3555: 73.432: IO Summary: 10112 ops, 505.441 ops/s, (45/93 r/w),  11.7mb/s,    319us cpu/op, 350.6ms latency
+ 3555: 73.432: Running...
+ 3555: 83.432: Run took 10 seconds...
+ 3555: 83.437: Per-Operation Breakdown
+statfile1            1241ops       41ops/s   0.0mb/s      4.9ms/op     1072us/op-cpu [0ms - 355ms]
+deletefile1          1240ops       41ops/s   0.0mb/s    172.5ms/op     6379us/op-cpu [0ms - 2364ms]
+closefile3           1247ops       42ops/s   0.0mb/s      0.0ms/op        8us/op-cpu [0ms - 0ms]
+readfile1            1247ops       42ops/s   5.3mb/s    472.2ms/op    14387us/op-cpu [0ms - 4556ms]
+openfile2            1272ops       42ops/s   0.0mb/s      3.7ms/op      928us/op-cpu [0ms - 181ms]
+closefile2           1272ops       42ops/s   0.0mb/s      0.0ms/op       16us/op-cpu [0ms - 0ms]
+appendfilerand1      1272ops       42ops/s   0.3mb/s    426.1ms/op    13278us/op-cpu [0ms - 3753ms]
+openfile1            1291ops       43ops/s   0.0mb/s      3.8ms/op      999us/op-cpu [0ms - 146ms]
+closefile1           1291ops       43ops/s   0.0mb/s      0.0ms/op        8us/op-cpu [0ms - 0ms]
+wrtfile1             1291ops       43ops/s   5.2mb/s     10.3ms/op      465us/op-cpu [0ms - 1630ms]
+createfile1          1291ops       43ops/s   0.0mb/s     56.0ms/op     2494us/op-cpu [0ms - 1836ms]
+ 3555: 83.449: IO Summary: 13955 ops, 464.990 ops/s, (42/85 r/w),  10.9mb/s,    307us cpu/op, 379.5ms latency
+ 3555: 83.449: Running...
+ 3555: 93.450: Run took 10 seconds...
+ 3555: 93.454: Per-Operation Breakdown
+statfile1            1464ops       37ops/s   0.0mb/s      4.2ms/op      908us/op-cpu [0ms - 355ms]
+deletefile1          1463ops       37ops/s   0.0mb/s    178.2ms/op     6077us/op-cpu [0ms - 2916ms]
+closefile3           1464ops       37ops/s   0.0mb/s      0.0ms/op        7us/op-cpu [0ms - 0ms]
+readfile1            1464ops       37ops/s   4.7mb/s    502.7ms/op    14262us/op-cpu [0ms - 4556ms]
+openfile2            1466ops       37ops/s   0.0mb/s      3.2ms/op      805us/op-cpu [0ms - 181ms]
+closefile2           1466ops       37ops/s   0.0mb/s      0.0ms/op       14us/op-cpu [0ms - 0ms]
+appendfilerand1      1466ops       37ops/s   0.3mb/s    440.0ms/op    12988us/op-cpu [0ms - 3753ms]
+openfile1            1471ops       37ops/s   0.0mb/s      3.3ms/op      877us/op-cpu [0ms - 146ms]
+closefile1           1471ops       37ops/s   0.0mb/s      0.0ms/op        7us/op-cpu [0ms - 0ms]
+wrtfile1             1471ops       37ops/s   4.5mb/s     13.4ms/op      442us/op-cpu [0ms - 6313ms]
+createfile1          1514ops       38ops/s   0.0mb/s     57.8ms/op     2431us/op-cpu [0ms - 1862ms]
+ 3555: 93.454: IO Summary: 16180 ops, 404.207 ops/s, (37/73 r/w),   9.5mb/s,    307us cpu/op, 401.0ms latency
+ 3555: 93.454: Running...
+ 3555: 103.455: Run took 10 seconds...
+ 3555: 103.460: Per-Operation Breakdown
+statfile1            1732ops       35ops/s   0.0mb/s      3.5ms/op      768us/op-cpu [0ms - 355ms]
+deletefile1          1731ops       35ops/s   0.0mb/s    152.1ms/op     5165us/op-cpu [0ms - 2916ms]
+closefile3           1732ops       35ops/s   0.0mb/s      0.0ms/op       12us/op-cpu [0ms - 0ms]
+readfile1            1732ops       35ops/s   4.5mb/s    430.6ms/op    12177us/op-cpu [0ms - 4556ms]
+openfile2            1732ops       35ops/s   0.0mb/s      2.7ms/op      687us/op-cpu [0ms - 181ms]
+closefile2           1732ops       35ops/s   0.0mb/s      0.0ms/op       12us/op-cpu [0ms - 0ms]
+appendfilerand1      1732ops       35ops/s   0.3mb/s    376.3ms/op    11033us/op-cpu [0ms - 3753ms]
+openfile1            1739ops       35ops/s   0.0mb/s      2.8ms/op      742us/op-cpu [0ms - 146ms]
+closefile1           1739ops       35ops/s   0.0mb/s      0.0ms/op        6us/op-cpu [0ms - 0ms]
+wrtfile1             1739ops       35ops/s   4.2mb/s     11.3ms/op      397us/op-cpu [0ms - 6313ms]
+createfile1          1782ops       36ops/s   0.0mb/s     49.4ms/op     2082us/op-cpu [0ms - 1862ms]
+ 3555: 103.460: IO Summary: 19122 ops, 382.177 ops/s, (35/69 r/w),   9.0mb/s,    325us cpu/op, 342.9ms latency
+ 3555: 103.460: Running...
+ 3555: 113.461: Run took 10 seconds...
+ 3555: 113.465: Per-Operation Breakdown
+statfile1            1848ops       31ops/s   0.0mb/s      3.3ms/op      725us/op-cpu [0ms - 355ms]
+deletefile1          1844ops       31ops/s   0.0mb/s    156.9ms/op     5266us/op-cpu [0ms - 2954ms]
+closefile3           1853ops       31ops/s   0.0mb/s      0.0ms/op       11us/op-cpu [0ms - 0ms]
+readfile1            1853ops       31ops/s   3.9mb/s    411.5ms/op    11560us/op-cpu [0ms - 4556ms]
+openfile2            1873ops       31ops/s   0.0mb/s      2.5ms/op      646us/op-cpu [0ms - 181ms]
+closefile2           1873ops       31ops/s   0.0mb/s      0.0ms/op       11us/op-cpu [0ms - 0ms]
+appendfilerand1      1873ops       31ops/s   0.2mb/s    434.8ms/op    11618us/op-cpu [0ms - 27449ms]
+openfile1            1896ops       32ops/s   0.0mb/s      2.6ms/op      680us/op-cpu [0ms - 146ms]
+closefile1           1896ops       32ops/s   0.0mb/s      0.0ms/op        5us/op-cpu [0ms - 0ms]
+wrtfile1             1896ops       32ops/s   3.8mb/s    537.3ms/op     8645us/op-cpu [0ms - 26355ms]
+createfile1          1896ops       32ops/s   0.0mb/s     48.9ms/op     1999us/op-cpu [0ms - 1862ms]
+ 3555: 113.465: IO Summary: 20601 ops, 343.123 ops/s, (31/63 r/w),   8.0mb/s,    334us cpu/op, 532.4ms latency
+ 3555: 113.465: Shutting down processes
+/fbsource/vm_scripts/runtest.sh: line 275:  3554 Killed                  $SCRIPTDIR/fbmonitor.sh $fbout $fbmon
+
+######################################################################
+### umount /fbtest
+######################################################################
+
+######################################################################
+### format and mount /dev/sdb1
+######################################################################
+mke2fs 1.41.11 (14-Mar-2010)
+Filesystem label=
+OS type: Linux
+Block size=4096 (log=2)
+Fragment size=4096 (log=2)
+Stride=0 blocks, Stripe width=0 blocks
+524288 inodes, 2096474 blocks
+104823 blocks (5.00%) reserved for the super user
+First data block=0
+Maximum filesystem blocks=2147483648
+64 block groups
+32768 blocks per group, 32768 fragments per group
+8192 inodes per group
+Superblock backups stored on blocks: 
+	32768, 98304, 163840, 229376, 294912, 819200, 884736, 1605632
+
+Writing inode tables:  0/64 1/64 2/64 3/64 4/64 5/64 6/64 7/64 8/64 9/6410/6411/6412/6413/6414/6415/6416/6417/6418/6419/6420/6421/6422/6423/6424/6425/6426/6427/6428/6429/6430/6431/6432/6433/6434/6435/6436/6437/6438/6439/6440/6441/6442/6443/6444/6445/6446/6447/6448/6449/6450/6451/6452/6453/6454/6455/6456/6457/6458/6459/6460/6461/6462/6463/64done                            
+Creating journal (32768 blocks): done
+Writing superblocks and filesystem accounting information: done
+
+This filesystem will be automatically checked every 31 mounts or
+180 days, whichever comes first.  Use tune2fs -c or -i to override.
+
+######################################################################
+### filebench workload file
+######################################################################
+load fileserver
+set $dir=/fbtest
+create fileset
+system "sync"
+system "if [ -f /proc/sys/vm/drop_caches ]; then echo 3 > /proc/sys/vm/drop_caches; fi"
+create process
+stats clear
+sleep 10
+stats snap
+sleep 10
+stats snap
+sleep 10
+stats snap
+sleep 10
+stats snap
+sleep 10
+stats snap
+sleep 10
+stats snap
+shutdown process
+quit
+
+######################################################################
+### starting go_filebench fileserver (2)
+######################################################################
+FileBench Version 1.4.8.fsl.0.8
+ 5064: 0.000: Allocated 126MB of shared memory
+ 5064: 0.001: FileServer Version 2.2 personality successfully loaded
+ 5064: 0.001: Creating/pre-allocating files and filesets
+ 5064: 0.019: Fileset bigfileset: 10000 files, 0 leafdirs, avg dir width = 20, avg dir depth = 3.1, 1240.757MB
+ 5064: 0.042: Removed any existing fileset bigfileset in 1 seconds
+ 5064: 0.042: making tree for filset /fbtest/bigfileset
+ 5064: 0.061: Creating fileset bigfileset...
+ 5064: 42.891: Preallocated 7979 of 10000 of fileset bigfileset in 43 seconds
+ 5064: 42.891: waiting for fileset pre-allocation to finish
+ 5064: 42.891: Running 'sync'
+ 5064: 47.301: Running 'if [ -f /proc/sys/vm/drop_caches ]; then echo 3 > /proc/sys/vm/drop_caches; fi'
+ 5310: 47.393: Starting 1 filereader instances
+ 5311: 47.472: Starting 50 filereaderthread threads
+ 5064: 48.529: Running...
+ 5064: 58.530: Run took 10 seconds...
+ 5064: 58.534: Per-Operation Breakdown
+statfile1            593ops       59ops/s   0.0mb/s     15.5ms/op     2192us/op-cpu [0ms - 1694ms]
+deletefile1          593ops       59ops/s   0.0mb/s    131.0ms/op     7960us/op-cpu [0ms - 1986ms]
+closefile3           601ops       60ops/s   0.0mb/s      0.0ms/op       17us/op-cpu [0ms - 0ms]
+readfile1            601ops       60ops/s   7.1mb/s    300.5ms/op    13943us/op-cpu [0ms - 2638ms]
+openfile2            616ops       62ops/s   0.0mb/s     25.0ms/op     2890us/op-cpu [0ms - 1744ms]
+closefile2           616ops       62ops/s   0.0mb/s      0.0ms/op        0us/op-cpu [0ms - 0ms]
+appendfilerand1      616ops       62ops/s   0.4mb/s    238.3ms/op    11396us/op-cpu [0ms - 2441ms]
+openfile1            643ops       64ops/s   0.0mb/s     16.5ms/op     2131us/op-cpu [0ms - 1753ms]
+closefile1           643ops       64ops/s   0.0mb/s      0.0ms/op       16us/op-cpu [0ms - 0ms]
+wrtfile1             643ops       64ops/s   8.0mb/s      6.9ms/op      731us/op-cpu [0ms - 634ms]
+createfile1          643ops       64ops/s   0.0mb/s     40.7ms/op     3126us/op-cpu [0ms - 1632ms]
+ 5064: 58.534: IO Summary:  6808 ops, 680.737 ops/s, (60/126 r/w),  15.6mb/s,    339us cpu/op, 253.1ms latency
+ 5064: 58.534: Running...
+ 5064: 68.535: Run took 10 seconds...
+ 5064: 68.539: Per-Operation Breakdown
+statfile1            998ops       50ops/s   0.0mb/s      9.2ms/op     1313us/op-cpu [0ms - 1694ms]
+deletefile1          998ops       50ops/s   0.0mb/s    143.3ms/op     7124us/op-cpu [0ms - 2003ms]
+closefile3           1008ops       50ops/s   0.0mb/s      0.0ms/op       10us/op-cpu [0ms - 0ms]
+readfile1            1008ops       50ops/s   5.9mb/s    405.4ms/op    16587us/op-cpu [0ms - 4035ms]
+openfile2            1023ops       51ops/s   0.0mb/s     15.1ms/op     1740us/op-cpu [0ms - 1744ms]
+closefile2           1023ops       51ops/s   0.0mb/s      0.0ms/op       39us/op-cpu [0ms - 0ms]
+appendfilerand1      1023ops       51ops/s   0.4mb/s    331.8ms/op    13803us/op-cpu [0ms - 2632ms]
+openfile1            1048ops       52ops/s   0.0mb/s     10.1ms/op     1307us/op-cpu [0ms - 1753ms]
+closefile1           1048ops       52ops/s   0.0mb/s      0.0ms/op       19us/op-cpu [0ms - 0ms]
+wrtfile1             1048ops       52ops/s   6.5mb/s      4.3ms/op      544us/op-cpu [0ms - 634ms]
+createfile1          1048ops       52ops/s   0.0mb/s     25.1ms/op     1947us/op-cpu [0ms - 1632ms]
+ 5064: 68.539: IO Summary: 11273 ops, 563.481 ops/s, (50/104 r/w),  12.9mb/s,    341us cpu/op, 310.8ms latency
+ 5064: 68.539: Running...
+ 5064: 78.540: Run took 10 seconds...
+ 5064: 78.544: Per-Operation Breakdown
+statfile1            1347ops       45ops/s   0.0mb/s      6.8ms/op      987us/op-cpu [0ms - 1694ms]
+deletefile1          1347ops       45ops/s   0.0mb/s    156.2ms/op     6808us/op-cpu [0ms - 2339ms]
+closefile3           1355ops       45ops/s   0.0mb/s      0.0ms/op       15us/op-cpu [0ms - 0ms]
+readfile1            1355ops       45ops/s   5.4mb/s    445.1ms/op    16686us/op-cpu [0ms - 4715ms]
+openfile2            1376ops       46ops/s   0.0mb/s     11.2ms/op     1294us/op-cpu [0ms - 1744ms]
+closefile2           1376ops       46ops/s   0.0mb/s      0.0ms/op       29us/op-cpu [0ms - 0ms]
+appendfilerand1      1376ops       46ops/s   0.3mb/s    402.7ms/op    15044us/op-cpu [0ms - 3865ms]
+openfile1            1397ops       47ops/s   0.0mb/s      7.6ms/op      988us/op-cpu [0ms - 1753ms]
+closefile1           1397ops       47ops/s   0.0mb/s      0.0ms/op       21us/op-cpu [0ms - 0ms]
+wrtfile1             1397ops       47ops/s   5.9mb/s      3.3ms/op      472us/op-cpu [0ms - 634ms]
+createfile1          1397ops       47ops/s   0.0mb/s     19.5ms/op     1475us/op-cpu [0ms - 1632ms]
+ 5064: 78.551: IO Summary: 15120 ops, 503.814 ops/s, (45/92 r/w),  11.7mb/s,    337us cpu/op, 347.6ms latency
+ 5064: 78.551: Running...
+ 5064: 88.552: Run took 10 seconds...
+ 5064: 88.556: Per-Operation Breakdown
+statfile1            1553ops       39ops/s   0.0mb/s      5.9ms/op      869us/op-cpu [0ms - 1694ms]
+deletefile1          1553ops       39ops/s   0.0mb/s    148.7ms/op     6246us/op-cpu [0ms - 2339ms]
+closefile3           1553ops       39ops/s   0.0mb/s      0.0ms/op       13us/op-cpu [0ms - 0ms]
+readfile1            1553ops       39ops/s   4.6mb/s    429.8ms/op    15557us/op-cpu [0ms - 4715ms]
+openfile2            1554ops       39ops/s   0.0mb/s      9.9ms/op     1145us/op-cpu [0ms - 1744ms]
+closefile2           1554ops       39ops/s   0.0mb/s      0.0ms/op       26us/op-cpu [0ms - 0ms]
+appendfilerand1      1554ops       39ops/s   0.3mb/s    397.6ms/op    14324us/op-cpu [0ms - 3865ms]
+openfile1            1557ops       39ops/s   0.0mb/s      6.8ms/op      886us/op-cpu [0ms - 1753ms]
+closefile1           1557ops       39ops/s   0.0mb/s      0.0ms/op       19us/op-cpu [0ms - 0ms]
+wrtfile1             1557ops       39ops/s   5.0mb/s      4.7ms/op      450us/op-cpu [0ms - 2713ms]
+createfile1          1603ops       40ops/s   0.0mb/s     17.1ms/op     1291us/op-cpu [0ms - 1632ms]
+ 5064: 88.556: IO Summary: 17148 ops, 428.458 ops/s, (39/78 r/w),   9.9mb/s,    343us cpu/op, 340.1ms latency
+ 5064: 88.556: Running...
+ 5064: 98.557: Run took 10 seconds...
+ 5064: 98.561: Per-Operation Breakdown
+statfile1            1780ops       36ops/s   0.0mb/s      5.2ms/op      775us/op-cpu [0ms - 1694ms]
+deletefile1          1777ops       36ops/s   0.0mb/s    130.6ms/op     5459us/op-cpu [0ms - 2339ms]
+closefile3           1780ops       36ops/s   0.0mb/s      0.0ms/op       11us/op-cpu [0ms - 0ms]
+readfile1            1780ops       36ops/s   4.3mb/s    377.7ms/op    13573us/op-cpu [0ms - 4715ms]
+openfile2            1781ops       36ops/s   0.0mb/s      8.7ms/op      999us/op-cpu [0ms - 1744ms]
+closefile2           1781ops       36ops/s   0.0mb/s      0.0ms/op       22us/op-cpu [0ms - 0ms]
+appendfilerand1      1781ops       36ops/s   0.3mb/s    349.0ms/op    12515us/op-cpu [0ms - 3865ms]
+openfile1            1784ops       36ops/s   0.0mb/s      6.0ms/op      779us/op-cpu [0ms - 1753ms]
+closefile1           1784ops       36ops/s   0.0mb/s      0.0ms/op       17us/op-cpu [0ms - 0ms]
+wrtfile1             1784ops       36ops/s   4.5mb/s      4.1ms/op      426us/op-cpu [0ms - 2713ms]
+createfile1          1830ops       37ops/s   0.0mb/s     15.0ms/op     1137us/op-cpu [0ms - 1632ms]
+ 5064: 98.561: IO Summary: 19642 ops, 392.622 ops/s, (36/71 r/w),   9.1mb/s,    350us cpu/op, 298.6ms latency
+ 5064: 98.561: Running...
+ 5064: 108.562: Run took 10 seconds...
+ 5064: 108.566: Per-Operation Breakdown
+statfile1            1982ops       33ops/s   0.0mb/s      4.6ms/op      701us/op-cpu [0ms - 1694ms]
+deletefile1          1967ops       33ops/s   0.0mb/s    120.6ms/op     4967us/op-cpu [0ms - 2339ms]
+closefile3           1986ops       33ops/s   0.0mb/s      0.0ms/op       10us/op-cpu [0ms - 0ms]
+readfile1            1986ops       33ops/s   4.0mb/s    347.0ms/op    12311us/op-cpu [0ms - 4715ms]
+openfile2            1991ops       33ops/s   0.0mb/s      7.8ms/op      894us/op-cpu [0ms - 1744ms]
+closefile2           1991ops       33ops/s   0.0mb/s      0.0ms/op       20us/op-cpu [0ms - 0ms]
+appendfilerand1      1991ops       33ops/s   0.2mb/s    319.8ms/op    11331us/op-cpu [0ms - 3865ms]
+openfile1            2002ops       33ops/s   0.0mb/s      5.3ms/op      704us/op-cpu [0ms - 1753ms]
+closefile1           2002ops       33ops/s   0.0mb/s      0.0ms/op       15us/op-cpu [0ms - 0ms]
+wrtfile1             2002ops       33ops/s   4.2mb/s    185.1ms/op     3616us/op-cpu [0ms - 24407ms]
+createfile1          2032ops       34ops/s   0.0mb/s     13.6ms/op     1029us/op-cpu [0ms - 1632ms]
+ 5064: 108.566: IO Summary: 21932 ops, 365.333 ops/s, (33/67 r/w),   8.5mb/s,    355us cpu/op, 333.9ms latency
+ 5064: 108.566: Shutting down processes
+/fbsource/vm_scripts/runtest.sh: line 275:  5063 Killed                  $SCRIPTDIR/fbmonitor.sh $fbout $fbmon
+
+######################################################################
+### umount /fbtest
+######################################################################
+
+######################################################################
+### format and mount /dev/sdb1
+######################################################################
+mke2fs 1.41.11 (14-Mar-2010)
+Filesystem label=
+OS type: Linux
+Block size=4096 (log=2)
+Fragment size=4096 (log=2)
+Stride=0 blocks, Stripe width=0 blocks
+524288 inodes, 2096474 blocks
+104823 blocks (5.00%) reserved for the super user
+First data block=0
+Maximum filesystem blocks=2147483648
+64 block groups
+32768 blocks per group, 32768 fragments per group
+8192 inodes per group
+Superblock backups stored on blocks: 
+	32768, 98304, 163840, 229376, 294912, 819200, 884736, 1605632
+
+Writing inode tables:  0/64 1/64 2/64 3/64 4/64 5/64 6/64 7/64 8/64 9/6410/6411/6412/6413/6414/6415/6416/6417/6418/6419/6420/6421/6422/6423/6424/6425/6426/6427/6428/6429/6430/6431/6432/6433/6434/6435/6436/6437/6438/6439/6440/6441/6442/6443/6444/6445/6446/6447/6448/6449/6450/6451/6452/6453/6454/6455/6456/6457/6458/6459/6460/6461/6462/6463/64done                            
+Creating journal (32768 blocks): done
+Writing superblocks and filesystem accounting information: done
+
+This filesystem will be automatically checked every 24 mounts or
+180 days, whichever comes first.  Use tune2fs -c or -i to override.
+
+######################################################################
+### filebench workload file
+######################################################################
+load fileserver
+set $dir=/fbtest
+create fileset
+system "sync"
+system "if [ -f /proc/sys/vm/drop_caches ]; then echo 3 > /proc/sys/vm/drop_caches; fi"
+create process
+stats clear
+sleep 10
+stats snap
+sleep 10
+stats snap
+sleep 10
+stats snap
+sleep 10
+stats snap
+sleep 10
+stats snap
+sleep 10
+stats snap
+shutdown process
+quit
+
+######################################################################
+### starting go_filebench fileserver (3)
+######################################################################
+FileBench Version 1.4.8.fsl.0.8
+ 6548: 0.000: Allocated 126MB of shared memory
+ 6548: 0.001: FileServer Version 2.2 personality successfully loaded
+ 6548: 0.001: Creating/pre-allocating files and filesets
+ 6548: 0.019: Fileset bigfileset: 10000 files, 0 leafdirs, avg dir width = 20, avg dir depth = 3.1, 1240.757MB
+ 6548: 0.022: Removed any existing fileset bigfileset in 1 seconds
+ 6548: 0.022: making tree for filset /fbtest/bigfileset
+ 6548: 0.048: Creating fileset bigfileset...
+ 6548: 31.822: Preallocated 7979 of 10000 of fileset bigfileset in 32 seconds
+ 6548: 31.822: waiting for fileset pre-allocation to finish
+ 6548: 31.822: Running 'sync'
+ 6548: 37.489: Running 'if [ -f /proc/sys/vm/drop_caches ]; then echo 3 > /proc/sys/vm/drop_caches; fi'
+ 6774: 37.581: Starting 1 filereader instances
+ 6775: 37.746: Starting 50 filereaderthread threads
+ 6548: 38.773: Running...
+ 6548: 48.774: Run took 10 seconds...
+ 6548: 48.778: Per-Operation Breakdown
+statfile1            503ops       50ops/s   0.0mb/s      6.4ms/op      497us/op-cpu [0ms - 712ms]
+deletefile1          503ops       50ops/s   0.0mb/s    160.7ms/op     9543us/op-cpu [0ms - 2424ms]
+closefile3           511ops       51ops/s   0.0mb/s      0.0ms/op        0us/op-cpu [0ms - 0ms]
+readfile1            511ops       51ops/s   6.4mb/s    312.5ms/op    14110us/op-cpu [0ms - 2976ms]
+openfile2            531ops       53ops/s   0.0mb/s      9.5ms/op      678us/op-cpu [0ms - 606ms]
+closefile2           531ops       53ops/s   0.0mb/s      0.0ms/op        0us/op-cpu [0ms - 0ms]
+appendfilerand1      531ops       53ops/s   0.4mb/s    300.9ms/op    13955us/op-cpu [0ms - 2498ms]
+openfile1            553ops       55ops/s   0.0mb/s      6.4ms/op     1139us/op-cpu [0ms - 314ms]
+closefile1           553ops       55ops/s   0.0mb/s      0.0ms/op       36us/op-cpu [0ms - 0ms]
+wrtfile1             553ops       55ops/s   7.0mb/s      9.6ms/op     1157us/op-cpu [0ms - 444ms]
+createfile1          553ops       55ops/s   0.0mb/s     22.3ms/op     1736us/op-cpu [0ms - 546ms]
+ 6548: 48.778: IO Summary:  5833 ops, 583.246 ops/s, (51/108 r/w),  13.9mb/s,    339us cpu/op, 269.4ms latency
+ 6548: 48.778: Running...
+ 6548: 58.779: Run took 10 seconds...
+ 6548: 58.783: Per-Operation Breakdown
+statfile1            878ops       44ops/s   0.0mb/s      3.7ms/op      296us/op-cpu [0ms - 712ms]
+deletefile1          878ops       44ops/s   0.0mb/s    207.2ms/op     9351us/op-cpu [0ms - 3112ms]
+closefile3           887ops       44ops/s   0.0mb/s      0.0ms/op       11us/op-cpu [0ms - 0ms]
+readfile1            887ops       44ops/s   5.5mb/s    412.3ms/op    15795us/op-cpu [0ms - 3451ms]
+openfile2            906ops       45ops/s   0.0mb/s      5.6ms/op      408us/op-cpu [0ms - 606ms]
+closefile2           906ops       45ops/s   0.0mb/s      0.0ms/op       11us/op-cpu [0ms - 0ms]
+appendfilerand1      906ops       45ops/s   0.3mb/s    406.7ms/op    15419us/op-cpu [0ms - 3470ms]
+openfile1            926ops       46ops/s   0.0mb/s      3.8ms/op      691us/op-cpu [0ms - 314ms]
+closefile1           926ops       46ops/s   0.0mb/s      0.0ms/op       22us/op-cpu [0ms - 0ms]
+wrtfile1             926ops       46ops/s   5.8mb/s      6.8ms/op      788us/op-cpu [0ms - 928ms]
+createfile1          926ops       46ops/s   0.0mb/s     13.5ms/op     1048us/op-cpu [0ms - 546ms]
+ 6548: 58.783: IO Summary:  9952 ops, 497.450 ops/s, (44/92 r/w),  11.7mb/s,    338us cpu/op, 348.2ms latency
+ 6548: 58.783: Running...
+ 6548: 68.784: Run took 10 seconds...
+ 6548: 68.789: Per-Operation Breakdown
+statfile1            1217ops       41ops/s   0.0mb/s      3.6ms/op      304us/op-cpu [0ms - 1150ms]
+deletefile1          1217ops       41ops/s   0.0mb/s    208.6ms/op     8636us/op-cpu [0ms - 3112ms]
+closefile3           1227ops       41ops/s   0.0mb/s      0.0ms/op        8us/op-cpu [0ms - 0ms]
+readfile1            1227ops       41ops/s   5.2mb/s    488.6ms/op    17188us/op-cpu [0ms - 5360ms]
+openfile2            1252ops       42ops/s   0.0mb/s      5.0ms/op      351us/op-cpu [0ms - 1082ms]
+closefile2           1252ops       42ops/s   0.0mb/s      0.0ms/op        8us/op-cpu [0ms - 0ms]
+appendfilerand1      1252ops       42ops/s   0.3mb/s    445.6ms/op    16038us/op-cpu [0ms - 3750ms]
+openfile1            1266ops       42ops/s   0.0mb/s     10.8ms/op      900us/op-cpu [0ms - 1129ms]
+closefile1           1266ops       42ops/s   0.0mb/s      0.0ms/op       24us/op-cpu [0ms - 0ms]
+wrtfile1             1266ops       42ops/s   5.3mb/s      5.0ms/op      632us/op-cpu [0ms - 928ms]
+createfile1          1266ops       42ops/s   0.0mb/s     16.3ms/op      995us/op-cpu [0ms - 3305ms]
+ 6548: 68.805: IO Summary: 13708 ops, 456.765 ops/s, (41/84 r/w),  10.8mb/s,    347us cpu/op, 390.5ms latency
+ 6548: 68.805: Running...
+ 6548: 78.807: Run took 10 seconds...
+ 6548: 78.811: Per-Operation Breakdown
+statfile1            1550ops       39ops/s   0.0mb/s      2.8ms/op      239us/op-cpu [0ms - 1150ms]
+deletefile1          1550ops       39ops/s   0.0mb/s    196.2ms/op     7652us/op-cpu [0ms - 3112ms]
+closefile3           1550ops       39ops/s   0.0mb/s      0.0ms/op       19us/op-cpu [0ms - 0ms]
+readfile1            1550ops       39ops/s   4.8mb/s    471.6ms/op    16077us/op-cpu [0ms - 5360ms]
+openfile2            1551ops       39ops/s   0.0mb/s      4.0ms/op      290us/op-cpu [0ms - 1082ms]
+closefile2           1551ops       39ops/s   0.0mb/s      0.0ms/op       13us/op-cpu [0ms - 0ms]
+appendfilerand1      1551ops       39ops/s   0.3mb/s    433.4ms/op    14965us/op-cpu [0ms - 3750ms]
+openfile1            1554ops       39ops/s   0.0mb/s      8.8ms/op      740us/op-cpu [0ms - 1129ms]
+closefile1           1554ops       39ops/s   0.0mb/s      0.0ms/op       19us/op-cpu [0ms - 0ms]
+wrtfile1             1554ops       39ops/s   4.8mb/s      5.1ms/op      528us/op-cpu [0ms - 1459ms]
+createfile1          1600ops       40ops/s   0.0mb/s     14.0ms/op      844us/op-cpu [0ms - 3305ms]
+ 6548: 78.811: IO Summary: 17115 ops, 427.512 ops/s, (39/78 r/w),  10.0mb/s,    337us cpu/op, 378.5ms latency
+ 6548: 78.811: Running...
+ 6548: 88.812: Run took 10 seconds...
+ 6548: 88.817: Per-Operation Breakdown
+statfile1            1787ops       36ops/s   0.0mb/s      2.5ms/op      218us/op-cpu [0ms - 1150ms]
+deletefile1          1787ops       36ops/s   0.0mb/s    170.3ms/op     6637us/op-cpu [0ms - 3112ms]
+closefile3           1787ops       36ops/s   0.0mb/s      0.0ms/op       17us/op-cpu [0ms - 0ms]
+readfile1            1787ops       36ops/s   4.4mb/s    411.6ms/op    13979us/op-cpu [0ms - 5360ms]
+openfile2            1787ops       36ops/s   0.0mb/s      3.5ms/op      252us/op-cpu [0ms - 1082ms]
+closefile2           1787ops       36ops/s   0.0mb/s      0.0ms/op       22us/op-cpu [0ms - 0ms]
+appendfilerand1      1787ops       36ops/s   0.3mb/s    378.0ms/op    12994us/op-cpu [0ms - 3750ms]
+openfile1            1791ops       36ops/s   0.0mb/s      7.7ms/op      648us/op-cpu [0ms - 1129ms]
+closefile1           1791ops       36ops/s   0.0mb/s      0.0ms/op       22us/op-cpu [0ms - 0ms]
+wrtfile1             1791ops       36ops/s   4.4mb/s      4.4ms/op      475us/op-cpu [0ms - 1459ms]
+createfile1          1837ops       37ops/s   0.0mb/s     12.2ms/op      740us/op-cpu [0ms - 3305ms]
+ 6548: 88.817: IO Summary: 19719 ops, 394.072 ops/s, (36/72 r/w),   9.2mb/s,    352us cpu/op, 329.9ms latency
+ 6548: 88.817: Running...
+ 6548: 98.817: Run took 10 seconds...
+ 6548: 98.822: Per-Operation Breakdown
+statfile1            2076ops       35ops/s   0.0mb/s      2.3ms/op      231us/op-cpu [0ms - 1150ms]
+deletefile1          2066ops       34ops/s   0.0mb/s    161.2ms/op     6186us/op-cpu [0ms - 3146ms]
+closefile3           2098ops       35ops/s   0.0mb/s      0.0ms/op       19us/op-cpu [0ms - 0ms]
+readfile1            2098ops       35ops/s   4.4mb/s    370.6ms/op    12879us/op-cpu [0ms - 5360ms]
+openfile2            2107ops       35ops/s   0.0mb/s      5.3ms/op      247us/op-cpu [0ms - 1082ms]
+closefile2           2107ops       35ops/s   0.0mb/s      0.0ms/op       28us/op-cpu [0ms - 0ms]
+appendfilerand1      2107ops       35ops/s   0.3mb/s    367.1ms/op    12501us/op-cpu [0ms - 18988ms]
+openfile1            2126ops       35ops/s   0.0mb/s     12.7ms/op      696us/op-cpu [0ms - 1129ms]
+closefile1           2126ops       35ops/s   0.0mb/s      0.0ms/op       28us/op-cpu [0ms - 0ms]
+wrtfile1             2126ops       35ops/s   4.4mb/s    392.4ms/op     9746us/op-cpu [0ms - 19457ms]
+createfile1          2126ops       35ops/s   0.0mb/s     19.8ms/op      927us/op-cpu [0ms - 3669ms]
+ 6548: 98.822: IO Summary: 23163 ops, 385.766 ops/s, (35/70 r/w),   9.0mb/s,    362us cpu/op, 442.8ms latency
+ 6548: 98.822: Shutting down processes
+/fbsource/vm_scripts/runtest.sh: line 275:  6547 Killed                  $SCRIPTDIR/fbmonitor.sh $fbout $fbmon
+
+######################################################################
+### umount /fbtest
+######################################################################
+
+######################################################################
+### format and mount /dev/sdb1
+######################################################################
+mke2fs 1.41.11 (14-Mar-2010)
+Filesystem label=
+OS type: Linux
+Block size=4096 (log=2)
+Fragment size=4096 (log=2)
+Stride=0 blocks, Stripe width=0 blocks
+524288 inodes, 2096474 blocks
+104823 blocks (5.00%) reserved for the super user
+First data block=0
+Maximum filesystem blocks=2147483648
+64 block groups
+32768 blocks per group, 32768 fragments per group
+8192 inodes per group
+Superblock backups stored on blocks: 
+	32768, 98304, 163840, 229376, 294912, 819200, 884736, 1605632
+
+Writing inode tables:  0/64 1/64 2/64 3/64 4/64 5/64 6/64 7/64 8/64 9/6410/6411/6412/6413/6414/6415/6416/6417/6418/6419/6420/6421/6422/6423/6424/6425/6426/6427/6428/6429/6430/6431/6432/6433/6434/6435/6436/6437/6438/6439/6440/6441/6442/6443/6444/6445/6446/6447/6448/6449/6450/6451/6452/6453/6454/6455/6456/6457/6458/6459/6460/6461/6462/6463/64done                            
+Creating journal (32768 blocks): done
+Writing superblocks and filesystem accounting information: done
+
+This filesystem will be automatically checked every 36 mounts or
+180 days, whichever comes first.  Use tune2fs -c or -i to override.
+
+######################################################################
+### filebench workload file
+######################################################################
+load webserver
+set $dir=/fbtest
+create fileset
+system "sync"
+system "if [ -f /proc/sys/vm/drop_caches ]; then echo 3 > /proc/sys/vm/drop_caches; fi"
+create process
+stats clear
+sleep 10
+stats snap
+sleep 10
+stats snap
+sleep 10
+stats snap
+sleep 10
+stats snap
+sleep 10
+stats snap
+sleep 10
+stats snap
+shutdown process
+quit
+
+######################################################################
+### starting go_filebench webserver (1)
+######################################################################
+FileBench Version 1.4.8.fsl.0.8
+ 8017: 0.000: Allocated 126MB of shared memory
+ 8017: 0.001: Webserver Version 2.1 personality successfully loaded
+ 8017: 0.001: Creating/pre-allocating files and filesets
+ 8017: 0.033: Fileset logfiles: 1 files, 0 leafdirs, avg dir width = 20, avg dir depth = 0.0, 0.002MB
+ 8017: 0.036: Removed any existing fileset logfiles in 1 seconds
+ 8017: 0.036: making tree for filset /fbtest/logfiles
+ 8017: 0.041: Creating fileset logfiles...
+ 8017: 0.041: Preallocated 1 of 1 of fileset logfiles in 1 seconds
+ 8017: 0.043: Fileset bigfileset: 1000 files, 0 leafdirs, avg dir width = 20, avg dir depth = 2.3, 14.760MB
+ 8017: 0.044: Removed any existing fileset bigfileset in 1 seconds
+ 8017: 0.044: making tree for filset /fbtest/bigfileset
+ 8017: 0.045: Creating fileset bigfileset...
+ 8017: 0.095: Preallocated 1000 of 1000 of fileset bigfileset in 1 seconds
+ 8017: 0.095: waiting for fileset pre-allocation to finish
+ 8017: 0.095: Running 'sync'
+ 8017: 0.688: Running 'if [ -f /proc/sys/vm/drop_caches ]; then echo 3 > /proc/sys/vm/drop_caches; fi'
+ 8030: 0.699: Starting 1 filereader instances
+ 8031: 0.743: Starting 100 filereaderthread threads
+ 8017: 4.319: Running...
+ 8017: 14.332: Run took 10 seconds...
+ 8017: 14.514: Per-Operation Breakdown
+appendlog            1200ops      120ops/s   0.8mb/s      6.0ms/op     4200us/op-cpu [0ms - 174ms]
+closefile10          1103ops      110ops/s   0.0mb/s      0.0ms/op     3382us/op-cpu [0ms - 0ms]
+readfile10           1105ops      110ops/s   1.6mb/s     14.9ms/op     4362us/op-cpu [0ms - 1288ms]
+openfile10           1108ops      111ops/s   0.0mb/s      0.1ms/op     2915us/op-cpu [0ms - 35ms]
+closefile9           1112ops      111ops/s   0.0mb/s      0.0ms/op     3390us/op-cpu [0ms - 0ms]
+readfile9            1115ops      111ops/s   1.6mb/s     14.3ms/op     3973us/op-cpu [0ms - 1088ms]
+openfile9            1126ops      112ops/s   0.0mb/s      0.1ms/op     3002us/op-cpu [0ms - 119ms]
+closefile8           1130ops      113ops/s   0.0mb/s      0.0ms/op     3168us/op-cpu [0ms - 0ms]
+readfile8            1133ops      113ops/s   1.6mb/s     23.3ms/op     5013us/op-cpu [0ms - 1298ms]
+openfile8            1136ops      113ops/s   0.0mb/s      0.1ms/op     2632us/op-cpu [0ms - 39ms]
+closefile7           1139ops      114ops/s   0.0mb/s      0.0ms/op     3442us/op-cpu [0ms - 0ms]
+readfile7            1140ops      114ops/s   1.6mb/s     29.1ms/op     5184us/op-cpu [0ms - 1329ms]
+openfile7            1143ops      114ops/s   0.0mb/s      0.1ms/op     2616us/op-cpu [0ms - 25ms]
+closefile6           1146ops      114ops/s   0.0mb/s      0.0ms/op     3072us/op-cpu [0ms - 0ms]
+readfile6            1149ops      115ops/s   1.7mb/s     27.7ms/op     5013us/op-cpu [0ms - 1202ms]
+openfile6            1154ops      115ops/s   0.0mb/s      0.0ms/op     2730us/op-cpu [0ms - 3ms]
+closefile5           1159ops      116ops/s   0.0mb/s      0.0ms/op     3287us/op-cpu [0ms - 0ms]
+readfile5            1163ops      116ops/s   1.7mb/s     29.8ms/op     5030us/op-cpu [0ms - 1233ms]
+openfile5            1168ops      117ops/s   0.0mb/s      0.0ms/op     3048us/op-cpu [0ms - 18ms]
+closefile4           1172ops      117ops/s   0.0mb/s      0.0ms/op     2961us/op-cpu [0ms - 0ms]
+readfile4            1173ops      117ops/s   1.7mb/s     44.2ms/op     5507us/op-cpu [0ms - 1325ms]
+openfile4            1177ops      118ops/s   0.0mb/s      0.1ms/op     2778us/op-cpu [0ms - 10ms]
+closefile3           1181ops      118ops/s   0.0mb/s      0.0ms/op     2439us/op-cpu [0ms - 0ms]
+readfile3            1181ops      118ops/s   1.6mb/s     32.2ms/op     4809us/op-cpu [0ms - 1389ms]
+openfile3            1182ops      118ops/s   0.0mb/s      0.2ms/op     2885us/op-cpu [0ms - 71ms]
+closefile2           1184ops      118ops/s   0.0mb/s      0.0ms/op     2779us/op-cpu [0ms - 0ms]
+readfile2            1187ops      119ops/s   1.7mb/s     27.9ms/op     5114us/op-cpu [0ms - 1266ms]
+openfile2            1189ops      119ops/s   0.0mb/s      1.1ms/op     3137us/op-cpu [0ms - 195ms]
+closefile1           1194ops      119ops/s   0.0mb/s      0.0ms/op     2831us/op-cpu [0ms - 0ms]
+readfile1            1197ops      120ops/s   1.8mb/s     16.6ms/op     4712us/op-cpu [0ms - 1068ms]
+openfile1            1198ops      120ops/s   0.0mb/s      6.7ms/op     2696us/op-cpu [0ms - 223ms]
+ 8017: 14.544: IO Summary: 35844 ops, 3579.461 ops/s, (1153/120 r/w),  17.9mb/s,    209us cpu/op,  25.0ms latency
+ 8017: 14.544: Running...
+ 8017: 24.545: Run took 10 seconds...
+ 8017: 24.727: Per-Operation Breakdown
+appendlog            2457ops      121ops/s   0.9mb/s     12.4ms/op  1025450us/op-cpu [0ms - 366ms]
+closefile10          2369ops      117ops/s   0.0mb/s      0.0ms/op  1082075us/op-cpu [0ms - 0ms]
+readfile10           2371ops      117ops/s   1.8mb/s      7.0ms/op  1077948us/op-cpu [0ms - 1288ms]
+openfile10           2371ops      117ops/s   0.0mb/s      0.0ms/op  1070019us/op-cpu [0ms - 35ms]
+closefile9           2376ops      117ops/s   0.0mb/s      0.0ms/op  1067763us/op-cpu [0ms - 0ms]
+readfile9            2377ops      118ops/s   1.7mb/s      6.8ms/op  1069685us/op-cpu [0ms - 1088ms]
+openfile9            2381ops      118ops/s   0.0mb/s      0.1ms/op  1074259us/op-cpu [0ms - 119ms]
+closefile8           2383ops      118ops/s   0.0mb/s      0.0ms/op  1066463us/op-cpu [0ms - 0ms]
+readfile8            2386ops      118ops/s   1.7mb/s     11.1ms/op  1072947us/op-cpu [0ms - 1298ms]
+openfile8            2394ops      118ops/s   0.0mb/s      0.0ms/op  1068476us/op-cpu [0ms - 39ms]
+closefile7           2396ops      118ops/s   0.0mb/s      0.0ms/op  1073425us/op-cpu [0ms - 0ms]
+readfile7            2398ops      119ops/s   1.7mb/s     13.9ms/op  1073434us/op-cpu [0ms - 1329ms]
+openfile7            2399ops      119ops/s   0.0mb/s      0.0ms/op  1073743us/op-cpu [0ms - 25ms]
+closefile6           2399ops      119ops/s   0.0mb/s      0.0ms/op  1073918us/op-cpu [0ms - 0ms]
+readfile6            2400ops      119ops/s   1.8mb/s     13.3ms/op  1075956us/op-cpu [0ms - 1202ms]
+openfile6            2401ops      119ops/s   0.0mb/s      0.0ms/op  1075964us/op-cpu [0ms - 3ms]
+closefile5           2401ops      119ops/s   0.0mb/s      0.0ms/op  1076768us/op-cpu [0ms - 0ms]
+readfile5            2401ops      119ops/s   1.7mb/s     14.4ms/op  1077447us/op-cpu [0ms - 1233ms]
+openfile5            2401ops      119ops/s   0.0mb/s      0.0ms/op  1076456us/op-cpu [0ms - 18ms]
+closefile4           2401ops      119ops/s   0.0mb/s      0.0ms/op  1072732us/op-cpu [0ms - 0ms]
+readfile4            2404ops      119ops/s   1.7mb/s     21.6ms/op  1053189us/op-cpu [0ms - 1325ms]
+openfile4            2414ops      119ops/s   0.0mb/s      0.0ms/op  1036738us/op-cpu [0ms - 10ms]
+closefile3           2421ops      120ops/s   0.0mb/s      0.0ms/op  1040436us/op-cpu [0ms - 0ms]
+readfile3            2430ops      120ops/s   1.7mb/s     15.7ms/op  1043095us/op-cpu [0ms - 1389ms]
+openfile3            2439ops      121ops/s   0.0mb/s      0.1ms/op  1052436us/op-cpu [0ms - 71ms]
+closefile2           2441ops      121ops/s   0.0mb/s      0.0ms/op  1049691us/op-cpu [0ms - 0ms]
+readfile2            2443ops      121ops/s   1.8mb/s     13.6ms/op  1050408us/op-cpu [0ms - 1266ms]
+openfile2            2445ops      121ops/s   0.0mb/s      0.5ms/op  1034166us/op-cpu [0ms - 195ms]
+closefile1           2446ops      121ops/s   0.0mb/s      0.0ms/op  1033874us/op-cpu [0ms - 0ms]
+readfile1            2447ops      121ops/s   1.8mb/s      8.1ms/op  1030844us/op-cpu [0ms - 1068ms]
+openfile1            2451ops      121ops/s   0.0mb/s      3.3ms/op  1022926us/op-cpu [0ms - 223ms]
+ 8017: 24.727: IO Summary: 74643 ops, 3690.286 ops/s, (1189/121 r/w),  18.4mb/s,    202us cpu/op,  12.9ms latency
+ 8017: 24.727: Running...
+ 8017: 34.728: Run took 10 seconds...
+ 8017: 34.909: Per-Operation Breakdown
+appendlog            3635ops      120ops/s   0.9mb/s     12.6ms/op  2086356us/op-cpu [0ms - 366ms]
+closefile10          3537ops      116ops/s   0.0mb/s      0.0ms/op  2145440us/op-cpu [0ms - 0ms]
+readfile10           3541ops      116ops/s   1.7mb/s      4.7ms/op  2142035us/op-cpu [0ms - 1288ms]
+openfile10           3543ops      117ops/s   0.0mb/s      0.0ms/op  2137888us/op-cpu [0ms - 35ms]
+closefile9           3546ops      117ops/s   0.0mb/s      0.0ms/op  2133688us/op-cpu [0ms - 0ms]
+readfile9            3549ops      117ops/s   1.7mb/s      4.7ms/op  2135898us/op-cpu [0ms - 1088ms]
+openfile9            3550ops      117ops/s   0.0mb/s      0.1ms/op  2135940us/op-cpu [0ms - 119ms]
+closefile8           3551ops      117ops/s   0.0mb/s      0.0ms/op  2129294us/op-cpu [0ms - 0ms]
+readfile8            3553ops      117ops/s   1.7mb/s      7.4ms/op  2128596us/op-cpu [0ms - 1298ms]
+openfile8            3558ops      117ops/s   0.0mb/s      0.1ms/op  2126107us/op-cpu [0ms - 67ms]
+closefile7           3562ops      117ops/s   0.0mb/s      0.0ms/op  2127850us/op-cpu [0ms - 0ms]
+readfile7            3567ops      117ops/s   1.7mb/s      9.3ms/op  2130306us/op-cpu [0ms - 1329ms]
+openfile7            3570ops      117ops/s   0.0mb/s      0.0ms/op  2131282us/op-cpu [0ms - 25ms]
+closefile6           3571ops      117ops/s   0.0mb/s      0.0ms/op  2132230us/op-cpu [0ms - 0ms]
+readfile6            3576ops      118ops/s   1.8mb/s      9.0ms/op  2135670us/op-cpu [0ms - 1202ms]
+openfile6            3578ops      118ops/s   0.0mb/s      0.0ms/op  2137153us/op-cpu [0ms - 66ms]
+closefile5           3581ops      118ops/s   0.0mb/s      0.0ms/op  2138275us/op-cpu [0ms - 0ms]
+readfile5            3582ops      118ops/s   1.8mb/s      9.7ms/op  2139251us/op-cpu [0ms - 1233ms]
+openfile5            3583ops      118ops/s   0.0mb/s      0.0ms/op  2139236us/op-cpu [0ms - 18ms]
+closefile4           3584ops      118ops/s   0.0mb/s      0.0ms/op  2137332us/op-cpu [0ms - 0ms]
+readfile4            3589ops      118ops/s   1.7mb/s     14.5ms/op  2124506us/op-cpu [0ms - 1325ms]
+openfile4            3590ops      118ops/s   0.0mb/s      0.0ms/op  2102721us/op-cpu [0ms - 10ms]
+closefile3           3593ops      118ops/s   0.0mb/s      0.0ms/op  2099578us/op-cpu [0ms - 65ms]
+readfile3            3594ops      118ops/s   1.7mb/s     10.6ms/op  2097316us/op-cpu [0ms - 1389ms]
+openfile3            3597ops      118ops/s   0.0mb/s      0.1ms/op  2097426us/op-cpu [0ms - 71ms]
+closefile2           3598ops      118ops/s   0.0mb/s      0.0ms/op  2094273us/op-cpu [0ms - 0ms]
+readfile2            3598ops      118ops/s   1.7mb/s      9.3ms/op  2092783us/op-cpu [0ms - 1266ms]
+openfile2            3599ops      118ops/s   0.0mb/s      0.4ms/op  2080744us/op-cpu [0ms - 195ms]
+closefile1           3603ops      118ops/s   0.0mb/s      0.0ms/op  2082110us/op-cpu [0ms - 0ms]
+readfile1            3621ops      119ops/s   1.8mb/s      5.5ms/op  2089156us/op-cpu [0ms - 1068ms]
+openfile1            3631ops      119ops/s   0.0mb/s      2.2ms/op  2087269us/op-cpu [0ms - 223ms]
+ 8017: 34.909: IO Summary: 110930 ops, 3647.906 ops/s, (1176/120 r/w),  18.3mb/s,    202us cpu/op,   9.1ms latency
+ 8017: 34.909: Running...
+ 8017: 44.910: Run took 10 seconds...
+ 8017: 45.091: Per-Operation Breakdown
+appendlog            5663ops      140ops/s   1.1mb/s     10.7ms/op  4150127us/op-cpu [0ms - 366ms]
+closefile10          5571ops      137ops/s   0.0mb/s      0.0ms/op  4228965us/op-cpu [0ms - 0ms]
+readfile10           5578ops      137ops/s   2.0mb/s      3.0ms/op  4230672us/op-cpu [0ms - 1288ms]
+openfile10           5579ops      137ops/s   0.0mb/s      0.0ms/op  4228077us/op-cpu [0ms - 35ms]
+closefile9           5582ops      138ops/s   0.0mb/s      0.0ms/op  4221973us/op-cpu [0ms - 0ms]
+readfile9            5582ops      138ops/s   2.0mb/s      3.0ms/op  4222224us/op-cpu [0ms - 1088ms]
+openfile9            5582ops      138ops/s   0.0mb/s      0.1ms/op  4219538us/op-cpu [0ms - 119ms]
+closefile8           5586ops      138ops/s   0.0mb/s      0.0ms/op  4216477us/op-cpu [0ms - 0ms]
+readfile8            5588ops      138ops/s   2.0mb/s      4.7ms/op  4216972us/op-cpu [0ms - 1298ms]
+openfile8            5590ops      138ops/s   0.0mb/s      0.0ms/op  4214235us/op-cpu [0ms - 67ms]
+closefile7           5590ops      138ops/s   0.0mb/s      0.0ms/op  4212165us/op-cpu [0ms - 0ms]
+readfile7            5590ops      138ops/s   2.0mb/s      6.0ms/op  4210993us/op-cpu [0ms - 1329ms]
+openfile7            5593ops      138ops/s   0.0mb/s      0.0ms/op  4205114us/op-cpu [0ms - 25ms]
+closefile6           5594ops      138ops/s   0.0mb/s      0.0ms/op  4195458us/op-cpu [0ms - 0ms]
+readfile6            5595ops      138ops/s   2.0mb/s      5.8ms/op  4191904us/op-cpu [0ms - 1202ms]
+openfile6            5595ops      138ops/s   0.0mb/s      0.0ms/op  4185300us/op-cpu [0ms - 66ms]
+closefile5           5597ops      138ops/s   0.0mb/s      0.0ms/op  4187017us/op-cpu [0ms - 0ms]
+readfile5            5608ops      138ops/s   2.0mb/s      6.2ms/op  4195747us/op-cpu [0ms - 1233ms]
+openfile5            5610ops      138ops/s   0.0mb/s      0.0ms/op  4197057us/op-cpu [0ms - 18ms]
+closefile4           5615ops      138ops/s   0.0mb/s      0.0ms/op  4199412us/op-cpu [0ms - 0ms]
+readfile4            5621ops      138ops/s   2.0mb/s      9.3ms/op  4194023us/op-cpu [0ms - 1325ms]
+openfile4            5622ops      139ops/s   0.0mb/s      0.0ms/op  4180440us/op-cpu [0ms - 18ms]
+closefile3           5623ops      139ops/s   0.0mb/s      0.0ms/op  4178126us/op-cpu [0ms - 65ms]
+readfile3            5625ops      139ops/s   2.0mb/s      6.8ms/op  4177928us/op-cpu [0ms - 1389ms]
+openfile3            5628ops      139ops/s   0.0mb/s      0.1ms/op  4168371us/op-cpu [0ms - 71ms]
+closefile2           5632ops      139ops/s   0.0mb/s      0.0ms/op  4161400us/op-cpu [0ms - 0ms]
+readfile2            5634ops      139ops/s   2.0mb/s      6.0ms/op  4154408us/op-cpu [0ms - 1266ms]
+openfile2            5635ops      139ops/s   0.0mb/s      0.2ms/op  4146492us/op-cpu [0ms - 195ms]
+closefile1           5637ops      139ops/s   0.0mb/s      0.0ms/op  4144335us/op-cpu [0ms - 0ms]
+readfile1            5643ops      139ops/s   2.1mb/s      3.6ms/op  4144154us/op-cpu [0ms - 1068ms]
+openfile1            5646ops      139ops/s   0.0mb/s      1.4ms/op  4139905us/op-cpu [0ms - 223ms]
+ 8017: 45.091: IO Summary: 173834 ops, 4282.578 ops/s, (1381/140 r/w),  21.5mb/s,    200us cpu/op,   6.1ms latency
+ 8017: 45.091: Running...
+ 8017: 55.092: Run took 10 seconds...
+ 8017: 55.272: Per-Operation Breakdown
+appendlog            7303ops      144ops/s   1.1mb/s     10.6ms/op  5851611us/op-cpu [0ms - 538ms]
+closefile10          7207ops      142ops/s   0.0mb/s      0.0ms/op  5926501us/op-cpu [0ms - 0ms]
+readfile10           7210ops      142ops/s   2.1mb/s      2.3ms/op  5925841us/op-cpu [0ms - 1288ms]
+openfile10           7217ops      142ops/s   0.0mb/s      0.0ms/op  5928095us/op-cpu [0ms - 35ms]
+closefile9           7217ops      142ops/s   0.0mb/s      0.0ms/op  5921555us/op-cpu [0ms - 0ms]
+readfile9            7219ops      142ops/s   2.0mb/s      2.3ms/op  5921970us/op-cpu [0ms - 1088ms]
+openfile9            7225ops      142ops/s   0.0mb/s      0.0ms/op  5925646us/op-cpu [0ms - 119ms]
+closefile8           7230ops      142ops/s   0.0mb/s      0.0ms/op  5923363us/op-cpu [0ms - 0ms]
+readfile8            7231ops      142ops/s   2.1mb/s      3.7ms/op  5922959us/op-cpu [0ms - 1298ms]
+openfile8            7231ops      142ops/s   0.0mb/s      0.0ms/op  5919517us/op-cpu [0ms - 67ms]
+closefile7           7231ops      142ops/s   0.0mb/s      0.0ms/op  5916820us/op-cpu [0ms - 0ms]
+readfile7            7231ops      142ops/s   2.1mb/s      4.7ms/op  5913607us/op-cpu [0ms - 1329ms]
+openfile7            7231ops      142ops/s   0.0mb/s      0.0ms/op  5903484us/op-cpu [0ms - 25ms]
+closefile6           7231ops      142ops/s   0.0mb/s      0.0ms/op  5884849us/op-cpu [0ms - 0ms]
+readfile6            7238ops      143ops/s   2.1mb/s      4.5ms/op  5888215us/op-cpu [0ms - 1202ms]
+openfile6            7244ops      143ops/s   0.0mb/s      0.0ms/op  5887740us/op-cpu [0ms - 66ms]
+closefile5           7254ops      143ops/s   0.0mb/s      0.0ms/op  5897520us/op-cpu [0ms - 0ms]
+readfile5            7257ops      143ops/s   2.1mb/s      4.8ms/op  5900470us/op-cpu [0ms - 1233ms]
+openfile5            7258ops      143ops/s   0.0mb/s      0.0ms/op  5901150us/op-cpu [0ms - 18ms]
+closefile4           7263ops      143ops/s   0.0mb/s      0.0ms/op  5900131us/op-cpu [0ms - 0ms]
+readfile4            7266ops      143ops/s   2.0mb/s      7.2ms/op  5892776us/op-cpu [0ms - 1325ms]
+openfile4            7274ops      143ops/s   0.0mb/s      0.1ms/op  5887606us/op-cpu [0ms - 274ms]
+closefile3           7274ops      143ops/s   0.0mb/s      0.0ms/op  5881076us/op-cpu [0ms - 65ms]
+readfile3            7277ops      143ops/s   2.1mb/s      5.3ms/op  5882641us/op-cpu [0ms - 1389ms]
+openfile3            7282ops      143ops/s   0.0mb/s      0.1ms/op  5873518us/op-cpu [0ms - 274ms]
+closefile2           7285ops      143ops/s   0.0mb/s      0.0ms/op  5868560us/op-cpu [0ms - 0ms]
+readfile2            7286ops      144ops/s   2.1mb/s      4.6ms/op  5863005us/op-cpu [0ms - 1266ms]
+openfile2            7287ops      144ops/s   0.0mb/s      0.2ms/op  5857089us/op-cpu [0ms - 195ms]
+closefile1           7291ops      144ops/s   0.0mb/s      0.0ms/op  5858168us/op-cpu [0ms - 0ms]
+readfile1            7292ops      144ops/s   2.2mb/s      2.8ms/op  5854153us/op-cpu [0ms - 1068ms]
+openfile1            7297ops      144ops/s   0.0mb/s      1.1ms/op  5853869us/op-cpu [0ms - 223ms]
+ 8017: 55.273: IO Summary: 224839 ops, 4428.315 ops/s, (1428/144 r/w),  22.2mb/s,    200us cpu/op,   5.0ms latency
+ 8017: 55.273: Running...
+ 8017: 65.273: Run took 10 seconds...
+ 8017: 65.457: Per-Operation Breakdown
+appendlog            9143ops      150ops/s   1.2mb/s     10.8ms/op  7709817us/op-cpu [0ms - 538ms]
+closefile10          9043ops      148ops/s   0.0mb/s      0.0ms/op  7786284us/op-cpu [0ms - 0ms]
+readfile10           9044ops      148ops/s   2.2mb/s      1.9ms/op  7784467us/op-cpu [0ms - 1288ms]
+openfile10           9051ops      148ops/s   0.0mb/s      0.0ms/op  7788194us/op-cpu [0ms - 35ms]
+closefile9           9053ops      149ops/s   0.0mb/s      0.0ms/op  7783695us/op-cpu [0ms - 0ms]
+readfile9            9053ops      149ops/s   2.1mb/s      1.9ms/op  7782539us/op-cpu [0ms - 1088ms]
+openfile9            9060ops      149ops/s   0.0mb/s      0.0ms/op  7773335us/op-cpu [0ms - 119ms]
+closefile8           9067ops      149ops/s   0.0mb/s      0.0ms/op  7774027us/op-cpu [0ms - 0ms]
+readfile8            9069ops      149ops/s   2.2mb/s      2.9ms/op  7772650us/op-cpu [0ms - 1298ms]
+openfile8            9069ops      149ops/s   0.0mb/s      0.0ms/op  7769389us/op-cpu [0ms - 67ms]
+closefile7           9073ops      149ops/s   0.0mb/s      0.0ms/op  7769532us/op-cpu [0ms - 0ms]
+readfile7            9075ops      149ops/s   2.2mb/s      3.7ms/op  7768070us/op-cpu [0ms - 1329ms]
+openfile7            9076ops      149ops/s   0.0mb/s      0.0ms/op  7759715us/op-cpu [0ms - 25ms]
+closefile6           9081ops      149ops/s   0.0mb/s      0.0ms/op  7747214us/op-cpu [0ms - 0ms]
+readfile6            9082ops      149ops/s   2.2mb/s      3.6ms/op  7740236us/op-cpu [0ms - 1202ms]
+openfile6            9082ops      149ops/s   0.0mb/s      0.0ms/op  7733889us/op-cpu [0ms - 66ms]
+closefile5           9082ops      149ops/s   0.0mb/s      0.0ms/op  7732517us/op-cpu [0ms - 0ms]
+readfile5            9082ops      149ops/s   2.2mb/s      3.9ms/op  7732444us/op-cpu [0ms - 1233ms]
+openfile5            9087ops      149ops/s   0.0mb/s      0.0ms/op  7737490us/op-cpu [0ms - 18ms]
+closefile4           9088ops      149ops/s   0.0mb/s      0.0ms/op  7733432us/op-cpu [0ms - 0ms]
+readfile4            9089ops      149ops/s   2.2mb/s      5.8ms/op  7726322us/op-cpu [0ms - 1325ms]
+openfile4            9092ops      149ops/s   0.0mb/s      0.1ms/op  7718642us/op-cpu [0ms - 274ms]
+closefile3           9098ops      149ops/s   0.0mb/s      0.0ms/op  7716843us/op-cpu [0ms - 65ms]
+readfile3            9099ops      149ops/s   2.2mb/s      4.2ms/op  7715497us/op-cpu [0ms - 1389ms]
+openfile3            9101ops      149ops/s   0.0mb/s      0.1ms/op  7706826us/op-cpu [0ms - 274ms]
+closefile2           9102ops      149ops/s   0.0mb/s      0.0ms/op  7699222us/op-cpu [0ms - 0ms]
+readfile2            9103ops      149ops/s   2.2mb/s      3.7ms/op  7694635us/op-cpu [0ms - 1266ms]
+openfile2            9105ops      149ops/s   0.0mb/s      0.1ms/op  7691138us/op-cpu [0ms - 195ms]
+closefile1           9108ops      149ops/s   0.0mb/s      0.0ms/op  7690589us/op-cpu [0ms - 0ms]
+readfile1            9125ops      150ops/s   2.2mb/s      2.2ms/op  7701531us/op-cpu [0ms - 1068ms]
+openfile1            9142ops      150ops/s   0.0mb/s      0.9ms/op  7714632us/op-cpu [0ms - 223ms]
+ 8017: 65.457: IO Summary: 281624 ops, 4620.207 ops/s, (1490/150 r/w),  23.1mb/s,    199us cpu/op,   4.2ms latency
+ 8017: 65.457: Shutting down processes
+/fbsource/vm_scripts/runtest.sh: line 275:  8016 Killed                  $SCRIPTDIR/fbmonitor.sh $fbout $fbmon
+
+######################################################################
+### umount /fbtest
+######################################################################
+
+######################################################################
+### format and mount /dev/sdb1
+######################################################################
+mke2fs 1.41.11 (14-Mar-2010)
+Filesystem label=
+OS type: Linux
+Block size=4096 (log=2)
+Fragment size=4096 (log=2)
+Stride=0 blocks, Stripe width=0 blocks
+524288 inodes, 2096474 blocks
+104823 blocks (5.00%) reserved for the super user
+First data block=0
+Maximum filesystem blocks=2147483648
+64 block groups
+32768 blocks per group, 32768 fragments per group
+8192 inodes per group
+Superblock backups stored on blocks: 
+	32768, 98304, 163840, 229376, 294912, 819200, 884736, 1605632
+
+Writing inode tables:  0/64 1/64 2/64 3/64 4/64 5/64 6/64 7/64 8/64 9/6410/6411/6412/6413/6414/6415/6416/6417/6418/6419/6420/6421/6422/6423/6424/6425/6426/6427/6428/6429/6430/6431/6432/6433/6434/6435/6436/6437/6438/6439/6440/6441/6442/6443/6444/6445/6446/6447/6448/6449/6450/6451/6452/6453/6454/6455/6456/6457/6458/6459/6460/6461/6462/6463/64done                            
+Creating journal (32768 blocks): done
+Writing superblocks and filesystem accounting information: done
+
+This filesystem will be automatically checked every 37 mounts or
+180 days, whichever comes first.  Use tune2fs -c or -i to override.
+
+######################################################################
+### filebench workload file
+######################################################################
+load webserver
+set $dir=/fbtest
+create fileset
+system "sync"
+system "if [ -f /proc/sys/vm/drop_caches ]; then echo 3 > /proc/sys/vm/drop_caches; fi"
+create process
+stats clear
+sleep 10
+stats snap
+sleep 10
+stats snap
+sleep 10
+stats snap
+sleep 10
+stats snap
+sleep 10
+stats snap
+sleep 10
+stats snap
+shutdown process
+quit
+
+######################################################################
+### starting go_filebench webserver (2)
+######################################################################
+FileBench Version 1.4.8.fsl.0.8
+10768: 0.000: Allocated 126MB of shared memory
+10768: 0.001: Webserver Version 2.1 personality successfully loaded
+10768: 0.001: Creating/pre-allocating files and filesets
+10768: 0.015: Fileset logfiles: 1 files, 0 leafdirs, avg dir width = 20, avg dir depth = 0.0, 0.002MB
+10768: 0.051: Removed any existing fileset logfiles in 1 seconds
+10768: 0.051: making tree for filset /fbtest/logfiles
+10768: 0.074: Creating fileset logfiles...
+10768: 0.074: Preallocated 1 of 1 of fileset logfiles in 1 seconds
+10768: 0.075: Fileset bigfileset: 1000 files, 0 leafdirs, avg dir width = 20, avg dir depth = 2.3, 14.760MB
+10768: 0.076: Removed any existing fileset bigfileset in 1 seconds
+10768: 0.076: making tree for filset /fbtest/bigfileset
+10768: 0.077: Creating fileset bigfileset...
+10768: 0.127: Preallocated 1000 of 1000 of fileset bigfileset in 1 seconds
+10768: 0.127: waiting for fileset pre-allocation to finish
+10768: 0.127: Running 'sync'
+10768: 0.909: Running 'if [ -f /proc/sys/vm/drop_caches ]; then echo 3 > /proc/sys/vm/drop_caches; fi'
+10781: 0.921: Starting 1 filereader instances
+10782: 0.981: Starting 100 filereaderthread threads
+10768: 3.258: Running...
+10768: 13.302: Run took 10 seconds...
+10768: 13.591: Per-Operation Breakdown
+appendlog            1223ops      121ops/s   0.9mb/s     90.8ms/op     4285us/op-cpu [0ms - 3441ms]
+closefile10          1136ops      112ops/s   0.0mb/s      0.0ms/op     3266us/op-cpu [0ms - 0ms]
+readfile10           1137ops      112ops/s   1.6mb/s     28.8ms/op     3879us/op-cpu [0ms - 2509ms]
+openfile10           1144ops      113ops/s   0.0mb/s      0.0ms/op     3497us/op-cpu [0ms - 20ms]
+closefile9           1149ops      113ops/s   0.0mb/s      0.0ms/op     2759us/op-cpu [0ms - 0ms]
+readfile9            1156ops      114ops/s   1.6mb/s     37.1ms/op     4507us/op-cpu [0ms - 3004ms]
+openfile9            1158ops      114ops/s   0.0mb/s      0.1ms/op     3040us/op-cpu [0ms - 21ms]
+closefile8           1158ops      114ops/s   0.0mb/s      0.0ms/op     3739us/op-cpu [0ms - 0ms]
+readfile8            1159ops      114ops/s   1.6mb/s     24.5ms/op     3770us/op-cpu [0ms - 2204ms]
+openfile8            1159ops      114ops/s   0.0mb/s      0.1ms/op     2683us/op-cpu [0ms - 60ms]
+closefile7           1160ops      114ops/s   0.0mb/s      0.0ms/op     3026us/op-cpu [0ms - 0ms]
+readfile7            1164ops      115ops/s   1.7mb/s     17.2ms/op     4201us/op-cpu [0ms - 2988ms]
+openfile7            1165ops      115ops/s   0.0mb/s      0.0ms/op     3330us/op-cpu [0ms - 11ms]
+closefile6           1170ops      115ops/s   0.0mb/s      0.0ms/op     3103us/op-cpu [0ms - 0ms]
+readfile6            1172ops      116ops/s   1.7mb/s     10.2ms/op     4787us/op-cpu [0ms - 2017ms]
+openfile6            1173ops      116ops/s   0.0mb/s      0.1ms/op     2873us/op-cpu [0ms - 13ms]
+closefile5           1176ops      116ops/s   0.0mb/s      0.0ms/op     3206us/op-cpu [0ms - 0ms]
+readfile5            1176ops      116ops/s   1.7mb/s      8.8ms/op     4966us/op-cpu [0ms - 3166ms]
+openfile5            1177ops      116ops/s   0.0mb/s      0.1ms/op     3025us/op-cpu [0ms - 14ms]
+closefile4           1177ops      116ops/s   0.0mb/s      0.0ms/op     3662us/op-cpu [0ms - 0ms]
+readfile4            1178ops      116ops/s   1.8mb/s     12.1ms/op     4788us/op-cpu [0ms - 2943ms]
+openfile4            1179ops      116ops/s   0.0mb/s      0.2ms/op     3622us/op-cpu [0ms - 19ms]
+closefile3           1181ops      117ops/s   0.0mb/s      0.0ms/op     3311us/op-cpu [0ms - 0ms]
+readfile3            1187ops      117ops/s   1.7mb/s      9.6ms/op     4541us/op-cpu [0ms - 2930ms]
+openfile3            1187ops      117ops/s   0.0mb/s      0.3ms/op     3580us/op-cpu [0ms - 24ms]
+closefile2           1192ops      118ops/s   0.0mb/s      0.0ms/op     3331us/op-cpu [0ms - 0ms]
+readfile2            1195ops      118ops/s   1.7mb/s     58.5ms/op     5707us/op-cpu [0ms - 3180ms]
+openfile2            1196ops      118ops/s   0.0mb/s      0.3ms/op     3554us/op-cpu [0ms - 7ms]
+closefile1           1215ops      120ops/s   0.0mb/s      0.0ms/op     2346us/op-cpu [0ms - 0ms]
+readfile1            1218ops      120ops/s   1.8mb/s     30.5ms/op     4557us/op-cpu [0ms - 3047ms]
+openfile1            1221ops      120ops/s   0.0mb/s      1.2ms/op     3636us/op-cpu [0ms - 41ms]
+10768: 13.611: IO Summary: 36438 ops, 3595.401 ops/s, (1159/121 r/w),  18.0mb/s,    215us cpu/op,  30.3ms latency
+10768: 13.611: Running...
+10768: 23.612: Run took 10 seconds...
+10768: 23.796: Per-Operation Breakdown
+appendlog            3669ops      180ops/s   1.4mb/s     33.0ms/op  2236913us/op-cpu [0ms - 3441ms]
+closefile10          3571ops      175ops/s   0.0mb/s      0.0ms/op  2294582us/op-cpu [0ms - 0ms]
+readfile10           3572ops      175ops/s   2.7mb/s      9.2ms/op  2290710us/op-cpu [0ms - 2509ms]
+openfile10           3575ops      176ops/s   0.0mb/s      0.0ms/op  2288542us/op-cpu [0ms - 20ms]
+closefile9           3575ops      176ops/s   0.0mb/s      0.0ms/op  2285924us/op-cpu [0ms - 0ms]
+readfile9            3577ops      176ops/s   2.5mb/s     12.0ms/op  2285278us/op-cpu [0ms - 3004ms]
+openfile9            3578ops      176ops/s   0.0mb/s      0.0ms/op  2285303us/op-cpu [0ms - 21ms]
+closefile8           3579ops      176ops/s   0.0mb/s      0.0ms/op  2284963us/op-cpu [0ms - 0ms]
+readfile8            3585ops      176ops/s   2.5mb/s      8.0ms/op  2288232us/op-cpu [0ms - 2204ms]
+openfile8            3589ops      176ops/s   0.0mb/s      0.0ms/op  2288028us/op-cpu [0ms - 60ms]
+closefile7           3595ops      177ops/s   0.0mb/s      0.0ms/op  2291380us/op-cpu [0ms - 0ms]
+readfile7            3603ops      177ops/s   2.6mb/s      5.6ms/op  2291485us/op-cpu [0ms - 2988ms]
+openfile7            3608ops      177ops/s   0.0mb/s      0.0ms/op  2291443us/op-cpu [0ms - 11ms]
+closefile6           3613ops      177ops/s   0.0mb/s      0.0ms/op  2294188us/op-cpu [0ms - 0ms]
+readfile6            3614ops      178ops/s   2.6mb/s      3.3ms/op  2288109us/op-cpu [0ms - 2017ms]
+openfile6            3618ops      178ops/s   0.0mb/s      0.0ms/op  2282426us/op-cpu [0ms - 13ms]
+closefile5           3620ops      178ops/s   0.0mb/s      0.0ms/op  2268327us/op-cpu [0ms - 0ms]
+readfile5            3620ops      178ops/s   2.6mb/s      2.9ms/op  2261918us/op-cpu [0ms - 3166ms]
+openfile5            3627ops      178ops/s   0.0mb/s      0.0ms/op  2262864us/op-cpu [0ms - 14ms]
+closefile4           3632ops      178ops/s   0.0mb/s      0.0ms/op  2264490us/op-cpu [0ms - 0ms]
+readfile4            3633ops      178ops/s   2.6mb/s      3.9ms/op  2262226us/op-cpu [0ms - 2943ms]
+openfile4            3644ops      179ops/s   0.0mb/s      0.1ms/op  2267649us/op-cpu [0ms - 19ms]
+closefile3           3651ops      179ops/s   0.0mb/s      0.0ms/op  2271563us/op-cpu [0ms - 0ms]
+readfile3            3652ops      179ops/s   2.7mb/s      3.1ms/op  2254934us/op-cpu [0ms - 2930ms]
+openfile3            3654ops      180ops/s   0.0mb/s      0.1ms/op  2254691us/op-cpu [0ms - 24ms]
+closefile2           3656ops      180ops/s   0.0mb/s      0.0ms/op  2238994us/op-cpu [0ms - 0ms]
+readfile2            3657ops      180ops/s   2.7mb/s     19.1ms/op  2237951us/op-cpu [0ms - 3180ms]
+openfile2            3659ops      180ops/s   0.0mb/s      0.1ms/op  2233867us/op-cpu [0ms - 7ms]
+closefile1           3662ops      180ops/s   0.0mb/s      0.0ms/op  2235126us/op-cpu [0ms - 0ms]
+readfile1            3663ops      180ops/s   2.7mb/s     10.2ms/op  2235302us/op-cpu [0ms - 3047ms]
+openfile1            3668ops      180ops/s   0.0mb/s      0.4ms/op  2237524us/op-cpu [0ms - 41ms]
+10768: 23.796: IO Summary: 112219 ops, 5512.938 ops/s, (1777/180 r/w),  27.6mb/s,    211us cpu/op,  10.1ms latency
+10768: 23.796: Running...
+10768: 33.797: Run took 10 seconds...
+10768: 33.979: Per-Operation Breakdown
+appendlog            5789ops      190ops/s   1.5mb/s     23.8ms/op  4646199us/op-cpu [0ms - 3441ms]
+closefile10          5694ops      186ops/s   0.0mb/s      0.0ms/op  4719974us/op-cpu [0ms - 0ms]
+readfile10           5707ops      187ops/s   2.8mb/s      5.8ms/op  4729034us/op-cpu [0ms - 2509ms]
+openfile10           5709ops      187ops/s   0.0mb/s      0.0ms/op  4722050us/op-cpu [0ms - 151ms]
+closefile9           5712ops      187ops/s   0.0mb/s      0.0ms/op  4722415us/op-cpu [0ms - 0ms]
+readfile9            5712ops      187ops/s   2.7mb/s      7.5ms/op  4719821us/op-cpu [0ms - 3004ms]
+openfile9            5714ops      187ops/s   0.0mb/s      0.0ms/op  4715620us/op-cpu [0ms - 21ms]
+closefile8           5717ops      187ops/s   0.0mb/s      0.0ms/op  4716978us/op-cpu [0ms - 0ms]
+readfile8            5723ops      187ops/s   2.8mb/s      5.0ms/op  4722624us/op-cpu [0ms - 2204ms]
+openfile8            5726ops      187ops/s   0.0mb/s      0.0ms/op  4714693us/op-cpu [0ms - 60ms]
+closefile7           5727ops      188ops/s   0.0mb/s      0.0ms/op  4706478us/op-cpu [0ms - 0ms]
+readfile7            5727ops      188ops/s   2.8mb/s      3.5ms/op  4695437us/op-cpu [0ms - 2988ms]
+openfile7            5727ops      188ops/s   0.0mb/s      0.0ms/op  4682396us/op-cpu [0ms - 30ms]
+closefile6           5727ops      188ops/s   0.0mb/s      0.0ms/op  4677167us/op-cpu [0ms - 1ms]
+readfile6            5727ops      188ops/s   2.7mb/s      2.1ms/op  4671473us/op-cpu [0ms - 2017ms]
+openfile6            5727ops      188ops/s   0.0mb/s      0.0ms/op  4664095us/op-cpu [0ms - 13ms]
+closefile5           5727ops      188ops/s   0.0mb/s      0.0ms/op  4649358us/op-cpu [0ms - 0ms]
+readfile5            5727ops      188ops/s   2.7mb/s      1.8ms/op  4638503us/op-cpu [0ms - 3166ms]
+openfile5            5727ops      188ops/s   0.0mb/s      0.0ms/op  4635165us/op-cpu [0ms - 30ms]
+closefile4           5728ops      188ops/s   0.0mb/s      0.0ms/op  4631461us/op-cpu [0ms - 0ms]
+readfile4            5750ops      188ops/s   2.8mb/s      2.5ms/op  4653727us/op-cpu [0ms - 2943ms]
+openfile4            5756ops      188ops/s   0.0mb/s      0.1ms/op  4658158us/op-cpu [0ms - 151ms]
+closefile3           5758ops      189ops/s   0.0mb/s      0.0ms/op  4655743us/op-cpu [0ms - 0ms]
+readfile3            5761ops      189ops/s   2.8mb/s      2.0ms/op  4643888us/op-cpu [0ms - 2930ms]
+openfile3            5764ops      189ops/s   0.0mb/s      0.1ms/op  4645896us/op-cpu [0ms - 24ms]
+closefile2           5767ops      189ops/s   0.0mb/s      0.0ms/op  4637267us/op-cpu [0ms - 0ms]
+readfile2            5770ops      189ops/s   2.8mb/s     12.2ms/op  4639139us/op-cpu [0ms - 3180ms]
+openfile2            5772ops      189ops/s   0.0mb/s      0.1ms/op  4637273us/op-cpu [0ms - 7ms]
+closefile1           5774ops      189ops/s   0.0mb/s      0.0ms/op  4639765us/op-cpu [0ms - 0ms]
+readfile1            5779ops      189ops/s   2.8mb/s      6.5ms/op  4643591us/op-cpu [0ms - 3047ms]
+openfile1            5781ops      189ops/s   0.0mb/s      0.3ms/op  4638668us/op-cpu [0ms - 41ms]
+10768: 33.980: IO Summary: 177906 ops, 5825.202 ops/s, (1879/190 r/w),  29.2mb/s,    210us cpu/op,   6.7ms latency
+10768: 33.980: Running...
+10768: 43.981: Run took 10 seconds...
+10768: 44.164: Per-Operation Breakdown
+appendlog            7869ops      193ops/s   1.5mb/s     23.8ms/op  6978045us/op-cpu [0ms - 3441ms]
+closefile10          7769ops      191ops/s   0.0mb/s      0.0ms/op  7054221us/op-cpu [0ms - 0ms]
+readfile10           7769ops      191ops/s   2.8mb/s      4.2ms/op  7043860us/op-cpu [0ms - 2509ms]
+openfile10           7769ops      191ops/s   0.0mb/s      0.0ms/op  7027841us/op-cpu [0ms - 151ms]
+closefile9           7769ops      191ops/s   0.0mb/s      0.0ms/op  7022668us/op-cpu [0ms - 0ms]
+readfile9            7769ops      191ops/s   2.7mb/s      5.5ms/op  7020262us/op-cpu [0ms - 3004ms]
+openfile9            7769ops      191ops/s   0.0mb/s      0.0ms/op  7013379us/op-cpu [0ms - 21ms]
+closefile8           7769ops      191ops/s   0.0mb/s      0.0ms/op  7007414us/op-cpu [0ms - 0ms]
+readfile8            7769ops      191ops/s   2.8mb/s      3.7ms/op  7004162us/op-cpu [0ms - 2204ms]
+openfile8            7769ops      191ops/s   0.0mb/s      0.0ms/op  6992365us/op-cpu [0ms - 60ms]
+closefile7           7770ops      191ops/s   0.0mb/s      0.0ms/op  6985938us/op-cpu [0ms - 0ms]
+readfile7            7771ops      191ops/s   2.8mb/s      2.6ms/op  6978639us/op-cpu [0ms - 2988ms]
+openfile7            7771ops      191ops/s   0.0mb/s      0.0ms/op  6968443us/op-cpu [0ms - 30ms]
+closefile6           7771ops      191ops/s   0.0mb/s      0.0ms/op  6964057us/op-cpu [0ms - 1ms]
+readfile6            7771ops      191ops/s   2.8mb/s      1.6ms/op  6959403us/op-cpu [0ms - 2017ms]
+openfile6            7771ops      191ops/s   0.0mb/s      0.0ms/op  6953314us/op-cpu [0ms - 13ms]
+closefile5           7771ops      191ops/s   0.0mb/s      0.0ms/op  6941401us/op-cpu [0ms - 0ms]
+readfile5            7771ops      191ops/s   2.8mb/s      1.4ms/op  6932924us/op-cpu [0ms - 3166ms]
+openfile5            7772ops      191ops/s   0.0mb/s      0.0ms/op  6930051us/op-cpu [0ms - 30ms]
+closefile4           7776ops      191ops/s   0.0mb/s      0.0ms/op  6926006us/op-cpu [0ms - 0ms]
+readfile4            7784ops      191ops/s   2.8mb/s      1.8ms/op  6926253us/op-cpu [0ms - 2943ms]
+openfile4            7796ops      191ops/s   0.0mb/s      0.1ms/op  6937963us/op-cpu [0ms - 151ms]
+closefile3           7811ops      192ops/s   0.0mb/s      0.0ms/op  6952702us/op-cpu [0ms - 0ms]
+readfile3            7817ops      192ops/s   2.9mb/s      1.5ms/op  6946927us/op-cpu [0ms - 2930ms]
+openfile3            7835ops      192ops/s   0.0mb/s      0.1ms/op  6968771us/op-cpu [0ms - 24ms]
+closefile2           7850ops      193ops/s   0.0mb/s      0.0ms/op  6977670us/op-cpu [0ms - 0ms]
+readfile2            7869ops      193ops/s   2.9mb/s      8.9ms/op  6998448us/op-cpu [0ms - 3180ms]
+openfile2            7869ops      193ops/s   0.0mb/s      0.0ms/op  6993846us/op-cpu [0ms - 7ms]
+closefile1           7869ops      193ops/s   0.0mb/s      0.0ms/op  6993653us/op-cpu [0ms - 0ms]
+readfile1            7869ops      193ops/s   2.9mb/s      4.8ms/op  6990521us/op-cpu [0ms - 3047ms]
+openfile1            7869ops      193ops/s   0.0mb/s      0.2ms/op  6981098us/op-cpu [0ms - 41ms]
+10768: 44.164: IO Summary: 241743 ops, 5935.990 ops/s, (1914/193 r/w),  29.8mb/s,    211us cpu/op,   5.5ms latency
+10768: 44.164: Running...
+10768: 54.165: Run took 10 seconds...
+10768: 54.348: Per-Operation Breakdown
+appendlog            9858ops      194ops/s   1.5mb/s     23.3ms/op  9133063us/op-cpu [0ms - 3441ms]
+closefile10          9761ops      192ops/s   0.0mb/s      0.0ms/op  9218063us/op-cpu [0ms - 0ms]
+readfile10           9764ops      192ops/s   2.8mb/s      3.4ms/op  9207961us/op-cpu [0ms - 2509ms]
+openfile10           9772ops      192ops/s   0.0mb/s      0.0ms/op  9204857us/op-cpu [0ms - 151ms]
+closefile9           9776ops      192ops/s   0.0mb/s      0.0ms/op  9205626us/op-cpu [0ms - 0ms]
+readfile9            9794ops      192ops/s   2.7mb/s      4.4ms/op  9226426us/op-cpu [0ms - 3004ms]
+openfile9            9796ops      192ops/s   0.0mb/s      0.0ms/op  9223025us/op-cpu [0ms - 21ms]
+closefile8           9798ops      192ops/s   0.0mb/s      0.0ms/op  9220336us/op-cpu [0ms - 0ms]
+readfile8            9800ops      192ops/s   2.8mb/s      2.9ms/op  9219813us/op-cpu [0ms - 2204ms]
+openfile8            9802ops      193ops/s   0.0mb/s      0.0ms/op  9210345us/op-cpu [0ms - 60ms]
+closefile7           9813ops      193ops/s   0.0mb/s      0.0ms/op  9215749us/op-cpu [0ms - 0ms]
+readfile7            9822ops      193ops/s   2.8mb/s      2.1ms/op  9217527us/op-cpu [0ms - 2988ms]
+openfile7            9826ops      193ops/s   0.0mb/s      0.0ms/op  9208368us/op-cpu [0ms - 30ms]
+closefile6           9826ops      193ops/s   0.0mb/s      0.0ms/op  9201788us/op-cpu [0ms - 1ms]
+readfile6            9826ops      193ops/s   2.8mb/s      1.2ms/op  9195478us/op-cpu [0ms - 2017ms]
+openfile6            9826ops      193ops/s   0.0mb/s      0.0ms/op  9181076us/op-cpu [0ms - 13ms]
+closefile5           9826ops      193ops/s   0.0mb/s      0.0ms/op  9170763us/op-cpu [0ms - 0ms]
+readfile5            9826ops      193ops/s   2.8mb/s      1.1ms/op  9164197us/op-cpu [0ms - 3166ms]
+openfile5            9826ops      193ops/s   0.0mb/s      0.0ms/op  9160716us/op-cpu [0ms - 30ms]
+closefile4           9826ops      193ops/s   0.0mb/s      0.0ms/op  9153424us/op-cpu [0ms - 0ms]
+readfile4            9827ops      193ops/s   2.8mb/s      1.5ms/op  9146466us/op-cpu [0ms - 2943ms]
+openfile4            9830ops      193ops/s   0.0mb/s      0.0ms/op  9146956us/op-cpu [0ms - 151ms]
+closefile3           9831ops      193ops/s   0.0mb/s      0.0ms/op  9144317us/op-cpu [0ms - 0ms]
+readfile3            9839ops      193ops/s   2.9mb/s      1.2ms/op  9143510us/op-cpu [0ms - 2930ms]
+openfile3            9841ops      193ops/s   0.0mb/s      0.0ms/op  9144749us/op-cpu [0ms - 24ms]
+closefile2           9853ops      194ops/s   0.0mb/s      0.0ms/op  9151345us/op-cpu [0ms - 0ms]
+readfile2            9853ops      194ops/s   2.9mb/s      7.1ms/op  9148209us/op-cpu [0ms - 3180ms]
+openfile2            9854ops      194ops/s   0.0mb/s      0.0ms/op  9145738us/op-cpu [0ms - 7ms]
+closefile1           9855ops      194ops/s   0.0mb/s      0.0ms/op  9146564us/op-cpu [0ms - 0ms]
+readfile1            9856ops      194ops/s   2.9mb/s      3.8ms/op  9143904us/op-cpu [0ms - 3047ms]
+openfile1            9856ops      194ops/s   0.0mb/s      0.2ms/op  9135852us/op-cpu [0ms - 41ms]
+10768: 54.348: IO Summary: 304459 ops, 5980.432 ops/s, (1929/194 r/w),  30.0mb/s,    208us cpu/op,   4.8ms latency
+10768: 54.348: Running...
+10768: 64.349: Run took 10 seconds...
+10768: 64.531: Per-Operation Breakdown
+appendlog            11560ops      189ops/s   1.5mb/s     21.5ms/op 10951047us/op-cpu [0ms - 3441ms]
+closefile10          11463ops      188ops/s   0.0mb/s      0.0ms/op 11038434us/op-cpu [0ms - 0ms]
+readfile10           11464ops      188ops/s   2.8mb/s      2.9ms/op 11027599us/op-cpu [0ms - 2509ms]
+openfile10           11466ops      188ops/s   0.0mb/s      0.0ms/op 11018143us/op-cpu [0ms - 151ms]
+closefile9           11472ops      188ops/s   0.0mb/s      0.0ms/op 11021839us/op-cpu [0ms - 0ms]
+readfile9            11474ops      188ops/s   2.7mb/s      3.8ms/op 11020338us/op-cpu [0ms - 3004ms]
+openfile9            11479ops      188ops/s   0.0mb/s      0.0ms/op 11019823us/op-cpu [0ms - 21ms]
+closefile8           11487ops      188ops/s   0.0mb/s      0.0ms/op 11022685us/op-cpu [0ms - 0ms]
+readfile8            11488ops      188ops/s   2.7mb/s      2.5ms/op 11021036us/op-cpu [0ms - 2204ms]
+openfile8            11497ops      188ops/s   0.0mb/s      0.0ms/op 11020867us/op-cpu [0ms - 60ms]
+closefile7           11503ops      188ops/s   0.0mb/s      0.0ms/op 11021109us/op-cpu [0ms - 0ms]
+readfile7            11514ops      188ops/s   2.8mb/s      1.8ms/op 11019270us/op-cpu [0ms - 2988ms]
+openfile7            11516ops      188ops/s   0.0mb/s      0.0ms/op 11009070us/op-cpu [0ms - 30ms]
+closefile6           11516ops      188ops/s   0.0mb/s      0.0ms/op 11003417us/op-cpu [0ms - 1ms]
+readfile6            11517ops      189ops/s   2.7mb/s      1.1ms/op 10998886us/op-cpu [0ms - 2017ms]
+openfile6            11520ops      189ops/s   0.0mb/s      0.0ms/op 10989370us/op-cpu [0ms - 13ms]
+closefile5           11526ops      189ops/s   0.0mb/s      0.0ms/op 10985999us/op-cpu [0ms - 0ms]
+readfile5            11528ops      189ops/s   2.8mb/s      0.9ms/op 10982216us/op-cpu [0ms - 3166ms]
+openfile5            11537ops      189ops/s   0.0mb/s      0.0ms/op 10987520us/op-cpu [0ms - 30ms]
+closefile4           11541ops      189ops/s   0.0mb/s      0.0ms/op 10984867us/op-cpu [0ms - 0ms]
+readfile4            11553ops      189ops/s   2.8mb/s      1.3ms/op 10988854us/op-cpu [0ms - 2943ms]
+openfile4            11554ops      189ops/s   0.0mb/s      0.0ms/op 10986973us/op-cpu [0ms - 151ms]
+closefile3           11556ops      189ops/s   0.0mb/s      0.0ms/op 10985463us/op-cpu [0ms - 0ms]
+readfile3            11556ops      189ops/s   2.8mb/s      1.0ms/op 10976188us/op-cpu [0ms - 2930ms]
+openfile3            11556ops      189ops/s   0.0mb/s      0.0ms/op 10975128us/op-cpu [0ms - 24ms]
+closefile2           11556ops      189ops/s   0.0mb/s      0.0ms/op 10967962us/op-cpu [0ms - 0ms]
+readfile2            11556ops      189ops/s   2.8mb/s      6.1ms/op 10965237us/op-cpu [0ms - 3180ms]
+openfile2            11557ops      189ops/s   0.0mb/s      0.0ms/op 10963016us/op-cpu [0ms - 7ms]
+closefile1           11557ops      189ops/s   0.0mb/s      0.0ms/op 10962645us/op-cpu [0ms - 0ms]
+readfile1            11559ops      189ops/s   2.8mb/s      3.3ms/op 10961167us/op-cpu [0ms - 3047ms]
+openfile1            11559ops      189ops/s   0.0mb/s      0.1ms/op 10954248us/op-cpu [0ms - 41ms]
+10768: 64.531: IO Summary: 357187 ops, 5846.600 ops/s, (1886/189 r/w),  29.3mb/s,    209us cpu/op,   4.2ms latency
+10768: 64.531: Shutting down processes
+/fbsource/vm_scripts/runtest.sh: line 275: 10767 Killed                  $SCRIPTDIR/fbmonitor.sh $fbout $fbmon
+
+######################################################################
+### umount /fbtest
+######################################################################
+
+######################################################################
+### format and mount /dev/sdb1
+######################################################################
+mke2fs 1.41.11 (14-Mar-2010)
+Filesystem label=
+OS type: Linux
+Block size=4096 (log=2)
+Fragment size=4096 (log=2)
+Stride=0 blocks, Stripe width=0 blocks
+524288 inodes, 2096474 blocks
+104823 blocks (5.00%) reserved for the super user
+First data block=0
+Maximum filesystem blocks=2147483648
+64 block groups
+32768 blocks per group, 32768 fragments per group
+8192 inodes per group
+Superblock backups stored on blocks: 
+	32768, 98304, 163840, 229376, 294912, 819200, 884736, 1605632
+
+Writing inode tables:  0/64 1/64 2/64 3/64 4/64 5/64 6/64 7/64 8/64 9/6410/6411/6412/6413/6414/6415/6416/6417/6418/6419/6420/6421/6422/6423/6424/6425/6426/6427/6428/6429/6430/6431/6432/6433/6434/6435/6436/6437/6438/6439/6440/6441/6442/6443/6444/6445/6446/6447/6448/6449/6450/6451/6452/6453/6454/6455/6456/6457/6458/6459/6460/6461/6462/6463/64done                            
+Creating journal (32768 blocks): done
+Writing superblocks and filesystem accounting information: done
+
+This filesystem will be automatically checked every 25 mounts or
+180 days, whichever comes first.  Use tune2fs -c or -i to override.
+
+######################################################################
+### filebench workload file
+######################################################################
+load webserver
+set $dir=/fbtest
+create fileset
+system "sync"
+system "if [ -f /proc/sys/vm/drop_caches ]; then echo 3 > /proc/sys/vm/drop_caches; fi"
+create process
+stats clear
+sleep 10
+stats snap
+sleep 10
+stats snap
+sleep 10
+stats snap
+sleep 10
+stats snap
+sleep 10
+stats snap
+sleep 10
+stats snap
+shutdown process
+quit
+
+######################################################################
+### starting go_filebench webserver (3)
+######################################################################
+FileBench Version 1.4.8.fsl.0.8
+13519: 0.000: Allocated 126MB of shared memory
+13519: 0.001: Webserver Version 2.1 personality successfully loaded
+13519: 0.001: Creating/pre-allocating files and filesets
+13519: 0.003: Fileset logfiles: 1 files, 0 leafdirs, avg dir width = 20, avg dir depth = 0.0, 0.002MB
+13519: 0.006: Removed any existing fileset logfiles in 1 seconds
+13519: 0.006: making tree for filset /fbtest/logfiles
+13519: 0.007: Creating fileset logfiles...
+13519: 0.007: Preallocated 1 of 1 of fileset logfiles in 1 seconds
+13519: 0.008: Fileset bigfileset: 1000 files, 0 leafdirs, avg dir width = 20, avg dir depth = 2.3, 14.760MB
+13519: 0.009: Removed any existing fileset bigfileset in 1 seconds
+13519: 0.009: making tree for filset /fbtest/bigfileset
+13519: 0.024: Creating fileset bigfileset...
+13519: 0.078: Preallocated 1000 of 1000 of fileset bigfileset in 1 seconds
+13519: 0.078: waiting for fileset pre-allocation to finish
+13519: 0.078: Running 'sync'
+13519: 0.651: Running 'if [ -f /proc/sys/vm/drop_caches ]; then echo 3 > /proc/sys/vm/drop_caches; fi'
+13532: 0.662: Starting 1 filereader instances
+13533: 0.715: Starting 100 filereaderthread threads
+13519: 2.949: Running...
+13519: 12.951: Run took 10 seconds...
+13519: 13.172: Per-Operation Breakdown
+appendlog            1467ops      147ops/s   1.0mb/s      3.8ms/op     4383us/op-cpu [0ms - 775ms]
+closefile10          1370ops      137ops/s   0.0mb/s      0.0ms/op     3555us/op-cpu [0ms - 0ms]
+readfile10           1370ops      137ops/s   2.0mb/s      9.0ms/op     4511us/op-cpu [0ms - 911ms]
+openfile10           1373ops      137ops/s   0.0mb/s      0.0ms/op     3496us/op-cpu [0ms - 10ms]
+closefile9           1382ops      138ops/s   0.0mb/s      0.0ms/op     3220us/op-cpu [0ms - 0ms]
+readfile9            1383ops      138ops/s   2.1mb/s     12.8ms/op     4678us/op-cpu [0ms - 1265ms]
+openfile9            1391ops      139ops/s   0.0mb/s      0.0ms/op     3494us/op-cpu [0ms - 3ms]
+closefile8           1395ops      139ops/s   0.0mb/s      0.0ms/op     3061us/op-cpu [0ms - 0ms]
+readfile8            1399ops      140ops/s   2.0mb/s     19.8ms/op     4796us/op-cpu [0ms - 1538ms]
+openfile8            1401ops      140ops/s   0.0mb/s      0.0ms/op     3455us/op-cpu [0ms - 10ms]
+closefile7           1401ops      140ops/s   0.0mb/s      0.0ms/op     3440us/op-cpu [0ms - 0ms]
+readfile7            1410ops      141ops/s   2.1mb/s     28.3ms/op     5078us/op-cpu [0ms - 1592ms]
+openfile7            1411ops      141ops/s   0.0mb/s      0.0ms/op     3536us/op-cpu [0ms - 4ms]
+closefile6           1416ops      142ops/s   0.0mb/s      0.0ms/op     3256us/op-cpu [0ms - 0ms]
+readfile6            1417ops      142ops/s   2.0mb/s     43.6ms/op     5229us/op-cpu [0ms - 1894ms]
+openfile6            1421ops      142ops/s   0.0mb/s      0.0ms/op     3315us/op-cpu [0ms - 7ms]
+closefile5           1427ops      143ops/s   0.0mb/s      0.0ms/op     3238us/op-cpu [0ms - 0ms]
+readfile5            1429ops      143ops/s   2.0mb/s     49.6ms/op     4689us/op-cpu [0ms - 1996ms]
+openfile5            1431ops      143ops/s   0.0mb/s      0.0ms/op     3166us/op-cpu [0ms - 9ms]
+closefile4           1433ops      143ops/s   0.0mb/s      0.0ms/op     3398us/op-cpu [0ms - 0ms]
+readfile4            1436ops      144ops/s   2.1mb/s     61.9ms/op     4728us/op-cpu [0ms - 2121ms]
+openfile4            1445ops      144ops/s   0.0mb/s      0.1ms/op     3363us/op-cpu [0ms - 28ms]
+closefile3           1446ops      145ops/s   0.0mb/s      0.0ms/op     3243us/op-cpu [0ms - 0ms]
+readfile3            1451ops      145ops/s   2.2mb/s     39.3ms/op     4487us/op-cpu [0ms - 2351ms]
+openfile3            1453ops      145ops/s   0.0mb/s      1.0ms/op     3744us/op-cpu [0ms - 77ms]
+closefile2           1454ops      145ops/s   0.0mb/s      0.0ms/op     3116us/op-cpu [0ms - 0ms]
+readfile2            1460ops      146ops/s   2.1mb/s     17.3ms/op     4664us/op-cpu [0ms - 1958ms]
+openfile2            1461ops      146ops/s   0.0mb/s      2.7ms/op     3977us/op-cpu [0ms - 77ms]
+closefile1           1461ops      146ops/s   0.0mb/s      0.0ms/op     3539us/op-cpu [0ms - 0ms]
+readfile1            1463ops      146ops/s   2.0mb/s      8.5ms/op     4265us/op-cpu [0ms - 1031ms]
+openfile1            1466ops      147ops/s   0.0mb/s      8.4ms/op     3083us/op-cpu [0ms - 158ms]
+13519: 13.172: IO Summary: 44123 ops, 4411.240 ops/s, (1421/147 r/w),  22.0mb/s,    214us cpu/op,  27.9ms latency
+13519: 13.172: Running...
+13519: 23.173: Run took 10 seconds...
+13519: 23.355: Per-Operation Breakdown
+appendlog            3959ops      196ops/s   1.5mb/s      8.8ms/op  2795681us/op-cpu [0ms - 775ms]
+closefile10          3861ops      191ops/s   0.0mb/s      0.0ms/op  2864405us/op-cpu [0ms - 1ms]
+readfile10           3863ops      191ops/s   2.8mb/s      3.2ms/op  2865596us/op-cpu [0ms - 911ms]
+openfile10           3864ops      191ops/s   0.0mb/s      0.0ms/op  2866953us/op-cpu [0ms - 10ms]
+closefile9           3865ops      191ops/s   0.0mb/s      0.0ms/op  2853460us/op-cpu [0ms - 1ms]
+readfile9            3867ops      191ops/s   2.7mb/s      4.6ms/op  2853625us/op-cpu [0ms - 1265ms]
+openfile9            3867ops      191ops/s   0.0mb/s      0.0ms/op  2852599us/op-cpu [0ms - 3ms]
+closefile8           3867ops      191ops/s   0.0mb/s      0.0ms/op  2843254us/op-cpu [0ms - 1ms]
+readfile8            3868ops      191ops/s   2.8mb/s      7.2ms/op  2845535us/op-cpu [0ms - 1538ms]
+openfile8            3868ops      191ops/s   0.0mb/s      0.0ms/op  2844879us/op-cpu [0ms - 12ms]
+closefile7           3870ops      191ops/s   0.0mb/s      0.0ms/op  2843398us/op-cpu [0ms - 1ms]
+readfile7            3871ops      191ops/s   2.8mb/s     10.3ms/op  2830243us/op-cpu [0ms - 1592ms]
+openfile7            3871ops      191ops/s   0.0mb/s      0.0ms/op  2817217us/op-cpu [0ms - 4ms]
+closefile6           3871ops      191ops/s   0.0mb/s      0.0ms/op  2811424us/op-cpu [0ms - 0ms]
+readfile6            3871ops      191ops/s   2.8mb/s     16.0ms/op  2807554us/op-cpu [0ms - 1894ms]
+openfile6            3871ops      191ops/s   0.0mb/s      0.0ms/op  2779297us/op-cpu [0ms - 7ms]
+closefile5           3871ops      191ops/s   0.0mb/s      0.0ms/op  2763882us/op-cpu [0ms - 0ms]
+readfile5            3871ops      191ops/s   2.7mb/s     18.3ms/op  2758921us/op-cpu [0ms - 1996ms]
+openfile5            3871ops      191ops/s   0.0mb/s      0.0ms/op  2751618us/op-cpu [0ms - 9ms]
+closefile4           3871ops      191ops/s   0.0mb/s      0.0ms/op  2722729us/op-cpu [0ms - 0ms]
+readfile4            3871ops      191ops/s   2.8mb/s     23.0ms/op  2701035us/op-cpu [0ms - 2121ms]
+openfile4            3883ops      192ops/s   0.0mb/s      0.0ms/op  2715576us/op-cpu [0ms - 28ms]
+closefile3           3884ops      192ops/s   0.0mb/s      0.0ms/op  2714776us/op-cpu [0ms - 0ms]
+readfile3            3885ops      192ops/s   2.9mb/s     14.7ms/op  2710219us/op-cpu [0ms - 2351ms]
+openfile3            3891ops      192ops/s   0.0mb/s      0.4ms/op  2715457us/op-cpu [0ms - 77ms]
+closefile2           3905ops      193ops/s   0.0mb/s      0.0ms/op  2724166us/op-cpu [0ms - 0ms]
+readfile2            3917ops      194ops/s   2.9mb/s      6.5ms/op  2742747us/op-cpu [0ms - 1958ms]
+openfile2            3917ops      194ops/s   0.0mb/s      1.0ms/op  2740554us/op-cpu [0ms - 77ms]
+closefile1           3919ops      194ops/s   0.0mb/s      0.0ms/op  2741286us/op-cpu [0ms - 0ms]
+readfile1            3922ops      194ops/s   3.0mb/s      3.2ms/op  2745849us/op-cpu [0ms - 1031ms]
+openfile1            3940ops      195ops/s   0.0mb/s      3.1ms/op  2766457us/op-cpu [0ms - 158ms]
+13519: 23.355: IO Summary: 120392 ops, 5952.846 ops/s, (1919/196 r/w),  29.8mb/s,    209us cpu/op,  11.0ms latency
+13519: 23.355: Running...
+13519: 33.356: Run took 10 seconds...
+13519: 33.541: Per-Operation Breakdown
+appendlog            6173ops      203ops/s   1.5mb/s     12.9ms/op  5180287us/op-cpu [0ms - 775ms]
+closefile10          6073ops      200ops/s   0.0mb/s      0.0ms/op  5254413us/op-cpu [0ms - 1ms]
+readfile10           6077ops      200ops/s   2.9mb/s      2.0ms/op  5253454us/op-cpu [0ms - 911ms]
+openfile10           6077ops      200ops/s   0.0mb/s      0.0ms/op  5247706us/op-cpu [0ms - 10ms]
+closefile9           6078ops      200ops/s   0.0mb/s      0.0ms/op  5236462us/op-cpu [0ms - 1ms]
+readfile9            6078ops      200ops/s   2.8mb/s      3.0ms/op  5234818us/op-cpu [0ms - 1265ms]
+openfile9            6085ops      200ops/s   0.0mb/s      0.0ms/op  5242926us/op-cpu [0ms - 3ms]
+closefile8           6086ops      200ops/s   0.0mb/s      0.0ms/op  5236873us/op-cpu [0ms - 1ms]
+readfile8            6095ops      200ops/s   2.9mb/s      4.6ms/op  5247372us/op-cpu [0ms - 1538ms]
+openfile8            6101ops      201ops/s   0.0mb/s      0.0ms/op  5252951us/op-cpu [0ms - 12ms]
+closefile7           6104ops      201ops/s   0.0mb/s      0.0ms/op  5252444us/op-cpu [0ms - 1ms]
+readfile7            6124ops      201ops/s   2.9mb/s      6.5ms/op  5268276us/op-cpu [0ms - 1592ms]
+openfile7            6131ops      202ops/s   0.0mb/s      0.0ms/op  5268446us/op-cpu [0ms - 4ms]
+closefile6           6131ops      202ops/s   0.0mb/s      0.0ms/op  5264909us/op-cpu [0ms - 0ms]
+readfile6            6133ops      202ops/s   3.0mb/s     10.1ms/op  5265015us/op-cpu [0ms - 1894ms]
+openfile6            6143ops      202ops/s   0.0mb/s      0.0ms/op  5259506us/op-cpu [0ms - 7ms]
+closefile5           6147ops      202ops/s   0.0mb/s      0.0ms/op  5253269us/op-cpu [0ms - 0ms]
+readfile5            6151ops      202ops/s   2.9mb/s     11.6ms/op  5255301us/op-cpu [0ms - 1996ms]
+openfile5            6154ops      202ops/s   0.0mb/s      0.0ms/op  5254388us/op-cpu [0ms - 9ms]
+closefile4           6158ops      203ops/s   0.0mb/s      0.0ms/op  5241371us/op-cpu [0ms - 0ms]
+readfile4            6160ops      203ops/s   3.0mb/s     14.4ms/op  5227304us/op-cpu [0ms - 2121ms]
+openfile4            6161ops      203ops/s   0.0mb/s      0.0ms/op  5226050us/op-cpu [0ms - 28ms]
+closefile3           6163ops      203ops/s   0.0mb/s      0.0ms/op  5223111us/op-cpu [0ms - 0ms]
+readfile3            6166ops      203ops/s   3.0mb/s      9.3ms/op  5222349us/op-cpu [0ms - 2351ms]
+openfile3            6169ops      203ops/s   0.0mb/s      0.2ms/op  5222149us/op-cpu [0ms - 77ms]
+closefile2           6170ops      203ops/s   0.0mb/s      0.0ms/op  5209300us/op-cpu [0ms - 0ms]
+readfile2            6171ops      203ops/s   3.1mb/s      4.1ms/op  5208903us/op-cpu [0ms - 1958ms]
+openfile2            6171ops      203ops/s   0.0mb/s      0.6ms/op  5203217us/op-cpu [0ms - 77ms]
+closefile1           6171ops      203ops/s   0.0mb/s      0.0ms/op  5186704us/op-cpu [0ms - 0ms]
+readfile1            6171ops      203ops/s   3.2mb/s      2.1ms/op  5182238us/op-cpu [0ms - 1031ms]
+openfile1            6173ops      203ops/s   0.0mb/s      2.0ms/op  5180272us/op-cpu [0ms - 158ms]
+13519: 33.553: IO Summary: 190145 ops, 6253.243 ops/s, (2017/203 r/w),  31.3mb/s,    206us cpu/op,   7.6ms latency
+13519: 33.553: Running...
+13519: 43.553: Run took 10 seconds...
+13519: 43.741: Per-Operation Breakdown
+appendlog            7555ops      186ops/s   1.4mb/s     16.6ms/op  6591097us/op-cpu [0ms - 775ms]
+closefile10          7464ops      184ops/s   0.0mb/s      0.0ms/op  6677045us/op-cpu [0ms - 1ms]
+readfile10           7465ops      184ops/s   2.7mb/s      1.7ms/op  6672931us/op-cpu [0ms - 911ms]
+openfile10           7468ops      184ops/s   0.0mb/s      0.0ms/op  6670860us/op-cpu [0ms - 10ms]
+closefile9           7469ops      184ops/s   0.0mb/s      0.0ms/op  6661456us/op-cpu [0ms - 1ms]
+readfile9            7472ops      184ops/s   2.6mb/s      2.5ms/op  6662616us/op-cpu [0ms - 1265ms]
+openfile9            7472ops      184ops/s   0.0mb/s      0.0ms/op  6662107us/op-cpu [0ms - 3ms]
+closefile8           7473ops      184ops/s   0.0mb/s      0.0ms/op  6656947us/op-cpu [0ms - 1ms]
+readfile8            7475ops      184ops/s   2.6mb/s      3.7ms/op  6658008us/op-cpu [0ms - 1538ms]
+openfile8            7475ops      184ops/s   0.0mb/s      0.0ms/op  6656410us/op-cpu [0ms - 12ms]
+closefile7           7476ops      184ops/s   0.0mb/s      0.0ms/op  6653766us/op-cpu [0ms - 1ms]
+readfile7            7476ops      184ops/s   2.6mb/s      5.4ms/op  6646343us/op-cpu [0ms - 1592ms]
+openfile7            7476ops      184ops/s   0.0mb/s      0.0ms/op  6639338us/op-cpu [0ms - 4ms]
+closefile6           7476ops      184ops/s   0.0mb/s      0.0ms/op  6636508us/op-cpu [0ms - 0ms]
+readfile6            7476ops      184ops/s   2.7mb/s      8.3ms/op  6634451us/op-cpu [0ms - 1894ms]
+openfile6            7476ops      184ops/s   0.0mb/s      0.0ms/op  6619735us/op-cpu [0ms - 7ms]
+closefile5           7476ops      184ops/s   0.0mb/s      0.0ms/op  6610595us/op-cpu [0ms - 0ms]
+readfile5            7476ops      184ops/s   2.7mb/s      9.5ms/op  6608169us/op-cpu [0ms - 1996ms]
+openfile5            7481ops      184ops/s   0.0mb/s      0.0ms/op  6608525us/op-cpu [0ms - 9ms]
+closefile4           7488ops      184ops/s   0.0mb/s      0.0ms/op  6599655us/op-cpu [0ms - 46ms]
+readfile4            7491ops      184ops/s   2.7mb/s     11.9ms/op  6588466us/op-cpu [0ms - 2121ms]
+openfile4            7499ops      185ops/s   0.0mb/s      0.2ms/op  6593245us/op-cpu [0ms - 448ms]
+closefile3           7501ops      185ops/s   0.0mb/s      0.0ms/op  6590454us/op-cpu [0ms - 0ms]
+readfile3            7506ops      185ops/s   2.7mb/s      7.6ms/op  6590901us/op-cpu [0ms - 2351ms]
+openfile3            7508ops      185ops/s   0.0mb/s      0.2ms/op  6589327us/op-cpu [0ms - 77ms]
+closefile2           7516ops      185ops/s   0.0mb/s      0.0ms/op  6584474us/op-cpu [0ms - 0ms]
+readfile2            7526ops      185ops/s   2.8mb/s      3.4ms/op  6591600us/op-cpu [0ms - 1958ms]
+openfile2            7546ops      186ops/s   0.0mb/s      0.5ms/op  6603590us/op-cpu [0ms - 77ms]
+closefile1           7547ops      186ops/s   0.0mb/s      0.0ms/op  6590927us/op-cpu [0ms - 0ms]
+readfile1            7550ops      186ops/s   2.9mb/s      1.7ms/op  6589696us/op-cpu [0ms - 1031ms]
+openfile1            7551ops      186ops/s   0.0mb/s      1.6ms/op  6586943us/op-cpu [0ms - 158ms]
+13519: 43.741: IO Summary: 232306 ops, 5721.143 ops/s, (1845/186 r/w),  28.7mb/s,    208us cpu/op,   6.8ms latency
+13519: 43.741: Running...
+13519: 53.742: Run took 10 seconds...
+13519: 53.925: Per-Operation Breakdown
+appendlog            8968ops      177ops/s   1.4mb/s     15.8ms/op  8189370us/op-cpu [0ms - 775ms]
+closefile10          8868ops      175ops/s   0.0mb/s      0.0ms/op  8271640us/op-cpu [0ms - 1ms]
+readfile10           8871ops      175ops/s   2.6mb/s      1.4ms/op  8269094us/op-cpu [0ms - 911ms]
+openfile10           8876ops      175ops/s   0.0mb/s      0.0ms/op  8269302us/op-cpu [0ms - 10ms]
+closefile9           8877ops      175ops/s   0.0mb/s      0.0ms/op  8256339us/op-cpu [0ms - 1ms]
+readfile9            8878ops      175ops/s   2.5mb/s      2.1ms/op  8252387us/op-cpu [0ms - 1265ms]
+openfile9            8878ops      175ops/s   0.0mb/s      0.0ms/op  8246194us/op-cpu [0ms - 3ms]
+closefile8           8879ops      175ops/s   0.0mb/s      0.0ms/op  8238698us/op-cpu [0ms - 1ms]
+readfile8            8884ops      175ops/s   2.5mb/s      3.2ms/op  8242248us/op-cpu [0ms - 1538ms]
+openfile8            8891ops      175ops/s   0.0mb/s      0.0ms/op  8247993us/op-cpu [0ms - 12ms]
+closefile7           8893ops      175ops/s   0.0mb/s      0.0ms/op  8246113us/op-cpu [0ms - 1ms]
+readfile7            8893ops      175ops/s   2.5mb/s      4.5ms/op  8234572us/op-cpu [0ms - 1592ms]
+openfile7            8898ops      175ops/s   0.0mb/s      0.0ms/op  8232744us/op-cpu [0ms - 4ms]
+closefile6           8899ops      175ops/s   0.0mb/s      0.0ms/op  8231345us/op-cpu [0ms - 0ms]
+readfile6            8907ops      175ops/s   2.6mb/s      7.0ms/op  8236754us/op-cpu [0ms - 1894ms]
+openfile6            8910ops      175ops/s   0.0mb/s      0.0ms/op  8225406us/op-cpu [0ms - 7ms]
+closefile5           8916ops      176ops/s   0.0mb/s      0.0ms/op  8225203us/op-cpu [0ms - 0ms]
+readfile5            8928ops      176ops/s   2.5mb/s      8.0ms/op  8234336us/op-cpu [0ms - 1996ms]
+openfile5            8936ops      176ops/s   0.0mb/s      0.0ms/op  8236615us/op-cpu [0ms - 9ms]
+closefile4           8937ops      176ops/s   0.0mb/s      0.0ms/op  8225320us/op-cpu [0ms - 46ms]
+readfile4            8939ops      176ops/s   2.6mb/s     10.0ms/op  8214866us/op-cpu [0ms - 2121ms]
+openfile4            8942ops      176ops/s   0.0mb/s      0.2ms/op  8216273us/op-cpu [0ms - 448ms]
+closefile3           8942ops      176ops/s   0.0mb/s      0.0ms/op  8212481us/op-cpu [0ms - 0ms]
+readfile3            8945ops      176ops/s   2.6mb/s      6.4ms/op  8212369us/op-cpu [0ms - 2351ms]
+openfile3            8947ops      176ops/s   0.0mb/s      0.2ms/op  8211587us/op-cpu [0ms - 77ms]
+closefile2           8954ops      176ops/s   0.0mb/s      0.0ms/op  8208953us/op-cpu [0ms - 0ms]
+readfile2            8958ops      176ops/s   2.7mb/s      2.9ms/op  8211932us/op-cpu [0ms - 1958ms]
+openfile2            8961ops      176ops/s   0.0mb/s      0.4ms/op  8209959us/op-cpu [0ms - 77ms]
+closefile1           8961ops      176ops/s   0.0mb/s      0.0ms/op  8197153us/op-cpu [0ms - 0ms]
+readfile1            8964ops      176ops/s   2.8mb/s      1.4ms/op  8193183us/op-cpu [0ms - 1031ms]
+openfile1            8967ops      177ops/s   0.0mb/s      1.4ms/op  8190830us/op-cpu [0ms - 158ms]
+13519: 53.925: IO Summary: 276467 ops, 5443.031 ops/s, (1756/177 r/w),  27.3mb/s,    211us cpu/op,   5.9ms latency
+13519: 53.925: Running...
+13519: 63.925: Run took 10 seconds...
+13519: 64.111: Per-Operation Breakdown
+appendlog            10607ops      174ops/s   1.3mb/s     14.8ms/op  9974144us/op-cpu [0ms - 775ms]
+closefile10          10518ops      172ops/s   0.0mb/s      0.0ms/op 10069824us/op-cpu [0ms - 1ms]
+readfile10           10523ops      173ops/s   2.5mb/s      1.2ms/op 10068569us/op-cpu [0ms - 911ms]
+openfile10           10529ops      173ops/s   0.0mb/s      0.0ms/op 10069749us/op-cpu [0ms - 10ms]
+closefile9           10530ops      173ops/s   0.0mb/s      0.0ms/op 10058645us/op-cpu [0ms - 1ms]
+readfile9            10534ops      173ops/s   2.5mb/s      1.8ms/op 10058409us/op-cpu [0ms - 1265ms]
+openfile9            10537ops      173ops/s   0.0mb/s      0.0ms/op 10052345us/op-cpu [0ms - 3ms]
+closefile8           10541ops      173ops/s   0.0mb/s      0.0ms/op 10049574us/op-cpu [0ms - 1ms]
+readfile8            10546ops      173ops/s   2.5mb/s      2.7ms/op 10053296us/op-cpu [0ms - 1538ms]
+openfile8            10551ops      173ops/s   0.0mb/s      0.0ms/op 10056454us/op-cpu [0ms - 12ms]
+closefile7           10553ops      173ops/s   0.0mb/s      0.0ms/op 10054887us/op-cpu [0ms - 1ms]
+readfile7            10554ops      173ops/s   2.5mb/s      3.8ms/op 10045015us/op-cpu [0ms - 1592ms]
+openfile7            10554ops      173ops/s   0.0mb/s      0.0ms/op 10038822us/op-cpu [0ms - 4ms]
+closefile6           10554ops      173ops/s   0.0mb/s      0.0ms/op 10036400us/op-cpu [0ms - 0ms]
+readfile6            10555ops      173ops/s   2.5mb/s      5.9ms/op 10034506us/op-cpu [0ms - 1894ms]
+openfile6            10556ops      173ops/s   0.0mb/s      0.0ms/op 10023024us/op-cpu [0ms - 7ms]
+closefile5           10562ops      173ops/s   0.0mb/s      0.0ms/op 10021377us/op-cpu [0ms - 0ms]
+readfile5            10563ops      173ops/s   2.5mb/s      6.7ms/op 10018794us/op-cpu [0ms - 1996ms]
+openfile5            10564ops      173ops/s   0.0mb/s      0.0ms/op 10016249us/op-cpu [0ms - 9ms]
+closefile4           10566ops      173ops/s   0.0mb/s      0.0ms/op 10004794us/op-cpu [0ms - 46ms]
+readfile4            10567ops      173ops/s   2.5mb/s      8.4ms/op  9992898us/op-cpu [0ms - 2121ms]
+openfile4            10568ops      173ops/s   0.0mb/s      0.1ms/op  9991814us/op-cpu [0ms - 448ms]
+closefile3           10573ops      173ops/s   0.0mb/s      0.0ms/op  9994084us/op-cpu [0ms - 0ms]
+readfile3            10574ops      173ops/s   2.6mb/s      5.4ms/op  9990392us/op-cpu [0ms - 2351ms]
+openfile3            10578ops      173ops/s   0.0mb/s      0.1ms/op  9991210us/op-cpu [0ms - 77ms]
+closefile2           10589ops      174ops/s   0.0mb/s      0.0ms/op  9993374us/op-cpu [0ms - 0ms]
+readfile2            10594ops      174ops/s   2.6mb/s      2.4ms/op  9997113us/op-cpu [0ms - 1958ms]
+openfile2            10601ops      174ops/s   0.0mb/s      0.4ms/op  9999247us/op-cpu [0ms - 77ms]
+closefile1           10605ops      174ops/s   0.0mb/s      0.0ms/op  9992344us/op-cpu [0ms - 0ms]
+readfile1            10607ops      174ops/s   2.7mb/s      1.2ms/op  9983773us/op-cpu [0ms - 1031ms]
+openfile1            10607ops      174ops/s   0.0mb/s      1.2ms/op  9976803us/op-cpu [0ms - 158ms]
+13519: 64.111: IO Summary: 327460 ops, 5370.241 ops/s, (1732/174 r/w),  26.9mb/s,    213us cpu/op,   5.1ms latency
+13519: 64.111: Shutting down processes
+/fbsource/vm_scripts/runtest.sh: line 275: 13518 Killed                  $SCRIPTDIR/fbmonitor.sh $fbout $fbmon
+
+######################################################################
+### umount /fbtest
+######################################################################
+
+######################################################################
+### format and mount /dev/sdb1
+######################################################################
+mke2fs 1.41.11 (14-Mar-2010)
+Filesystem label=
+OS type: Linux
+Block size=4096 (log=2)
+Fragment size=4096 (log=2)
+Stride=0 blocks, Stripe width=0 blocks
+524288 inodes, 2096474 blocks
+104823 blocks (5.00%) reserved for the super user
+First data block=0
+Maximum filesystem blocks=2147483648
+64 block groups
+32768 blocks per group, 32768 fragments per group
+8192 inodes per group
+Superblock backups stored on blocks: 
+	32768, 98304, 163840, 229376, 294912, 819200, 884736, 1605632
+
+Writing inode tables:  0/64 1/64 2/64 3/64 4/64 5/64 6/64 7/64 8/64 9/6410/6411/6412/6413/6414/6415/6416/6417/6418/6419/6420/6421/6422/6423/6424/6425/6426/6427/6428/6429/6430/6431/6432/6433/6434/6435/6436/6437/6438/6439/6440/6441/6442/6443/6444/6445/6446/6447/6448/6449/6450/6451/6452/6453/6454/6455/6456/6457/6458/6459/6460/6461/6462/6463/64done                            
+Creating journal (32768 blocks): done
+Writing superblocks and filesystem accounting information: done
+
+This filesystem will be automatically checked every 24 mounts or
+180 days, whichever comes first.  Use tune2fs -c or -i to override.
+
+######################################################################
+### filebench workload file
+######################################################################
+load varmail
+set $dir=/fbtest
+create fileset
+system "sync"
+system "if [ -f /proc/sys/vm/drop_caches ]; then echo 3 > /proc/sys/vm/drop_caches; fi"
+create process
+stats clear
+sleep 10
+stats snap
+sleep 10
+stats snap
+sleep 10
+stats snap
+sleep 10
+stats snap
+sleep 10
+stats snap
+sleep 10
+stats snap
+shutdown process
+quit
+
+######################################################################
+### starting go_filebench varmail (1)
+######################################################################
+FileBench Version 1.4.8.fsl.0.8
+16369: 0.000: Allocated 126MB of shared memory
+16369: 0.001: Varmail Version 2.1 personality successfully loaded
+16369: 0.001: Creating/pre-allocating files and filesets
+16369: 0.012: Fileset bigfileset: 1000 files, 0 leafdirs, avg dir width = 1000000, avg dir depth = 0.5, 14.959MB
+16369: 0.013: Removed any existing fileset bigfileset in 1 seconds
+16369: 0.013: making tree for filset /fbtest/bigfileset
+16369: 0.014: Creating fileset bigfileset...
+16369: 0.061: Preallocated 805 of 1000 of fileset bigfileset in 1 seconds
+16369: 0.061: waiting for fileset pre-allocation to finish
+16369: 0.061: Running 'sync'
+16369: 0.728: Running 'if [ -f /proc/sys/vm/drop_caches ]; then echo 3 > /proc/sys/vm/drop_caches; fi'
+16380: 0.744: Starting 1 filereader instances
+16381: 0.790: Starting 16 filereaderthread threads
+16369: 1.797: Running...
+16369: 11.798: Run took 10 seconds...
+16369: 11.799: Per-Operation Breakdown
+closefile4           5895ops      589ops/s   0.0mb/s      0.0ms/op       19us/op-cpu [0ms - 0ms]
+readfile4            5895ops      589ops/s   9.0mb/s      2.5ms/op      541us/op-cpu [0ms - 710ms]
+openfile4            5895ops      589ops/s   0.0mb/s      0.2ms/op       19us/op-cpu [0ms - 143ms]
+closefile3           5895ops      589ops/s   0.0mb/s      0.0ms/op       19us/op-cpu [0ms - 0ms]
+fsyncfile3           5895ops      589ops/s   0.0mb/s      9.3ms/op     4419us/op-cpu [0ms - 1148ms]
+appendfilerand3      5898ops      590ops/s   4.6mb/s      0.6ms/op      320us/op-cpu [0ms - 459ms]
+readfile3            5898ops      590ops/s   9.1mb/s      1.7ms/op      258us/op-cpu [0ms - 443ms]
+openfile3            5898ops      590ops/s   0.0mb/s      0.2ms/op       41us/op-cpu [0ms - 144ms]
+closefile2           5898ops      590ops/s   0.0mb/s      0.0ms/op       24us/op-cpu [0ms - 0ms]
+fsyncfile2           5898ops      590ops/s   0.0mb/s     10.2ms/op     4615us/op-cpu [0ms - 855ms]
+appendfilerand2      5910ops      591ops/s   4.6mb/s      0.0ms/op       54us/op-cpu [0ms - 2ms]
+createfile2          5910ops      591ops/s   0.0mb/s      0.1ms/op       44us/op-cpu [0ms - 76ms]
+deletefile1          5890ops      589ops/s   0.0mb/s      1.4ms/op      511us/op-cpu [0ms - 498ms]
+16369: 11.799: IO Summary: 76675 ops, 7666.228 ops/s, (1179/1181 r/w),  27.4mb/s,    183us cpu/op,   6.5ms latency
+16369: 11.799: Running...
+16369: 21.801: Run took 10 seconds...
+16369: 21.802: Per-Operation Breakdown
+closefile4           12602ops      630ops/s   0.0mb/s      0.0ms/op  2478775us/op-cpu [0ms - 0ms]
+readfile4            12602ops      630ops/s   9.8mb/s      1.6ms/op  2479254us/op-cpu [0ms - 1479ms]
+openfile4            12603ops      630ops/s   0.0mb/s      0.1ms/op  2479262us/op-cpu [0ms - 143ms]
+closefile3           12603ops      630ops/s   0.0mb/s      0.0ms/op  2479263us/op-cpu [0ms - 0ms]
+fsyncfile3           12603ops      630ops/s   0.0mb/s      9.4ms/op  2478833us/op-cpu [0ms - 2109ms]
+appendfilerand3      12610ops      630ops/s   4.9mb/s      0.7ms/op  2477573us/op-cpu [0ms - 794ms]
+readfile3            12610ops      630ops/s   9.8mb/s      1.2ms/op  2477554us/op-cpu [0ms - 1687ms]
+openfile3            12610ops      630ops/s   0.0mb/s      0.1ms/op  2477217us/op-cpu [0ms - 144ms]
+closefile2           12610ops      630ops/s   0.0mb/s      0.0ms/op  2477208us/op-cpu [0ms - 0ms]
+fsyncfile2           12610ops      630ops/s   0.0mb/s     10.0ms/op  2477102us/op-cpu [0ms - 1686ms]
+appendfilerand2      12617ops      631ops/s   4.9mb/s      0.0ms/op  2475862us/op-cpu [0ms - 2ms]
+createfile2          12617ops      631ops/s   0.0mb/s      0.0ms/op  2475509us/op-cpu [0ms - 76ms]
+deletefile1          12573ops      629ops/s   0.0mb/s      1.0ms/op  2476029us/op-cpu [0ms - 498ms]
+16369: 21.802: IO Summary: 163870 ops, 8191.807 ops/s, (1260/1261 r/w),  29.6mb/s,    183us cpu/op,   6.0ms latency
+16369: 21.802: Running...
+16369: 31.803: Run took 10 seconds...
+16369: 31.803: Per-Operation Breakdown
+closefile4           13755ops      458ops/s   0.0mb/s      0.0ms/op  2991039us/op-cpu [0ms - 0ms]
+readfile4            13755ops      458ops/s   7.2mb/s      1.7ms/op  2991509us/op-cpu [0ms - 2026ms]
+openfile4            13755ops      458ops/s   0.0mb/s      0.1ms/op  2991040us/op-cpu [0ms - 143ms]
+closefile3           13755ops      458ops/s   0.0mb/s      0.0ms/op  2991041us/op-cpu [0ms - 0ms]
+fsyncfile3           13755ops      458ops/s   0.0mb/s     14.0ms/op  2991079us/op-cpu [0ms - 3513ms]
+appendfilerand3      13761ops      459ops/s   3.6mb/s      0.7ms/op  2988835us/op-cpu [0ms - 794ms]
+readfile3            13761ops      459ops/s   7.2mb/s      1.2ms/op  2988816us/op-cpu [0ms - 1687ms]
+openfile3            13761ops      459ops/s   0.0mb/s      0.1ms/op  2988502us/op-cpu [0ms - 144ms]
+closefile2           13761ops      459ops/s   0.0mb/s      0.0ms/op  2988492us/op-cpu [0ms - 0ms]
+fsyncfile2           13761ops      459ops/s   0.0mb/s     14.6ms/op  2988853us/op-cpu [0ms - 3206ms]
+appendfilerand2      13771ops      459ops/s   3.6mb/s      0.0ms/op  2988221us/op-cpu [0ms - 2ms]
+createfile2          13771ops      459ops/s   0.0mb/s      0.0ms/op  2987896us/op-cpu [0ms - 76ms]
+deletefile1          13726ops      457ops/s   0.0mb/s      1.5ms/op  2989642us/op-cpu [0ms - 598ms]
+16369: 31.820: IO Summary: 178848 ops, 5960.427 ops/s, (917/918 r/w),  21.6mb/s,    184us cpu/op,   8.5ms latency
+16369: 31.821: Running...
+16369: 41.822: Run took 10 seconds...
+16369: 41.823: Per-Operation Breakdown
+closefile4           20148ops      503ops/s   0.0mb/s      0.0ms/op  5245303us/op-cpu [0ms - 0ms]
+readfile4            20148ops      503ops/s   7.9mb/s      1.4ms/op  5245696us/op-cpu [0ms - 2026ms]
+openfile4            20148ops      503ops/s   0.0mb/s      0.1ms/op  5245305us/op-cpu [0ms - 143ms]
+closefile3           20148ops      503ops/s   0.0mb/s      0.0ms/op  5245091us/op-cpu [0ms - 0ms]
+fsyncfile3           20148ops      503ops/s   0.0mb/s     12.8ms/op  5244770us/op-cpu [0ms - 3513ms]
+appendfilerand3      20157ops      504ops/s   3.9mb/s      0.7ms/op  5243477us/op-cpu [0ms - 794ms]
+readfile3            20157ops      504ops/s   7.9mb/s      0.9ms/op  5243442us/op-cpu [0ms - 1687ms]
+openfile3            20157ops      504ops/s   0.0mb/s      0.1ms/op  5243186us/op-cpu [0ms - 144ms]
+closefile2           20157ops      504ops/s   0.0mb/s      0.0ms/op  5243182us/op-cpu [0ms - 1ms]
+fsyncfile2           20157ops      504ops/s   0.0mb/s     13.1ms/op  5243725us/op-cpu [0ms - 3206ms]
+appendfilerand2      20164ops      504ops/s   3.9mb/s      0.0ms/op  5241595us/op-cpu [0ms - 2ms]
+createfile2          20164ops      504ops/s   0.0mb/s      0.0ms/op  5241373us/op-cpu [0ms - 76ms]
+deletefile1          20104ops      502ops/s   0.0mb/s      1.3ms/op  5243729us/op-cpu [0ms - 598ms]
+16369: 41.823: IO Summary: 261957 ops, 6544.738 ops/s, (1007/1007 r/w),  23.7mb/s,    184us cpu/op,   7.6ms latency
+16369: 41.823: Running...
+16369: 51.825: Run took 10 seconds...
+16369: 51.826: Per-Operation Breakdown
+closefile4           26643ops      533ops/s   0.0mb/s      0.0ms/op  7554537us/op-cpu [0ms - 0ms]
+readfile4            26643ops      533ops/s   8.3mb/s      1.4ms/op  7554812us/op-cpu [0ms - 2026ms]
+openfile4            26643ops      533ops/s   0.0mb/s      0.0ms/op  7554382us/op-cpu [0ms - 143ms]
+closefile3           26643ops      533ops/s   0.0mb/s      0.0ms/op  7554218us/op-cpu [0ms - 0ms]
+fsyncfile3           26643ops      533ops/s   0.0mb/s     12.2ms/op  7554348us/op-cpu [0ms - 3513ms]
+appendfilerand3      26650ops      533ops/s   4.2mb/s      0.6ms/op  7552203us/op-cpu [0ms - 1037ms]
+readfile3            26650ops      533ops/s   8.3mb/s      0.8ms/op  7552156us/op-cpu [0ms - 1687ms]
+openfile3            26650ops      533ops/s   0.0mb/s      0.0ms/op  7551921us/op-cpu [0ms - 144ms]
+closefile2           26650ops      533ops/s   0.0mb/s      0.0ms/op  7551916us/op-cpu [0ms - 1ms]
+fsyncfile2           26650ops      533ops/s   0.0mb/s     12.1ms/op  7552378us/op-cpu [0ms - 3206ms]
+appendfilerand2      26659ops      533ops/s   4.2mb/s      0.0ms/op  7550998us/op-cpu [0ms - 21ms]
+createfile2          26659ops      533ops/s   0.0mb/s      0.0ms/op  7550673us/op-cpu [0ms - 76ms]
+deletefile1          26586ops      531ops/s   0.0mb/s      1.4ms/op  7553946us/op-cpu [0ms - 1096ms]
+16369: 51.826: IO Summary: 346369 ops, 6923.507 ops/s, (1065/1066 r/w),  25.0mb/s,    186us cpu/op,   7.2ms latency
+16369: 51.826: Running...
+16369: 61.828: Run took 10 seconds...
+16369: 61.829: Per-Operation Breakdown
+closefile4           32774ops      546ops/s   0.0mb/s      0.0ms/op  9735836us/op-cpu [0ms - 0ms]
+readfile4            32774ops      546ops/s   8.6mb/s      1.3ms/op  9735878us/op-cpu [0ms - 2026ms]
+openfile4            32774ops      546ops/s   0.0mb/s      0.0ms/op  9735453us/op-cpu [0ms - 143ms]
+closefile3           32774ops      546ops/s   0.0mb/s      0.0ms/op  9735315us/op-cpu [0ms - 0ms]
+fsyncfile3           32774ops      546ops/s   0.0mb/s     12.0ms/op  9736050us/op-cpu [0ms - 3513ms]
+appendfilerand3      32780ops      546ops/s   4.3mb/s      0.6ms/op  9732896us/op-cpu [0ms - 1037ms]
+readfile3            32782ops      546ops/s   8.5mb/s      0.8ms/op  9733324us/op-cpu [0ms - 1687ms]
+openfile3            32783ops      546ops/s   0.0mb/s      0.0ms/op  9733435us/op-cpu [0ms - 144ms]
+closefile2           32783ops      546ops/s   0.0mb/s      0.0ms/op  9733433us/op-cpu [0ms - 1ms]
+fsyncfile2           32783ops      546ops/s   0.0mb/s     11.8ms/op  9734268us/op-cpu [0ms - 3206ms]
+appendfilerand2      32790ops      546ops/s   4.3mb/s      0.0ms/op  9732162us/op-cpu [0ms - 21ms]
+createfile2          32790ops      546ops/s   0.0mb/s      0.0ms/op  9731895us/op-cpu [0ms - 76ms]
+deletefile1          32704ops      545ops/s   0.0mb/s      1.5ms/op  9735788us/op-cpu [0ms - 1259ms]
+16369: 61.829: IO Summary: 426065 ops, 7097.424 ops/s, (1092/1092 r/w),  25.7mb/s,    186us cpu/op,   7.0ms latency
+16369: 61.829: Shutting down processes
+/fbsource/vm_scripts/runtest.sh: line 275: 16368 Killed                  $SCRIPTDIR/fbmonitor.sh $fbout $fbmon
+
+######################################################################
+### umount /fbtest
+######################################################################
+
+######################################################################
+### format and mount /dev/sdb1
+######################################################################
+mke2fs 1.41.11 (14-Mar-2010)
+Filesystem label=
+OS type: Linux
+Block size=4096 (log=2)
+Fragment size=4096 (log=2)
+Stride=0 blocks, Stripe width=0 blocks
+524288 inodes, 2096474 blocks
+104823 blocks (5.00%) reserved for the super user
+First data block=0
+Maximum filesystem blocks=2147483648
+64 block groups
+32768 blocks per group, 32768 fragments per group
+8192 inodes per group
+Superblock backups stored on blocks: 
+	32768, 98304, 163840, 229376, 294912, 819200, 884736, 1605632
+
+Writing inode tables:  0/64 1/64 2/64 3/64 4/64 5/64 6/64 7/64 8/64 9/6410/6411/6412/6413/6414/6415/6416/6417/6418/6419/6420/6421/6422/6423/6424/6425/6426/6427/6428/6429/6430/6431/6432/6433/6434/6435/6436/6437/6438/6439/6440/6441/6442/6443/6444/6445/6446/6447/6448/6449/6450/6451/6452/6453/6454/6455/6456/6457/6458/6459/6460/6461/6462/6463/64done                            
+Creating journal (32768 blocks): done
+Writing superblocks and filesystem accounting information: done
+
+This filesystem will be automatically checked every 28 mounts or
+180 days, whichever comes first.  Use tune2fs -c or -i to override.
+
+######################################################################
+### filebench workload file
+######################################################################
+load varmail
+set $dir=/fbtest
+create fileset
+system "sync"
+system "if [ -f /proc/sys/vm/drop_caches ]; then echo 3 > /proc/sys/vm/drop_caches; fi"
+create process
+stats clear
+sleep 10
+stats snap
+sleep 10
+stats snap
+sleep 10
+stats snap
+sleep 10
+stats snap
+sleep 10
+stats snap
+sleep 10
+stats snap
+shutdown process
+quit
+
+######################################################################
+### starting go_filebench varmail (2)
+######################################################################
+FileBench Version 1.4.8.fsl.0.8
+17764: 0.000: Allocated 126MB of shared memory
+17764: 0.001: Varmail Version 2.1 personality successfully loaded
+17764: 0.001: Creating/pre-allocating files and filesets
+17764: 0.032: Fileset bigfileset: 1000 files, 0 leafdirs, avg dir width = 1000000, avg dir depth = 0.5, 14.959MB
+17764: 0.033: Removed any existing fileset bigfileset in 1 seconds
+17764: 0.033: making tree for filset /fbtest/bigfileset
+17764: 0.034: Creating fileset bigfileset...
+17764: 0.080: Preallocated 805 of 1000 of fileset bigfileset in 1 seconds
+17764: 0.080: waiting for fileset pre-allocation to finish
+17764: 0.081: Running 'sync'
+17764: 1.499: Running 'if [ -f /proc/sys/vm/drop_caches ]; then echo 3 > /proc/sys/vm/drop_caches; fi'
+17780: 1.528: Starting 1 filereader instances
+17781: 1.587: Starting 16 filereaderthread threads
+17764: 2.595: Running...
+17764: 12.597: Run took 10 seconds...
+17764: 12.598: Per-Operation Breakdown
+closefile4           3481ops      348ops/s   0.0mb/s      0.0ms/op       20us/op-cpu [0ms - 0ms]
+readfile4            3481ops      348ops/s   5.4mb/s      2.7ms/op      419us/op-cpu [0ms - 634ms]
+openfile4            3481ops      348ops/s   0.0mb/s      0.1ms/op       34us/op-cpu [0ms - 29ms]
+closefile3           3481ops      348ops/s   0.0mb/s      0.0ms/op       32us/op-cpu [0ms - 0ms]
+fsyncfile3           3481ops      348ops/s   0.0mb/s     15.2ms/op     4134us/op-cpu [0ms - 1413ms]
+appendfilerand3      3488ops      349ops/s   2.7mb/s      1.0ms/op      264us/op-cpu [0ms - 723ms]
+readfile3            3489ops      349ops/s   5.3mb/s      3.8ms/op      659us/op-cpu [0ms - 1977ms]
+openfile3            3490ops      349ops/s   0.0mb/s      0.1ms/op       34us/op-cpu [0ms - 21ms]
+closefile2           3490ops      349ops/s   0.0mb/s      0.0ms/op       17us/op-cpu [0ms - 0ms]
+fsyncfile2           3490ops      349ops/s   0.0mb/s     18.6ms/op     4865us/op-cpu [0ms - 2215ms]
+appendfilerand2      3497ops      350ops/s   2.8mb/s      0.0ms/op       37us/op-cpu [0ms - 1ms]
+createfile2          3497ops      350ops/s   0.0mb/s      0.0ms/op       54us/op-cpu [0ms - 23ms]
+deletefile1          3492ops      349ops/s   0.0mb/s      1.9ms/op      550us/op-cpu [0ms - 530ms]
+17764: 12.598: IO Summary: 45338 ops, 4533.148 ops/s, (697/698 r/w),  16.2mb/s,    188us cpu/op,  10.8ms latency
+17764: 12.598: Running...
+17764: 22.598: Run took 10 seconds...
+17764: 22.599: Per-Operation Breakdown
+closefile4           9229ops      461ops/s   0.0mb/s      0.0ms/op  1599524us/op-cpu [0ms - 0ms]
+readfile4            9229ops      461ops/s   7.2mb/s      2.2ms/op  1600030us/op-cpu [0ms - 1785ms]
+openfile4            9229ops      461ops/s   0.0mb/s      0.0ms/op  1599528us/op-cpu [0ms - 29ms]
+closefile3           9229ops      461ops/s   0.0mb/s      0.0ms/op  1599526us/op-cpu [0ms - 0ms]
+fsyncfile3           9229ops      461ops/s   0.0mb/s     12.2ms/op  1600940us/op-cpu [0ms - 1983ms]
+appendfilerand3      9234ops      462ops/s   3.5mb/s      1.2ms/op  1598597us/op-cpu [0ms - 1746ms]
+readfile3            9234ops      462ops/s   7.2mb/s      2.3ms/op  1598269us/op-cpu [0ms - 1977ms]
+openfile3            9234ops      462ops/s   0.0mb/s      0.0ms/op  1597737us/op-cpu [0ms - 21ms]
+closefile2           9234ops      462ops/s   0.0mb/s      0.0ms/op  1597728us/op-cpu [0ms - 0ms]
+fsyncfile2           9234ops      462ops/s   0.0mb/s     14.7ms/op  1598552us/op-cpu [0ms - 2215ms]
+appendfilerand2      9245ops      462ops/s   3.6mb/s      0.0ms/op  1596780us/op-cpu [0ms - 3ms]
+createfile2          9245ops      462ops/s   0.0mb/s      0.0ms/op  1596789us/op-cpu [0ms - 23ms]
+deletefile1          9225ops      461ops/s   0.0mb/s      1.1ms/op  1595408us/op-cpu [0ms - 530ms]
+17764: 22.599: IO Summary: 120030 ops, 6000.533 ops/s, (923/924 r/w),  21.6mb/s,    184us cpu/op,   8.5ms latency
+17764: 22.599: Running...
+17764: 32.601: Run took 10 seconds...
+17764: 32.602: Per-Operation Breakdown
+closefile4           15429ops      514ops/s   0.0mb/s      0.0ms/op  3687307us/op-cpu [0ms - 0ms]
+readfile4            15429ops      514ops/s   8.0mb/s      1.8ms/op  3687752us/op-cpu [0ms - 1785ms]
+openfile4            15430ops      514ops/s   0.0mb/s      0.0ms/op  3687630us/op-cpu [0ms - 29ms]
+closefile3           15430ops      514ops/s   0.0mb/s      0.0ms/op  3687626us/op-cpu [0ms - 0ms]
+fsyncfile3           15430ops      514ops/s   0.0mb/s     10.9ms/op  3687803us/op-cpu [0ms - 1983ms]
+appendfilerand3      15435ops      514ops/s   4.0mb/s      1.1ms/op  3685719us/op-cpu [0ms - 1746ms]
+readfile3            15436ops      514ops/s   8.0mb/s      1.8ms/op  3685597us/op-cpu [0ms - 1977ms]
+openfile3            15437ops      514ops/s   0.0mb/s      0.0ms/op  3685404us/op-cpu [0ms - 21ms]
+closefile2           15437ops      514ops/s   0.0mb/s      0.0ms/op  3685398us/op-cpu [0ms - 0ms]
+fsyncfile2           15437ops      514ops/s   0.0mb/s     13.0ms/op  3686095us/op-cpu [0ms - 2215ms]
+appendfilerand2      15441ops      515ops/s   4.0mb/s      0.0ms/op  3682519us/op-cpu [0ms - 3ms]
+createfile2          15441ops      515ops/s   0.0mb/s      0.0ms/op  3682245us/op-cpu [0ms - 23ms]
+deletefile1          15399ops      513ops/s   0.0mb/s      1.1ms/op  3678920us/op-cpu [0ms - 589ms]
+17764: 32.617: IO Summary: 200611 ops, 6685.785 ops/s, (1029/1029 r/w),  24.0mb/s,    181us cpu/op,   7.5ms latency
+17764: 32.617: Running...
+17764: 42.618: Run took 10 seconds...
+17764: 42.619: Per-Operation Breakdown
+closefile4           22068ops      551ops/s   0.0mb/s      0.0ms/op  6017025us/op-cpu [0ms - 0ms]
+readfile4            22068ops      551ops/s   8.6mb/s      1.6ms/op  6017464us/op-cpu [0ms - 1785ms]
+openfile4            22068ops      551ops/s   0.0mb/s      0.0ms/op  6017029us/op-cpu [0ms - 29ms]
+closefile3           22069ops      551ops/s   0.0mb/s      0.0ms/op  6017334us/op-cpu [0ms - 0ms]
+fsyncfile3           22069ops      551ops/s   0.0mb/s     10.4ms/op  6017444us/op-cpu [0ms - 2319ms]
+appendfilerand3      22079ops      552ops/s   4.3mb/s      1.2ms/op  6016434us/op-cpu [0ms - 1746ms]
+readfile3            22079ops      552ops/s   8.6mb/s      1.7ms/op  6015936us/op-cpu [0ms - 1977ms]
+openfile3            22079ops      552ops/s   0.0mb/s      0.0ms/op  6015395us/op-cpu [0ms - 21ms]
+closefile2           22079ops      552ops/s   0.0mb/s      0.0ms/op  6015390us/op-cpu [0ms - 0ms]
+fsyncfile2           22079ops      552ops/s   0.0mb/s     11.6ms/op  6016344us/op-cpu [0ms - 2215ms]
+appendfilerand2      22084ops      552ops/s   4.3mb/s      0.0ms/op  6013270us/op-cpu [0ms - 3ms]
+createfile2          22084ops      552ops/s   0.0mb/s      0.0ms/op  6013080us/op-cpu [0ms - 23ms]
+deletefile1          22020ops      550ops/s   0.0mb/s      1.6ms/op  6009475us/op-cpu [0ms - 1608ms]
+17764: 42.619: IO Summary: 286925 ops, 7169.035 ops/s, (1103/1103 r/w),  25.8mb/s,    182us cpu/op,   7.1ms latency
+17764: 42.619: Running...
+17764: 52.621: Run took 10 seconds...
+17764: 52.622: Per-Operation Breakdown
+closefile4           29754ops      595ops/s   0.0mb/s      0.0ms/op  8706448us/op-cpu [0ms - 0ms]
+readfile4            29754ops      595ops/s   9.3mb/s      1.3ms/op  8706850us/op-cpu [0ms - 1785ms]
+openfile4            29755ops      595ops/s   0.0mb/s      0.0ms/op  8706880us/op-cpu [0ms - 29ms]
+closefile3           29755ops      595ops/s   0.0mb/s      0.0ms/op  8706731us/op-cpu [0ms - 0ms]
+fsyncfile3           29755ops      595ops/s   0.0mb/s      9.9ms/op  8705980us/op-cpu [0ms - 2319ms]
+appendfilerand3      29757ops      595ops/s   4.6mb/s      1.1ms/op  8702685us/op-cpu [0ms - 1746ms]
+readfile3            29757ops      595ops/s   9.3mb/s      1.4ms/op  8702294us/op-cpu [0ms - 1977ms]
+openfile3            29758ops      595ops/s   0.0mb/s      0.0ms/op  8702248us/op-cpu [0ms - 21ms]
+closefile2           29758ops      595ops/s   0.0mb/s      0.0ms/op  8702246us/op-cpu [0ms - 14ms]
+fsyncfile2           29758ops      595ops/s   0.0mb/s     10.8ms/op  8702186us/op-cpu [0ms - 2215ms]
+appendfilerand2      29768ops      595ops/s   4.7mb/s      0.0ms/op  8701364us/op-cpu [0ms - 3ms]
+createfile2          29769ops      595ops/s   0.0mb/s      0.0ms/op  8701646us/op-cpu [0ms - 23ms]
+deletefile1          29688ops      593ops/s   0.0mb/s      1.4ms/op  8700452us/op-cpu [0ms - 1608ms]
+17764: 52.622: IO Summary: 386786 ops, 7731.681 ops/s, (1190/1190 r/w),  27.8mb/s,    182us cpu/op,   6.5ms latency
+17764: 52.622: Running...
+17764: 62.624: Run took 10 seconds...
+17764: 62.624: Per-Operation Breakdown
+closefile4           33079ops      551ops/s   0.0mb/s      0.0ms/op  9989889us/op-cpu [0ms - 0ms]
+readfile4            33079ops      551ops/s   8.6mb/s      1.5ms/op  9990349us/op-cpu [0ms - 1785ms]
+openfile4            33079ops      551ops/s   0.0mb/s      0.0ms/op  9989894us/op-cpu [0ms - 29ms]
+closefile3           33079ops      551ops/s   0.0mb/s      0.0ms/op  9989758us/op-cpu [0ms - 0ms]
+fsyncfile3           33079ops      551ops/s   0.0mb/s     10.7ms/op  9989504us/op-cpu [0ms - 2319ms]
+appendfilerand3      33081ops      551ops/s   4.3mb/s      1.0ms/op  9986062us/op-cpu [0ms - 1746ms]
+readfile3            33084ops      551ops/s   8.6mb/s      1.4ms/op  9986775us/op-cpu [0ms - 1977ms]
+openfile3            33085ops      551ops/s   0.0mb/s      0.0ms/op  9986651us/op-cpu [0ms - 21ms]
+closefile2           33085ops      551ops/s   0.0mb/s      0.0ms/op  9986652us/op-cpu [0ms - 14ms]
+fsyncfile2           33085ops      551ops/s   0.0mb/s     11.7ms/op  9986726us/op-cpu [0ms - 2215ms]
+appendfilerand2      33093ops      551ops/s   4.3mb/s      0.0ms/op  9984776us/op-cpu [0ms - 3ms]
+createfile2          33093ops      551ops/s   0.0mb/s      0.0ms/op  9984642us/op-cpu [0ms - 120ms]
+deletefile1          33008ops      550ops/s   0.0mb/s      1.6ms/op  9985368us/op-cpu [0ms - 1608ms]
+17764: 62.624: IO Summary: 430009 ops, 7163.435 ops/s, (1102/1102 r/w),  25.8mb/s,    184us cpu/op,   7.0ms latency
+17764: 62.624: Shutting down processes
+/fbsource/vm_scripts/runtest.sh: line 275: 17763 Killed                  $SCRIPTDIR/fbmonitor.sh $fbout $fbmon
+
+######################################################################
+### umount /fbtest
+######################################################################
+
+######################################################################
+### format and mount /dev/sdb1
+######################################################################
+mke2fs 1.41.11 (14-Mar-2010)
+Filesystem label=
+OS type: Linux
+Block size=4096 (log=2)
+Fragment size=4096 (log=2)
+Stride=0 blocks, Stripe width=0 blocks
+524288 inodes, 2096474 blocks
+104823 blocks (5.00%) reserved for the super user
+First data block=0
+Maximum filesystem blocks=2147483648
+64 block groups
+32768 blocks per group, 32768 fragments per group
+8192 inodes per group
+Superblock backups stored on blocks: 
+	32768, 98304, 163840, 229376, 294912, 819200, 884736, 1605632
+
+Writing inode tables:  0/64 1/64 2/64 3/64 4/64 5/64 6/64 7/64 8/64 9/6410/6411/6412/6413/6414/6415/6416/6417/6418/6419/6420/6421/6422/6423/6424/6425/6426/6427/6428/6429/6430/6431/6432/6433/6434/6435/6436/6437/6438/6439/6440/6441/6442/6443/6444/6445/6446/6447/6448/6449/6450/6451/6452/6453/6454/6455/6456/6457/6458/6459/6460/6461/6462/6463/64done                            
+Creating journal (32768 blocks): done
+Writing superblocks and filesystem accounting information: done
+
+This filesystem will be automatically checked every 22 mounts or
+180 days, whichever comes first.  Use tune2fs -c or -i to override.
+
+######################################################################
+### filebench workload file
+######################################################################
+load varmail
+set $dir=/fbtest
+create fileset
+system "sync"
+system "if [ -f /proc/sys/vm/drop_caches ]; then echo 3 > /proc/sys/vm/drop_caches; fi"
+create process
+stats clear
+sleep 10
+stats snap
+sleep 10
+stats snap
+sleep 10
+stats snap
+sleep 10
+stats snap
+sleep 10
+stats snap
+sleep 10
+stats snap
+shutdown process
+quit
+
+######################################################################
+### starting go_filebench varmail (3)
+######################################################################
+FileBench Version 1.4.8.fsl.0.8
+19128: 0.000: Allocated 126MB of shared memory
+19128: 0.001: Varmail Version 2.1 personality successfully loaded
+19128: 0.001: Creating/pre-allocating files and filesets
+19128: 0.002: Fileset bigfileset: 1000 files, 0 leafdirs, avg dir width = 1000000, avg dir depth = 0.5, 14.959MB
+19128: 0.004: Removed any existing fileset bigfileset in 1 seconds
+19128: 0.004: making tree for filset /fbtest/bigfileset
+19128: 0.005: Creating fileset bigfileset...
+19128: 0.052: Preallocated 805 of 1000 of fileset bigfileset in 1 seconds
+19128: 0.052: waiting for fileset pre-allocation to finish
+19128: 0.052: Running 'sync'
+19128: 1.219: Running 'if [ -f /proc/sys/vm/drop_caches ]; then echo 3 > /proc/sys/vm/drop_caches; fi'
+19144: 1.231: Starting 1 filereader instances
+19145: 1.250: Starting 16 filereaderthread threads
+19128: 2.275: Running...
+19128: 12.276: Run took 10 seconds...
+19128: 12.277: Per-Operation Breakdown
+closefile4           1908ops      191ops/s   0.0mb/s      0.0ms/op       16us/op-cpu [0ms - 0ms]
+readfile4            1908ops      191ops/s   2.8mb/s     11.9ms/op      613us/op-cpu [0ms - 1644ms]
+openfile4            1908ops      191ops/s   0.0mb/s      0.7ms/op       37us/op-cpu [0ms - 103ms]
+closefile3           1908ops      191ops/s   0.0mb/s      0.0ms/op       21us/op-cpu [0ms - 0ms]
+fsyncfile3           1908ops      191ops/s   0.0mb/s     26.9ms/op     4156us/op-cpu [0ms - 1532ms]
+appendfilerand3      1920ops      192ops/s   1.5mb/s      1.2ms/op      115us/op-cpu [0ms - 1180ms]
+readfile3            1920ops      192ops/s   2.9mb/s      9.7ms/op      464us/op-cpu [0ms - 1150ms]
+openfile3            1920ops      192ops/s   0.0mb/s      0.5ms/op       36us/op-cpu [0ms - 97ms]
+closefile2           1920ops      192ops/s   0.0mb/s      0.0ms/op        0us/op-cpu [0ms - 0ms]
+fsyncfile2           1920ops      192ops/s   0.0mb/s     28.2ms/op     4479us/op-cpu [0ms - 1700ms]
+appendfilerand2      1924ops      192ops/s   1.4mb/s      0.1ms/op       36us/op-cpu [0ms - 60ms]
+createfile2          1924ops      192ops/s   0.0mb/s      0.0ms/op       52us/op-cpu [0ms - 1ms]
+deletefile1          1919ops      192ops/s   0.0mb/s      3.2ms/op      412us/op-cpu [0ms - 135ms]
+19128: 12.277: IO Summary: 24907 ops, 2490.436 ops/s, (383/384 r/w),   8.7mb/s,    173us cpu/op,  20.6ms latency
+19128: 12.277: Running...
+19128: 22.278: Run took 10 seconds...
+19128: 22.279: Per-Operation Breakdown
+closefile4           6229ops      311ops/s   0.0mb/s      0.0ms/op   142055us/op-cpu [0ms - 0ms]
+readfile4            6229ops      311ops/s   4.7mb/s      4.4ms/op   142386us/op-cpu [0ms - 1644ms]
+openfile4            6229ops      311ops/s   0.0mb/s      0.2ms/op   142070us/op-cpu [0ms - 103ms]
+closefile3           6229ops      311ops/s   0.0mb/s      0.0ms/op   142062us/op-cpu [0ms - 0ms]
+fsyncfile3           6229ops      311ops/s   0.0mb/s     18.9ms/op   142389us/op-cpu [0ms - 1602ms]
+appendfilerand3      6233ops      312ops/s   2.4mb/s      0.8ms/op   140745us/op-cpu [0ms - 1180ms]
+readfile3            6234ops      312ops/s   4.8mb/s      3.6ms/op   141565us/op-cpu [0ms - 1580ms]
+openfile3            6235ops      312ops/s   0.0mb/s      0.1ms/op   141243us/op-cpu [0ms - 97ms]
+closefile2           6235ops      312ops/s   0.0mb/s      0.0ms/op   141233us/op-cpu [0ms - 0ms]
+fsyncfile2           6235ops      312ops/s   0.0mb/s     19.7ms/op   141894us/op-cpu [0ms - 1796ms]
+appendfilerand2      6245ops      312ops/s   2.4mb/s      0.0ms/op   142398us/op-cpu [0ms - 60ms]
+createfile2          6245ops      312ops/s   0.0mb/s      0.0ms/op   141725us/op-cpu [0ms - 11ms]
+deletefile1          6228ops      311ops/s   0.0mb/s      2.1ms/op   141687us/op-cpu [0ms - 242ms]
+19128: 22.279: IO Summary: 81035 ops, 4051.092 ops/s, (623/624 r/w),  14.4mb/s,    177us cpu/op,  12.5ms latency
+19128: 22.279: Running...
+19128: 32.280: Run took 10 seconds...
+19128: 32.281: Per-Operation Breakdown
+closefile4           9976ops      332ops/s   0.0mb/s      0.0ms/op  1701910us/op-cpu [0ms - 0ms]
+readfile4            9976ops      332ops/s   5.2mb/s      3.3ms/op  1702189us/op-cpu [0ms - 1644ms]
+openfile4            9977ops      333ops/s   0.0mb/s      0.1ms/op  1702176us/op-cpu [0ms - 103ms]
+closefile3           9977ops      333ops/s   0.0mb/s      0.0ms/op  1702164us/op-cpu [0ms - 0ms]
+fsyncfile3           9977ops      333ops/s   0.0mb/s     18.0ms/op  1703852us/op-cpu [0ms - 1605ms]
+appendfilerand3      9983ops      333ops/s   2.6mb/s      1.0ms/op  1701376us/op-cpu [0ms - 1312ms]
+readfile3            9983ops      333ops/s   5.2mb/s      2.9ms/op  1701012us/op-cpu [0ms - 1580ms]
+openfile3            9986ops      333ops/s   0.0mb/s      0.1ms/op  1701501us/op-cpu [0ms - 97ms]
+closefile2           9986ops      333ops/s   0.0mb/s      0.0ms/op  1701490us/op-cpu [0ms - 0ms]
+fsyncfile2           9986ops      333ops/s   0.0mb/s     18.9ms/op  1702692us/op-cpu [0ms - 2151ms]
+appendfilerand2      9989ops      333ops/s   2.6mb/s      0.0ms/op  1698849us/op-cpu [0ms - 60ms]
+createfile2          9991ops      333ops/s   0.0mb/s      0.0ms/op  1698940us/op-cpu [0ms - 11ms]
+deletefile1          9965ops      332ops/s   0.0mb/s      2.4ms/op  1699456us/op-cpu [0ms - 907ms]
+19128: 32.296: IO Summary: 129752 ops, 4324.334 ops/s, (665/666 r/w),  15.6mb/s,    175us cpu/op,  11.7ms latency
+19128: 32.296: Running...
+19128: 42.298: Run took 10 seconds...
+19128: 42.299: Per-Operation Breakdown
+closefile4           14396ops      360ops/s   0.0mb/s      0.0ms/op  3145475us/op-cpu [0ms - 0ms]
+readfile4            14396ops      360ops/s   5.7mb/s      2.6ms/op  3145442us/op-cpu [0ms - 1644ms]
+openfile4            14397ops      360ops/s   0.0mb/s      0.1ms/op  3145558us/op-cpu [0ms - 103ms]
+closefile3           14397ops      360ops/s   0.0mb/s      0.0ms/op  3145545us/op-cpu [0ms - 0ms]
+fsyncfile3           14397ops      360ops/s   0.0mb/s     17.0ms/op  3146081us/op-cpu [0ms - 1605ms]
+appendfilerand3      14402ops      360ops/s   2.8mb/s      0.8ms/op  3143745us/op-cpu [0ms - 1312ms]
+readfile3            14402ops      360ops/s   5.6mb/s      2.4ms/op  3143268us/op-cpu [0ms - 1580ms]
+openfile3            14402ops      360ops/s   0.0mb/s      0.1ms/op  3142971us/op-cpu [0ms - 97ms]
+closefile2           14402ops      360ops/s   0.0mb/s      0.0ms/op  3142963us/op-cpu [0ms - 0ms]
+fsyncfile2           14402ops      360ops/s   0.0mb/s     17.5ms/op  3143149us/op-cpu [0ms - 2151ms]
+appendfilerand2      14412ops      360ops/s   2.8mb/s      0.1ms/op  3142312us/op-cpu [0ms - 386ms]
+createfile2          14412ops      360ops/s   0.0mb/s      0.0ms/op  3141998us/op-cpu [0ms - 38ms]
+deletefile1          14377ops      359ops/s   0.0mb/s      2.3ms/op  3143135us/op-cpu [0ms - 907ms]
+19128: 42.299: IO Summary: 187194 ops, 4677.151 ops/s, (720/720 r/w),  16.9mb/s,    177us cpu/op,  10.7ms latency
+19128: 42.299: Running...
+19128: 52.300: Run took 10 seconds...
+19128: 52.301: Per-Operation Breakdown
+closefile4           21198ops      424ops/s   0.0mb/s      0.0ms/op  5514919us/op-cpu [0ms - 0ms]
+readfile4            21198ops      424ops/s   6.7mb/s      2.2ms/op  5514658us/op-cpu [0ms - 1850ms]
+openfile4            21198ops      424ops/s   0.0mb/s      0.1ms/op  5514316us/op-cpu [0ms - 103ms]
+closefile3           21198ops      424ops/s   0.0mb/s      0.0ms/op  5514304us/op-cpu [0ms - 0ms]
+fsyncfile3           21198ops      424ops/s   0.0mb/s     14.3ms/op  5515023us/op-cpu [0ms - 1637ms]
+appendfilerand3      21205ops      424ops/s   3.3mb/s      0.9ms/op  5513161us/op-cpu [0ms - 1312ms]
+readfile3            21205ops      424ops/s   6.6mb/s      1.9ms/op  5512797us/op-cpu [0ms - 1580ms]
+openfile3            21206ops      424ops/s   0.0mb/s      0.0ms/op  5512846us/op-cpu [0ms - 97ms]
+closefile2           21206ops      424ops/s   0.0mb/s      0.0ms/op  5512832us/op-cpu [0ms - 1ms]
+fsyncfile2           21206ops      424ops/s   0.0mb/s     15.2ms/op  5513126us/op-cpu [0ms - 2211ms]
+appendfilerand2      21214ops      424ops/s   3.3mb/s      0.1ms/op  5511193us/op-cpu [0ms - 386ms]
+createfile2          21214ops      424ops/s   0.0mb/s      0.0ms/op  5510980us/op-cpu [0ms - 38ms]
+deletefile1          21163ops      423ops/s   0.0mb/s      1.9ms/op  5511647us/op-cpu [0ms - 907ms]
+19128: 52.301: IO Summary: 275609 ops, 5509.374 ops/s, (848/848 r/w),  19.9mb/s,    179us cpu/op,   9.1ms latency
+19128: 52.301: Running...
+19128: 62.302: Run took 10 seconds...
+19128: 62.303: Per-Operation Breakdown
+closefile4           26631ops      444ops/s   0.0mb/s      0.0ms/op  7438279us/op-cpu [0ms - 0ms]
+readfile4            26631ops      444ops/s   7.0mb/s      2.2ms/op  7438219us/op-cpu [0ms - 1850ms]
+openfile4            26631ops      444ops/s   0.0mb/s      0.1ms/op  7437802us/op-cpu [0ms - 103ms]
+closefile3           26631ops      444ops/s   0.0mb/s      0.0ms/op  7437792us/op-cpu [0ms - 0ms]
+fsyncfile3           26631ops      444ops/s   0.0mb/s     13.7ms/op  7437992us/op-cpu [0ms - 2016ms]
+appendfilerand3      26639ops      444ops/s   3.5mb/s      0.9ms/op  7436669us/op-cpu [0ms - 1604ms]
+readfile3            26639ops      444ops/s   7.0mb/s      1.7ms/op  7436351us/op-cpu [0ms - 1580ms]
+openfile3            26639ops      444ops/s   0.0mb/s      0.0ms/op  7436052us/op-cpu [0ms - 97ms]
+closefile2           26639ops      444ops/s   0.0mb/s      0.0ms/op  7436042us/op-cpu [0ms - 1ms]
+fsyncfile2           26639ops      444ops/s   0.0mb/s     14.4ms/op  7435967us/op-cpu [0ms - 2211ms]
+appendfilerand2      26647ops      444ops/s   3.4mb/s      0.0ms/op  7434164us/op-cpu [0ms - 386ms]
+createfile2          26647ops      444ops/s   0.0mb/s      0.0ms/op  7433992us/op-cpu [0ms - 145ms]
+deletefile1          26585ops      443ops/s   0.0mb/s      1.9ms/op  7435385us/op-cpu [0ms - 1164ms]
+19128: 62.303: IO Summary: 346229 ops, 5767.857 ops/s, (887/888 r/w),  20.9mb/s,    180us cpu/op,   8.7ms latency
+19128: 62.303: Shutting down processes
+/fbsource/vm_scripts/runtest.sh: line 275: 19127 Killed                  $SCRIPTDIR/fbmonitor.sh $fbout $fbmon
+
+######################################################################
+### umount /fbtest
+######################################################################
+
+######################################################################
+### format and mount /dev/sdb1
+######################################################################
+mke2fs 1.41.11 (14-Mar-2010)
+Filesystem label=
+OS type: Linux
+Block size=4096 (log=2)
+Fragment size=4096 (log=2)
+Stride=0 blocks, Stripe width=0 blocks
+524288 inodes, 2096474 blocks
+104823 blocks (5.00%) reserved for the super user
+First data block=0
+Maximum filesystem blocks=2147483648
+64 block groups
+32768 blocks per group, 32768 fragments per group
+8192 inodes per group
+Superblock backups stored on blocks: 
+	32768, 98304, 163840, 229376, 294912, 819200, 884736, 1605632
+
+Writing inode tables:  0/64 1/64 2/64 3/64 4/64 5/64 6/64 7/64 8/64 9/6410/6411/6412/6413/6414/6415/6416/6417/6418/6419/6420/6421/6422/6423/6424/6425/6426/6427/6428/6429/6430/6431/6432/6433/6434/6435/6436/6437/6438/6439/6440/6441/6442/6443/6444/6445/6446/6447/6448/6449/6450/6451/6452/6453/6454/6455/6456/6457/6458/6459/6460/6461/6462/6463/64done                            
+Creating journal (32768 blocks): done
+Writing superblocks and filesystem accounting information: done
+
+This filesystem will be automatically checked every 39 mounts or
+180 days, whichever comes first.  Use tune2fs -c or -i to override.
+
+######################################################################
+### filebench workload file
+######################################################################
+load copyfiles
+set $dir=/fbtest
+run
+quit
+
+######################################################################
+### starting go_filebench copyfiles (1)
+######################################################################
+FileBench Version 1.4.8.fsl.0.8
+20479: 0.000: Allocated 126MB of shared memory
+20479: 0.001: CopyFiles Version 2.5 personality successfully loaded
+20479: 0.001: Creating/pre-allocating files and filesets
+20479: 0.030: Fileset destfiles: 1000 files, 0 leafdirs, avg dir width = 20, avg dir depth = 2.3, 14.903MB
+20479: 0.033: Removed any existing fileset destfiles in 1 seconds
+20479: 0.033: Creating fileset destfiles...
+20479: 0.035: Preallocated 0 of 1000 of fileset destfiles in 1 seconds
+20479: 0.037: Fileset bigfileset: 1000 files, 0 leafdirs, avg dir width = 20, avg dir depth = 2.3, 15.721MB
+20479: 0.037: Removed any existing fileset bigfileset in 1 seconds
+20479: 0.037: making tree for filset /fbtest/bigfileset
+20479: 0.047: Creating fileset bigfileset...
+20479: 0.140: Preallocated 1000 of 1000 of fileset bigfileset in 1 seconds
+20479: 0.140: waiting for fileset pre-allocation to finish
+21489: 0.147: Starting 1 filereader instances
+21490: 0.156: Starting 1 filereaderthread threads
+20479: 1.156: Running...
+20479: 2.156: Run took 1 seconds...
+20479: 2.157: Per-Operation Breakdown
+closefile2           1000ops     1000ops/s   0.0mb/s      0.0ms/op       20us/op-cpu [0ms - 0ms]
+closefile1           1000ops     1000ops/s   0.0mb/s      0.0ms/op       20us/op-cpu [0ms - 0ms]
+writefile2           1000ops     1000ops/s  15.0mb/s      0.0ms/op       40us/op-cpu [0ms - 0ms]
+createfile2          1000ops     1000ops/s   0.0mb/s      0.1ms/op       30us/op-cpu [0ms - 40ms]
+readfile1            1001ops     1001ops/s  15.0mb/s      0.0ms/op       40us/op-cpu [0ms - 0ms]
+openfile1            1001ops     1001ops/s   0.0mb/s      0.0ms/op       30us/op-cpu [0ms - 0ms]
+20479: 2.157: IO Summary:  6002 ops, 6001.046 ops/s, (1001/1000 r/w),  31.0mb/s,    160us cpu/op,   0.1ms latency
+20479: 2.157: Shutting down processes
+/fbsource/vm_scripts/runtest.sh: line 275: 20478 Killed                  $SCRIPTDIR/fbmonitor.sh $fbout $fbmon
+
+######################################################################
+### umount /fbtest
+######################################################################
+
+######################################################################
+### format and mount /dev/sdb1
+######################################################################
+mke2fs 1.41.11 (14-Mar-2010)
+Filesystem label=
+OS type: Linux
+Block size=4096 (log=2)
+Fragment size=4096 (log=2)
+Stride=0 blocks, Stripe width=0 blocks
+524288 inodes, 2096474 blocks
+104823 blocks (5.00%) reserved for the super user
+First data block=0
+Maximum filesystem blocks=2147483648
+64 block groups
+32768 blocks per group, 32768 fragments per group
+8192 inodes per group
+Superblock backups stored on blocks: 
+	32768, 98304, 163840, 229376, 294912, 819200, 884736, 1605632
+
+Writing inode tables:  0/64 1/64 2/64 3/64 4/64 5/64 6/64 7/64 8/64 9/6410/6411/6412/6413/6414/6415/6416/6417/6418/6419/6420/6421/6422/6423/6424/6425/6426/6427/6428/6429/6430/6431/6432/6433/6434/6435/6436/6437/6438/6439/6440/6441/6442/6443/6444/6445/6446/6447/6448/6449/6450/6451/6452/6453/6454/6455/6456/6457/6458/6459/6460/6461/6462/6463/64done                            
+Creating journal (32768 blocks): done
+Writing superblocks and filesystem accounting information: done
+
+This filesystem will be automatically checked every 30 mounts or
+180 days, whichever comes first.  Use tune2fs -c or -i to override.
+
+######################################################################
+### filebench workload file
+######################################################################
+load copyfiles
+set $dir=/fbtest
+run
+quit
+
+######################################################################
+### starting go_filebench copyfiles (2)
+######################################################################
+FileBench Version 1.4.8.fsl.0.8
+21649: 0.000: Allocated 126MB of shared memory
+21649: 0.001: CopyFiles Version 2.5 personality successfully loaded
+21649: 0.001: Creating/pre-allocating files and filesets
+21649: 0.003: Fileset destfiles: 1000 files, 0 leafdirs, avg dir width = 20, avg dir depth = 2.3, 14.903MB
+21649: 0.004: Removed any existing fileset destfiles in 1 seconds
+21649: 0.004: Creating fileset destfiles...
+21649: 0.006: Preallocated 0 of 1000 of fileset destfiles in 1 seconds
+21649: 0.007: Fileset bigfileset: 1000 files, 0 leafdirs, avg dir width = 20, avg dir depth = 2.3, 15.721MB
+21649: 0.008: Removed any existing fileset bigfileset in 1 seconds
+21649: 0.008: making tree for filset /fbtest/bigfileset
+21649: 0.032: Creating fileset bigfileset...
+21649: 0.123: Preallocated 1000 of 1000 of fileset bigfileset in 1 seconds
+21649: 0.123: waiting for fileset pre-allocation to finish
+22659: 0.130: Starting 1 filereader instances
+22660: 0.138: Starting 1 filereaderthread threads
+21649: 1.139: Running...
+21649: 2.139: Run took 1 seconds...
+21649: 2.139: Per-Operation Breakdown
+closefile2           1000ops     1000ops/s   0.0mb/s      0.0ms/op       10us/op-cpu [0ms - 0ms]
+closefile1           1000ops     1000ops/s   0.0mb/s      0.0ms/op       60us/op-cpu [0ms - 0ms]
+writefile2           1000ops     1000ops/s  15.0mb/s      0.0ms/op       10us/op-cpu [0ms - 0ms]
+createfile2          1000ops     1000ops/s   0.0mb/s      0.0ms/op       30us/op-cpu [0ms - 0ms]
+readfile1            1001ops     1001ops/s  15.0mb/s      0.0ms/op       30us/op-cpu [0ms - 0ms]
+openfile1            1001ops     1001ops/s   0.0mb/s      0.0ms/op       30us/op-cpu [0ms - 0ms]
+21649: 2.139: IO Summary:  6002 ops, 6001.274 ops/s, (1001/1000 r/w),  31.0mb/s,    155us cpu/op,   0.0ms latency
+21649: 2.139: Shutting down processes
+/fbsource/vm_scripts/runtest.sh: line 275: 21648 Killed                  $SCRIPTDIR/fbmonitor.sh $fbout $fbmon
+
+######################################################################
+### umount /fbtest
+######################################################################
+
+######################################################################
+### format and mount /dev/sdb1
+######################################################################
+mke2fs 1.41.11 (14-Mar-2010)
+Filesystem label=
+OS type: Linux
+Block size=4096 (log=2)
+Fragment size=4096 (log=2)
+Stride=0 blocks, Stripe width=0 blocks
+524288 inodes, 2096474 blocks
+104823 blocks (5.00%) reserved for the super user
+First data block=0
+Maximum filesystem blocks=2147483648
+64 block groups
+32768 blocks per group, 32768 fragments per group
+8192 inodes per group
+Superblock backups stored on blocks: 
+	32768, 98304, 163840, 229376, 294912, 819200, 884736, 1605632
+
+Writing inode tables:  0/64 1/64 2/64 3/64 4/64 5/64 6/64 7/64 8/64 9/6410/6411/6412/6413/6414/6415/6416/6417/6418/6419/6420/6421/6422/6423/6424/6425/6426/6427/6428/6429/6430/6431/6432/6433/6434/6435/6436/6437/6438/6439/6440/6441/6442/6443/6444/6445/6446/6447/6448/6449/6450/6451/6452/6453/6454/6455/6456/6457/6458/6459/6460/6461/6462/6463/64done                            
+Creating journal (32768 blocks): done
+Writing superblocks and filesystem accounting information: done
+
+This filesystem will be automatically checked every 20 mounts or
+180 days, whichever comes first.  Use tune2fs -c or -i to override.
+
+######################################################################
+### filebench workload file
+######################################################################
+load copyfiles
+set $dir=/fbtest
+run
+quit
+
+######################################################################
+### starting go_filebench copyfiles (3)
+######################################################################
+FileBench Version 1.4.8.fsl.0.8
+22819: 0.000: Allocated 126MB of shared memory
+22819: 0.001: CopyFiles Version 2.5 personality successfully loaded
+22819: 0.001: Creating/pre-allocating files and filesets
+22819: 0.006: Fileset destfiles: 1000 files, 0 leafdirs, avg dir width = 20, avg dir depth = 2.3, 14.903MB
+22819: 0.007: Removed any existing fileset destfiles in 1 seconds
+22819: 0.007: Creating fileset destfiles...
+22819: 0.010: Preallocated 0 of 1000 of fileset destfiles in 1 seconds
+22819: 0.011: Fileset bigfileset: 1000 files, 0 leafdirs, avg dir width = 20, avg dir depth = 2.3, 15.721MB
+22819: 0.012: Removed any existing fileset bigfileset in 1 seconds
+22819: 0.012: making tree for filset /fbtest/bigfileset
+22819: 0.013: Creating fileset bigfileset...
+22819: 0.104: Preallocated 1000 of 1000 of fileset bigfileset in 1 seconds
+22819: 0.104: waiting for fileset pre-allocation to finish
+23829: 0.114: Starting 1 filereader instances
+23830: 0.119: Starting 1 filereaderthread threads
+22819: 1.126: Running...
+22819: 2.127: Run took 1 seconds...
+22819: 2.127: Per-Operation Breakdown
+closefile2           1000ops     1000ops/s   0.0mb/s      0.0ms/op       30us/op-cpu [0ms - 0ms]
+closefile1           1000ops     1000ops/s   0.0mb/s      0.0ms/op       20us/op-cpu [0ms - 0ms]
+writefile2           1000ops     1000ops/s  15.0mb/s      0.0ms/op       50us/op-cpu [0ms - 0ms]
+createfile2          1000ops     1000ops/s   0.0mb/s      0.0ms/op       50us/op-cpu [0ms - 0ms]
+readfile1            1001ops     1001ops/s  15.0mb/s      0.0ms/op       30us/op-cpu [0ms - 0ms]
+openfile1            1001ops     1001ops/s   0.0mb/s      0.0ms/op       20us/op-cpu [0ms - 0ms]
+22819: 2.127: IO Summary:  6002 ops, 6001.316 ops/s, (1001/1000 r/w),  31.0mb/s,    155us cpu/op,   0.0ms latency
+22819: 2.127: Shutting down processes
+/fbsource/vm_scripts/runtest.sh: line 275: 22818 Killed                  $SCRIPTDIR/fbmonitor.sh $fbout $fbmon
+
+######################################################################
+### umount /fbtest
+######################################################################
+
+######################################################################
+### make uninstall
+######################################################################
+Making uninstall in workloads
+make[1]: Entering directory `/fbinst/go_filebench-1.4.8.fsl.0.8/workloads'
+ ( cd '/usr/local/share/filebench/workloads' && rm -f compflow_demo.f copyfiles.f createfiles.f filemicro_create.f filemicro_createfiles.f filemicro_createrand.f filemicro_delete.f filemicro_rread.f filemicro_rwritedsync.f filemicro_rwrite.f filemicro_rwritefsync.f filemicro_seqread.f filemicro_seqwrite.f filemicro_seqwriterand.f filemicro_seqwriterandvargam.f filemicro_seqwriterandvartab.f filemicro_statfile.f filemicro_writefsync.f fileserver.f listdirs.f makedirs.f mongo.f multistreamreaddirect.f multistreamread.f multistreamwritedirect.f multistreamwrite.f netsfs.f networkfs.f oltp.f openfiles.f randomfileaccess.f randomread.f randomrw.f randomwrite.f ratelimcopyfiles.f removedirs.f singlestreamreaddirect.f singlestreamread.f singlestreamwritedirect.f singlestreamwrite.f tpcso.f varmail.f videoserver.f webproxy.f webserver.f )
+make[1]: Leaving directory `/fbinst/go_filebench-1.4.8.fsl.0.8/workloads'
+make[1]: Entering directory `/fbinst/go_filebench-1.4.8.fsl.0.8'
+ ( cd '/usr/local/bin' && rm -f go_filebench )
+make[1]: Leaving directory `/fbinst/go_filebench-1.4.8.fsl.0.8'

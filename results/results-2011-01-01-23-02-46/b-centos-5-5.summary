@@ -1,0 +1,67 @@
+### Installing Filebench ###
+configure ... OK
+make ... OK
+make install ... OK
+
+### Benchmarking fileserver (1) ###
+mount ... OK
+go_filebench ... OK
+umount ... OK
+
+### Benchmarking fileserver (2) ###
+mount ... OK
+go_filebench ... OK
+umount ... OK
+
+### Benchmarking fileserver (3) ###
+mount ... OK
+go_filebench ... OK
+umount ... OK
+
+### Benchmarking webserver (1) ###
+mount ... OK
+go_filebench ... OK
+umount ... OK
+
+### Benchmarking webserver (2) ###
+mount ... OK
+go_filebench ... OK
+umount ... OK
+
+### Benchmarking webserver (3) ###
+mount ... OK
+go_filebench ... OK
+umount ... OK
+
+### Benchmarking varmail (1) ###
+mount ... OK
+go_filebench ... OK
+umount ... OK
+
+### Benchmarking varmail (2) ###
+mount ... OK
+go_filebench ... OK
+umount ... OK
+
+### Benchmarking varmail (3) ###
+mount ... OK
+go_filebench ... OK
+umount ... OK
+
+### Benchmarking copyfiles (1) ###
+mount ... OK
+go_filebench ... OK
+umount ... OK
+
+### Benchmarking copyfiles (2) ###
+mount ... OK
+go_filebench ... OK
+umount ... OK
+
+### Benchmarking copyfiles (3) ###
+mount ... OK
+go_filebench ... OK
+umount ... OK
+
+### Uninstalling Filebench ###
+make uninstall ... OK
